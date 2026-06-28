@@ -35,9 +35,6 @@
         <button class="nav-tab" data-view="manage" type="button">
           <span class="nav-icon">⚙️</span><span class="nav-label">Beheer</span>
         </button>
-        <button class="nav-tab" data-view="lore" type="button">
-          <span class="nav-icon">✨</span><span class="nav-label">Lore</span>
-        </button>
       </nav>
       <div class="storage-box"><span>Lokale opslag</span><strong>Actief</strong></div>
     </aside>
@@ -48,9 +45,12 @@
           <p class="eyebrow" id="viewKicker">Overzicht</p>
           <h1 id="viewTitle">Dashboard</h1>
         </div>
-        <div class="collection-switch" aria-label="Collectie kiezen">
-          <button class="owner-toggle active" data-owner="Lars" type="button">Lars</button>
-          <button class="owner-toggle" data-owner="Lore" type="button">Lore</button>
+        <div class="owner-card" aria-label="Collectie kiezen">
+          <span class="owner-label">Actieve collectie</span>
+          <div class="collection-switch">
+            <button class="owner-toggle active" data-owner="Lars" type="button"><strong>Lars</strong><span>Binder</span></button>
+            <button class="owner-toggle" data-owner="Lore" type="button"><strong>Lore</strong><span>Binder</span></button>
+          </div>
         </div>
         <div class="top-actions">
           <button id="exportBtn" class="icon-button" type="button" title="Collectie exporteren" aria-label="Collectie exporteren">↓</button>
