@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokemon Collection V2</title>
+  <link rel="preconnect" href="https://raw.githubusercontent.com" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Hoofdnavigatie">
+      <div class="brand"><div class="brand-mark"></div><div><strong>Pokemon Collection</strong><span>V2</span></div></div>
+      <nav class="nav-tabs" aria-label="Secties">
+        <button class="nav-tab active" data-view="dashboard" type="button">Dashboard</button>
+        <button class="nav-tab" data-view="collection" type="button">Collectie</button>
+        <button class="nav-tab" data-view="sets" type="button">Sets</button>
+        <button class="nav-tab" data-view="pokedex" type="button">Pokedex</button>
+        <button class="nav-tab" data-view="manage" type="button">Beheer</button>
+        <button class="nav-tab" data-view="lore" type="button">Lore</button>
+      </nav>
+      <div class="storage-box"><span>Lokale opslag</span><strong>Actief</strong></div>
+    </aside>
+    <main class="workspace">
+      <header class="topbar">
+        <div><p class="eyebrow" id="viewKicker">Overzicht</p><h1 id="viewTitle">Dashboard</h1></div>
+        <div class="collection-switch" aria-label="Collectie kiezen"><button class="owner-toggle active" data-owner="Lars" type="button">Lars</button><button class="owner-toggle" data-owner="Lore" type="button">Lore</button></div>
+        <div class="top-actions">
+          <button id="exportBtn" class="icon-button" type="button" title="Collectie exporteren" aria-label="Collectie exporteren">↓</button>
+          <label class="import-label" title="Collectie importeren">↑<input id="importFile" type="file" accept="application/json" /></label>
+        </div>
+      </header>
+      <section id="dashboard" class="view active-view">
+        <div class="metrics-grid">
+          <div class="metric"><span>Kaarten</span><strong id="metricCards">0</strong></div>
+          <div class="metric"><span>Unieke Pokemon</span><strong id="metricPokemon">0</strong></div>
+          <div class="metric"><span>Totale waarde</span><strong id="metricValue">EUR 0</strong></div>
+          <div class="metric"><span>Wishlist</span><strong id="metricWishlist">0</strong></div>
+        </div>
+        <div class="dashboard-grid">
+          <section class="panel"><div class="panel-heading"><h2>Collectiestatus</h2><span id="completionLabel">0%</span></div><div class="progress-track"><div id="completionBar" class="progress-bar"></div></div><div id="typeBreakdown" class="type-breakdown"></div></section>
+          <section class="panel"><div class="panel-heading"><h2>Nieuwste aanwinsten</h2><button class="text-action" data-view-link="collection" type="button">Bekijk</button></div><div id="recentList" class="compact-list"></div></section>
+        </div>
+      </section>
+      <section id="collection" class="view">
+        <div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="collectionSearch" type="search" placeholder="Zoek in je collectie" /></div><select id="typeFilter" aria-label="Filter op type"><option value="all">Alle types</option></select><select id="rarityFilter" aria-label="Filter op zeldzaamheid"><option value="all">Alle zeldzaamheden</option></select><button id="sortToggle" class="chip-button" type="button">Naam A-Z</button></div>
+        <div id="collectionGrid" class="card-grid"></div>
+      </section>
+      <section id="sets" class="view">
+        <div class="tool-strip">
+          <div class="search-box"><span>Zoek</span><input id="setSearch" type="search" placeholder="Zoek set, serie of jaar" /></div>
+          <select id="setSelect" aria-label="Kies set"><option value="">Set kiezen</option></select>
+          <button id="refreshSetsBtn" class="chip-button" type="button">Ververs sets</button>
+        </div>
+        <div id="setsStatus" class="set-status">Sets worden geladen...</div>
+        <div class="sets-layout">
+          <div id="setsGrid" class="sets-grid"></div>
+          <section class="panel set-cards-panel">
+            <div class="panel-heading"><h2 id="setCardsTitle">Kies een set</h2><span id="setProgressLabel">0/0</span></div>
+            <div class="progress-track"><div id="setProgressBar" class="progress-bar"></div></div>
+            <div id="setCardsGrid" class="set-cards-grid"></div>
+          </section>
+        </div>
+      </section>
+      <section id="pokedex" class="view">
+        <div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="pokedexSearch" type="search" placeholder="Zoek Pokemon" /></div><select id="pokedexType" aria-label="Pokedex type"><option value="all">Alle types</option></select></div>
+        <div id="pokedexGrid" class="pokedex-grid"></div>
+      </section>
+      <section id="manage" class="view">
+        <div class="manage-layout">
+          <form id="cardForm" class="editor-panel"><h2>Kaart toevoegen</h2><div class="form-grid"><label>Pokemon<input name="pokemon" required placeholder="Pikachu" /></label><label>Set<input name="set" required placeholder="Scarlet & Violet" /></label><label>Nummer<input name="number" placeholder="025/198" /></label><label>Zeldzaamheid<select name="rarity"><option>Common</option><option>Uncommon</option><option>Rare</option><option>Holo Rare</option><option>Ultra Rare</option><option>Secret Rare</option></select></label><label>Conditie<select name="condition"><option>Near Mint</option><option>Excellent</option><option>Good</option><option>Played</option></select></label><label>Aantal<input name="quantity" type="number" min="1" value="1" /></label><label>Waarde<input name="value" type="number" min="0" step="0.01" value="0" /></label><label>Status<select name="status"><option value="owned">In collectie</option><option value="wishlist">Wishlist</option></select></label><label>Collectie<select name="collection"><option value="Lars">Lars</option><option value="Lore">Lore</option></select></label></div><button class="primary-action" type="submit">Toevoegen</button></form>
+          <section class="panel"><div class="panel-heading"><h2>Beheerregels</h2><button id="resetBtn" class="danger-action" type="button">Reset</button></div><div id="manageList" class="manage-list"></div></section>
+        </div>
+      </section>
+      <section id="lore" class="view"><div class="lore-layout"><article class="lore-hero"><img id="loreSprite" alt="Pokemon sprite" /><div><p class="eyebrow">Trainernotities</p><h2 id="loreName">Pikachu</h2><p id="loreText"></p></div></article><div id="loreList" class="lore-list"></div></div></section>
+    </main>
+  </div>
+  <dialog id="detailDialog"><button id="closeDialog" class="close-button" type="button" aria-label="Sluiten">x</button><div id="detailContent"></div></dialog>
+  <script src="./app.js"></script>
+</body>
+</html>
