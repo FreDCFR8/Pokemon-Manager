@@ -100,8 +100,8 @@ button { cursor: pointer; }
 
 /* ── Topbar ── */
 .topbar {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   align-items: center;
   gap: 18px;
   margin-bottom: 22px;
@@ -110,28 +110,48 @@ button { cursor: pointer; }
 .eyebrow { margin: 0 0 7px; color: var(--red); font-size: .78rem; font-weight: 800; text-transform: uppercase; }
 
 /* ── Collection switch (Lars / Lore) ── */
-.collection-switch {
-  display: flex;
-  gap: 6px;
-  background: var(--paper);
+.owner-card {
+  min-width: 260px;
+  padding: 10px;
   border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 4px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.9);
+  box-shadow: var(--shadow);
+}
+.owner-label {
+  display: block;
+  margin: 0 0 8px 4px;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.collection-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
 }
 .owner-toggle {
-  padding: 6px 14px;
-  border: none;
-  border-radius: 7px;
-  background: transparent;
+  display: grid;
+  gap: 2px;
+  min-height: 58px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
   color: var(--muted);
-  font-weight: 600;
-  font-size: .9rem;
-  transition: background .15s, color .15s;
+  text-align: left;
+  transition: transform .15s, background .15s, color .15s, border-color .15s;
 }
+.owner-toggle strong { color: inherit; font-size: 1rem; }
+.owner-toggle span { font-size: .78rem; }
+.owner-toggle:hover { transform: translateY(-1px); }
 .owner-toggle.active {
-  background: var(--surface);
-  color: var(--ink);
-  box-shadow: 0 2px 8px rgba(23,32,42,.1);
+  background: linear-gradient(135deg, var(--ink), #31465c);
+  border-color: var(--ink);
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(23,32,42,.18);
 }
 
 /* ── Top actions ── */
@@ -468,8 +488,8 @@ dialog::backdrop { background: rgba(23,32,42,.45); }
 
   /* Topbar */
   .topbar {
+    grid-template-columns: 1fr;
     padding-top: calc(env(safe-area-inset-top, 0px));
-    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 16px;
   }
@@ -497,8 +517,8 @@ dialog::backdrop { background: rgba(23,32,42,.45); }
   .metrics-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .metric { padding: 12px; }
   .metric strong { font-size: 1.4rem; }
-  .topbar { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .collection-switch { align-self: flex-start; }
+  .topbar { align-items: stretch; gap: 8px; }
+  .owner-card { min-width: 0; }
   .form-grid { grid-template-columns: 1fr; }
   .detail-view { grid-template-columns: 1fr; }
   .detail-view img { width: 120px; height: 120px; margin: 0 auto; }

@@ -5,11 +5,13 @@ const TCG_API = "https://api.pokemontcg.io/v2";
 const typeColors = {
   Electric: "#f2bf27", Fire: "#f36b3f", Water: "#3d8fe3", Grass: "#45a86b",
   Psychic: "#cf69c8", Normal: "#9da5ae", Dragon: "#6a70d6", Dark: "#3d4652",
-  Fairy: "#ee85b8", Fighting: "#c65542", Ghost: "#6d5aa6", Poison: "#9a61b8", Flying: "#7fa6d9"
+  Fairy: "#ee85b8", Fighting: "#c65542", Ghost: "#6d5aa6", Poison: "#9a61b8", Flying: "#7fa6d9",
+  Bug: "#8fb84f", Ground: "#d59b55", Rock: "#a98952", Steel: "#8ba4b8", Ice: "#67c7d4"
 };
 
-const pokedex = [
-  { id: 1,   name: "Bulbasaur",  types: ["Grass"],           region: "Kanto",  lore: "Een rustige partner die energie opslaat in de knop op zijn rug en sterker wordt in zonlicht." },
+const POKEDEX_TOTAL = 1025;
+const featuredPokemon = [
+  { id: 1,   name: "Bulbasaur",  types: ["Grass", "Poison"], region: "Kanto",  lore: "Een rustige partner die energie opslaat in de knop op zijn rug en sterker wordt in zonlicht." },
   { id: 4,   name: "Charmander", types: ["Fire"],            region: "Kanto",  lore: "Zijn staartvlam reageert op stemming en gezondheid, waardoor trainers hem goed leren lezen." },
   { id: 6,   name: "Charizard",  types: ["Fire", "Flying"],  region: "Kanto",  lore: "Charizard staat bekend om vurige kracht en kaarten die vaak het pronkstuk van een collectie worden." },
   { id: 7,   name: "Squirtle",   types: ["Water"],           region: "Kanto",  lore: "Trekt zich snel terug in zijn schild en gebruikt waterstoten met verrassende precisie." },
@@ -21,8 +23,24 @@ const pokedex = [
   { id: 149, name: "Dragonite",  types: ["Dragon", "Flying"],region: "Kanto",  lore: "Vliegt met hoge snelheid over zee en helpt verdwaalde mensen en Pokemon terug naar veiligheid." },
   { id: 150, name: "Mewtwo",     types: ["Psychic"],         region: "Kanto",  lore: "Een krachtige en mysterieuze Pokemon die vaak het middelpunt is van legendarische collecties." },
   { id: 197, name: "Umbreon",    types: ["Dark"],            region: "Johto",  lore: "Zijn ringen lichten op in het donker, waardoor hij een opvallende kaart blijft in elke binder." },
-  { id: 448, name: "Lucario",    types: ["Fighting"],        region: "Sinnoh", lore: "Voelt aura's aan en staat symbool voor focus, discipline en sterke trainerbanden." }
+  { id: 448, name: "Lucario",    types: ["Fighting", "Steel"], region: "Sinnoh", lore: "Voelt aura's aan en staat symbool voor focus, discipline en sterke trainerbanden." }
 ];
+const featuredById = Object.fromEntries(featuredPokemon.map(p => [p.id, p]));
+function regionForDexNumber(id) {
+  if (id <= 151) return "Kanto"; if (id <= 251) return "Johto"; if (id <= 386) return "Hoenn";
+  if (id <= 493) return "Sinnoh"; if (id <= 649) return "Unova"; if (id <= 721) return "Kalos";
+  if (id <= 809) return "Alola"; if (id <= 905) return "Galar"; return "Paldea";
+}
+const pokedex = Array.from({ length: POKEDEX_TOTAL }, (_, index) => {
+  const id = index + 1;
+  return featuredById[id] || {
+    id,
+    name: `Pokemon #${String(id).padStart(3, "0")}`,
+    types: ["Normal"],
+    region: regionForDexNumber(id),
+    lore: `Pokédex-plek #${String(id).padStart(3, "0")} uit ${regionForDexNumber(id)}. Voeg een kaart uit een set toe om deze plek af te vinken.`
+  };
+});
 
 function newId() {
   return crypto.randomUUID ? crypto.randomUUID() : String(Date.now() + Math.random());
@@ -61,7 +79,10 @@ function spriteUrl(name) {
 }
 function typeFor(name) {
   const entry = pokedex.find(p => p.name.toLowerCase() === name.toLowerCase());
-  return (entry && entry.types[0]) || "Normal";
+  if (entry) return entry.types[0];
+  const match = String(name || "").match(/#(\d{1,4})/);
+  if (match && Number(match[1]) >= 1 && Number(match[1]) <= POKEDEX_TOTAL) return "Normal";
+  return "Normal";
 }
 function typeForCard(card) {
   if (card && Array.isArray(card.types) && card.types.length) return card.types[0];
@@ -163,7 +184,7 @@ function renderDashboard() {
   const uniquePokemon = new Set(owned.map(c => c.pokemon.toLowerCase())).size;
   const totalValue    = owned.reduce((s, c) => s + Number(c.value) * Number(c.quantity), 0);
   const wishlist      = activeCards().filter(c => c.status === "wishlist").length;
-  const completion    = Math.round((uniquePokemon / pokedex.length) * 100);
+  const completion    = Math.round((uniquePokemon / POKEDEX_TOTAL) * 100);
 
   $("#metricCards").textContent    = totalCards;
   $("#metricPokemon").textContent  = uniquePokemon;
@@ -280,16 +301,16 @@ async function loadSets(force) {
     ? "Sets worden bijgewerkt…"
     : "Sets worden geladen uit de Pokemon TCG API…";
   try {
-    const res = await fetch(TCG_API + "/sets?orderBy=-releaseDate");
-    if (!res.ok) throw new Error();
+    const res = await fetch(TCG_API + "/sets?orderBy=-releaseDate&pageSize=250");
+    if (!res.ok) throw new Error(`Sets API ${res.status}`);
     const payload = await res.json();
     tcgSets = payload.data || [];
     localStorage.setItem(SETS_CACHE_KEY, JSON.stringify(tcgSets));
     setsLoaded = true;
   } catch (e) {
     if (status) status.textContent = tcgSets.length
-      ? "Offline cache gebruikt voor sets."
-      : "Sets konden niet worden geladen. Controleer je internetverbinding.";
+      ? "Live sets niet bereikbaar; offline cache gebruikt."
+      : "Sets konden niet worden geladen. Controleer je internetverbinding of probeer later opnieuw.";
   }
   renderSets();
 }
@@ -306,9 +327,10 @@ async function loadSetCards(setId) {
   try {
     let page = 1, all = [];
     while (true) {
-      const url = `${TCG_API}/cards?q=set.id:${encodeURIComponent(setId)}&orderBy=number&pageSize=250&page=${page}`;
+      const query = encodeURIComponent(`set.id:${setId}`);
+      const url = `${TCG_API}/cards?q=${query}&orderBy=number&pageSize=250&page=${page}`;
       const res = await fetch(url);
-      if (!res.ok) throw new Error();
+      if (!res.ok) throw new Error(`Cards API ${res.status}`);
       const payload = await res.json();
       const batch = payload.data || [];
       all = all.concat(batch);
@@ -405,8 +427,8 @@ function renderSetCards(set) {
       <p>#${card.number} · ${card.rarity || "Onbekend"}</p>
       <p>${card.supertype || "Card"}</p>
       <div class="set-card-actions">
-        <button data-add-card="${card.id}" type="button" ${owned ? "disabled" : ""}>${owned ? "In bezit" : "Heb ik"}</button>
-        <button data-wish-card="${card.id}" type="button" ${wish || owned ? "disabled" : ""}>Wishlist</button>
+        <button data-add-card="${card.id}" type="button" ${owned ? "disabled" : ""}>${owned ? "In collectie" : "+ Collectie"}</button>
+        <button data-wish-card="${card.id}" type="button" ${wish || owned ? "disabled" : ""}>+ Wishlist</button>
       </div>
     </article>`;
   }).join("");
