@@ -63,6 +63,17 @@ function typeFor(name) {
   const entry = pokedex.find(p => p.name.toLowerCase() === name.toLowerCase());
   return (entry && entry.types[0]) || "Normal";
 }
+function typeForCard(card) {
+  if (card && Array.isArray(card.types) && card.types.length) return card.types[0];
+  return typeFor(card && card.pokemon ? card.pokemon : "");
+}
+function cardImageUrl(card, preferredSize = "small") {
+  if (!card) return spriteUrl("Pikachu");
+  if (preferredSize === "large" && card.imageLarge) return card.imageLarge;
+  if (card.imageSmall) return card.imageSmall;
+  if (card.imageLarge) return card.imageLarge;
+  return spriteUrl(card.pokemon);
+}
 function formatMoney(value) {
   return new Intl.NumberFormat("nl-BE", { style: "currency", currency: "EUR" }).format(value);
 }
@@ -163,7 +174,7 @@ function renderDashboard() {
 
   const counts = {};
   owned.forEach(card => {
-    const t = typeFor(card.pokemon);
+    const t = typeForCard(card);
     counts[t] = (counts[t] || 0) + Number(card.quantity);
   });
   $("#typeBreakdown").innerHTML = Object.entries(counts)
@@ -176,7 +187,7 @@ function renderDashboard() {
 }
 function compactRow(card) {
   return `<div class="compact-row">
-    <img class="sprite" src="${spriteUrl(card.pokemon)}" alt="${card.pokemon}" />
+    <img class="sprite" src="${cardImageUrl(card)}" alt="${card.pokemon}" />
     <div><strong>${card.pokemon}</strong><p>${card.set} — ${card.rarity}</p></div>
     <span class="value">${formatMoney(Number(card.value))}</span>
   </div>`;
@@ -189,18 +200,19 @@ function renderCollection() {
   const rarity = $("#rarityFilter").value;
   const filtered = ownedCards()
     .filter(c => !query || (c.pokemon + " " + c.set + " " + c.number).toLowerCase().includes(query))
-    .filter(c => type   === "all" || typeFor(c.pokemon) === type)
+    .filter(c => type   === "all" || typeForCard(c) === type)
     .filter(c => rarity === "all" || c.rarity === rarity)
     .sort((a, b) => state.sortAsc ? a.pokemon.localeCompare(b.pokemon) : b.pokemon.localeCompare(a.pokemon));
   $("#collectionGrid").innerHTML = filtered.map(cardTemplate).join("") ||
     `<div class="empty-state">Geen kaarten gevonden.</div>`;
 }
 function cardTemplate(card) {
-  const type = typeFor(card.pokemon);
+  const type = typeForCard(card);
   const tint = (typeColors[type] || "#d8e1ea") + "30";
+  const image = cardImageUrl(card);
   return `<article class="pokemon-card" style="--card-tint:${tint}">
     <span class="type-pill"><span class="type-dot" style="--type-color:${typeColors[type] || "#73808c"}"></span>${type}</span>
-    <img src="${spriteUrl(card.pokemon)}" alt="${card.pokemon}" />
+    <img src="${image}" alt="${card.pokemon}" />
     <h3>${card.pokemon}</h3>
     <p>${card.set} — ${card.number || "zonder nummer"}</p>
     <p>${card.rarity} · ${card.condition} · x${card.quantity}</p>
@@ -239,7 +251,7 @@ function renderPokedex() {
 function renderManage() {
   $("#manageList").innerHTML = activeCards().map(card =>
     `<div class="manage-row">
-      <img class="sprite" src="${spriteUrl(card.pokemon)}" alt="${card.pokemon}" />
+      <img class="sprite" src="${cardImageUrl(card)}" alt="${card.pokemon}" />
       <div><strong>${card.pokemon}</strong><p>${card.status === "owned" ? "Collectie" : "Wishlist"} · ${card.set} · x${card.quantity}</p></div>
       <button data-delete="${card.id}" type="button" aria-label="Verwijderen">✕</button>
     </div>`
@@ -404,7 +416,9 @@ function addTcgCard(cardId, status) {
   const card = setCardsById[cardId];
   if (!card) return;
   const key = ownedKey(card.set.name, card.number);
-  cards = cards.filter(item => ownedKey(item.set, item.number) !== key);
+  cards = cards.filter(item =>
+    item.collection !== state.activeOwner || ownedKey(item.set, item.number) !== key
+  );
   cards.unshift({
     id: newId(),
     pokemon: card.name,
@@ -414,6 +428,10 @@ function addTcgCard(cardId, status) {
     condition: "Near Mint",
     quantity: 1,
     value: 0,
+    imageSmall: card.images && card.images.small || "",
+    imageLarge: card.images && card.images.large || "",
+    tcgId: card.id,
+    types: card.types || [],
     status,
     collection: state.activeOwner,
     addedAt: new Date().toISOString().slice(0, 10)
@@ -427,7 +445,7 @@ function showDetail(id) {
   const card = cards.find(c => c.id === id);
   if (!card) return;
   $("#detailContent").innerHTML = `<div class="detail-view">
-    <img src="${spriteUrl(card.pokemon)}" alt="${card.pokemon}" />
+    <img src="${cardImageUrl(card, "large")}" alt="${card.pokemon}" />
     <div>
       <p class="eyebrow">${card.status === "owned" ? "In collectie" : "Wishlist"} · ${card.collection || ""}</p>
       <h2>${card.pokemon}</h2>
