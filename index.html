@@ -29,6 +29,9 @@
         <button class="nav-tab" data-view="sets" type="button">
           <span class="nav-icon">🗂️</span><span class="nav-label">Sets</span>
         </button>
+        <button class="nav-tab" data-view="wishlist" type="button">
+          <span class="nav-icon">⭐</span><span class="nav-label">Wishlist</span>
+        </button>
         <button class="nav-tab" data-view="pokedex" type="button">
           <span class="nav-icon">📖</span><span class="nav-label">Pokédex</span>
         </button>
@@ -104,6 +107,12 @@
           <select id="setSelect" aria-label="Kies set"><option value="">Set kiezen</option></select>
           <button id="refreshSetsBtn" class="chip-button" type="button">Ververs sets</button>
         </div>
+        <div class="tool-strip card-search-strip">
+          <div class="search-box"><span>Kaart zoeken</span><input id="cardSearch" type="search" placeholder="Zoek op Pokemon, volledige naam of deel van de naam" /></div>
+          <button id="cardSearchBtn" class="chip-button" type="button">Zoek kaarten</button>
+        </div>
+        <div id="cardSearchStatus" class="set-status">Zoek naar een Pokemon om alle mogelijke kaarten te tonen.</div>
+        <div id="cardSearchGrid" class="set-cards-grid"></div>
         <div id="setsStatus" class="set-status">Sets worden geladen...</div>
         <div class="sets-layout">
           <div id="setsGrid" class="sets-grid"></div>
@@ -116,6 +125,14 @@
             <div id="setCardsGrid" class="set-cards-grid"></div>
           </section>
         </div>
+      </section>
+
+      <!-- WISHLIST -->
+      <section id="wishlist" class="view">
+        <div class="tool-strip">
+          <div class="search-box"><span>Zoek</span><input id="wishlistSearch" type="search" placeholder="Zoek in je wishlist" /></div>
+        </div>
+        <div id="wishlistGrid" class="card-grid"></div>
       </section>
 
       <!-- POKÉDEX -->
@@ -174,20 +191,6 @@
         </div>
       </section>
 
-      <!-- LORE -->
-      <section id="lore" class="view">
-        <div class="lore-layout">
-          <article class="lore-hero">
-            <img id="loreSprite" alt="Pokemon sprite" />
-            <div>
-              <p class="eyebrow">Trainernotities</p>
-              <h2 id="loreName">Pikachu</h2>
-              <p id="loreText"></p>
-            </div>
-          </article>
-          <div id="loreList" class="lore-list"></div>
-        </div>
-      </section>
 
     </main>
   </div>

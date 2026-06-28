@@ -1,5 +1,6 @@
 const STORAGE_KEY = "pokemon-collection-v2";
 const SETS_CACHE_KEY = "pokemon-collection-v2-sets";
+const POKEDEX_PICK_KEY = "pokemon-collection-v2-pokedex-picks";
 const TCG_API = "https://api.pokemontcg.io/v2";
 
 const typeColors = {
@@ -11,19 +12,19 @@ const typeColors = {
 
 const POKEDEX_TOTAL = 1025;
 const featuredPokemon = [
-  { id: 1,   name: "Bulbasaur",  types: ["Grass", "Poison"], region: "Kanto",  lore: "Een rustige partner die energie opslaat in de knop op zijn rug en sterker wordt in zonlicht." },
-  { id: 4,   name: "Charmander", types: ["Fire"],            region: "Kanto",  lore: "Zijn staartvlam reageert op stemming en gezondheid, waardoor trainers hem goed leren lezen." },
-  { id: 6,   name: "Charizard",  types: ["Fire", "Flying"],  region: "Kanto",  lore: "Charizard staat bekend om vurige kracht en kaarten die vaak het pronkstuk van een collectie worden." },
-  { id: 7,   name: "Squirtle",   types: ["Water"],           region: "Kanto",  lore: "Trekt zich snel terug in zijn schild en gebruikt waterstoten met verrassende precisie." },
-  { id: 25,  name: "Pikachu",    types: ["Electric"],        region: "Kanto",  lore: "Slaat elektriciteit op in zijn wangen en werkt het best met een trainer die zijn tempo aanvoelt." },
-  { id: 39,  name: "Jigglypuff", types: ["Normal", "Fairy"], region: "Kanto",  lore: "Zijn zang kan een hele kamer stil krijgen, meestal gevolgd door diepe slaap." },
-  { id: 94,  name: "Gengar",     types: ["Ghost", "Poison"], region: "Kanto",  lore: "Duikt op in schaduwen en lijkt plezier te halen uit slim getimede verrassingen." },
-  { id: 130, name: "Gyarados",   types: ["Water", "Flying"], region: "Kanto",  lore: "Een zeldzame evolutie met enorme kracht en een reputatie die elke verzamelmap extra gewicht geeft." },
-  { id: 143, name: "Snorlax",    types: ["Normal"],          region: "Kanto",  lore: "Slaapt bijna overal en staat bekend als een vriendelijke reus met een onverstoorbare rust." },
-  { id: 149, name: "Dragonite",  types: ["Dragon", "Flying"],region: "Kanto",  lore: "Vliegt met hoge snelheid over zee en helpt verdwaalde mensen en Pokemon terug naar veiligheid." },
-  { id: 150, name: "Mewtwo",     types: ["Psychic"],         region: "Kanto",  lore: "Een krachtige en mysterieuze Pokemon die vaak het middelpunt is van legendarische collecties." },
-  { id: 197, name: "Umbreon",    types: ["Dark"],            region: "Johto",  lore: "Zijn ringen lichten op in het donker, waardoor hij een opvallende kaart blijft in elke binder." },
-  { id: 448, name: "Lucario",    types: ["Fighting", "Steel"], region: "Sinnoh", lore: "Voelt aura's aan en staat symbool voor focus, discipline en sterke trainerbanden." }
+  { id: 1,   name: "Bulbasaur",  types: ["Grass", "Poison"], region: "Kanto" },
+  { id: 4,   name: "Charmander", types: ["Fire"],            region: "Kanto" },
+  { id: 6,   name: "Charizard",  types: ["Fire", "Flying"],  region: "Kanto" },
+  { id: 7,   name: "Squirtle",   types: ["Water"],           region: "Kanto" },
+  { id: 25,  name: "Pikachu",    types: ["Electric"],        region: "Kanto" },
+  { id: 39,  name: "Jigglypuff", types: ["Normal", "Fairy"], region: "Kanto" },
+  { id: 94,  name: "Gengar",     types: ["Ghost", "Poison"], region: "Kanto" },
+  { id: 130, name: "Gyarados",   types: ["Water", "Flying"], region: "Kanto" },
+  { id: 143, name: "Snorlax",    types: ["Normal"],          region: "Kanto" },
+  { id: 149, name: "Dragonite",  types: ["Dragon", "Flying"],region: "Kanto" },
+  { id: 150, name: "Mewtwo",     types: ["Psychic"],         region: "Kanto" },
+  { id: 197, name: "Umbreon",    types: ["Dark"],            region: "Johto" },
+  { id: 448, name: "Lucario",    types: ["Fighting", "Steel"], region: "Sinnoh" }
 ];
 const featuredById = Object.fromEntries(featuredPokemon.map(p => [p.id, p]));
 function regionForDexNumber(id) {
@@ -37,8 +38,7 @@ const pokedex = Array.from({ length: POKEDEX_TOTAL }, (_, index) => {
     id,
     name: `Pokemon #${String(id).padStart(3, "0")}`,
     types: ["Normal"],
-    region: regionForDexNumber(id),
-    lore: `Pokédex-plek #${String(id).padStart(3, "0")} uit ${regionForDexNumber(id)}. Voeg een kaart uit een set toe om deze plek af te vinken.`
+    region: regionForDexNumber(id)
   };
 });
 
@@ -58,7 +58,6 @@ let cards = loadCards();
 let state = {
   view: "dashboard",
   sortAsc: true,
-  lorePokemon: "Pikachu",
   selectedSetId: "",
   setQuery: "",
   activeOwner: "Lars"   // ← Lars / Lore switch
@@ -66,6 +65,9 @@ let state = {
 let tcgSets = loadCachedSets();
 let setCards = [];
 let setCardsById = {};
+let cardSearchResults = [];
+let cardSearchById = {};
+let pokedexPicks = loadPokedexPicks();
 let setsLoaded = false;
 
 const $ = (s) => document.querySelector(s);
@@ -107,6 +109,12 @@ function saveCards() {
 function loadCachedSets() {
   try { return JSON.parse(localStorage.getItem(SETS_CACHE_KEY)) || []; } catch (e) { return []; }
 }
+function loadPokedexPicks() {
+  try { return JSON.parse(localStorage.getItem(POKEDEX_PICK_KEY)) || {}; } catch (e) { return {}; }
+}
+function savePokedexPicks() {
+  localStorage.setItem(POKEDEX_PICK_KEY, JSON.stringify(pokedexPicks));
+}
 function normalizeText(value) {
   return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "").trim();
 }
@@ -140,9 +148,9 @@ function setView(view) {
     dashboard: ["Overzicht", "Dashboard"],
     collection: ["Binder", "Collectie"],
     sets:       ["Catalogus", "Sets"],
+    wishlist:   ["Wensen", "Wishlist"],
     pokedex:    ["Database", "Pokedex"],
-    manage:     ["Invoer", "Beheer"],
-    lore:       ["Verhalen", "Lore"]
+    manage:     ["Invoer", "Beheer"]
   };
   $("#viewKicker").textContent = titles[view][0];
   $("#viewTitle").textContent  = titles[view][1];
@@ -156,9 +164,9 @@ function render() {
   renderDashboard();
   renderCollection();
   renderSets();
+  renderWishlist();
   renderPokedex();
   renderManage();
-  renderLore();
 }
 
 function renderFilters() {
@@ -227,6 +235,18 @@ function renderCollection() {
   $("#collectionGrid").innerHTML = filtered.map(cardTemplate).join("") ||
     `<div class="empty-state">Geen kaarten gevonden.</div>`;
 }
+function renderWishlist() {
+  const input = $("#wishlistSearch");
+  const query = input ? input.value.trim().toLowerCase() : "";
+  const filtered = activeCards()
+    .filter(c => c.status === "wishlist")
+    .filter(c => !query || (c.pokemon + " " + c.set + " " + c.number).toLowerCase().includes(query))
+    .sort((a, b) => a.pokemon.localeCompare(b.pokemon));
+  const grid = $("#wishlistGrid");
+  if (grid) grid.innerHTML = filtered.map(cardTemplate).join("") ||
+    `<div class="empty-state">Geen wishlist-kaarten gevonden.</div>`;
+}
+
 function cardTemplate(card) {
   const type = typeForCard(card);
   const tint = (typeColors[type] || "#d8e1ea") + "30";
@@ -245,24 +265,39 @@ function cardTemplate(card) {
 }
 
 /* ── Pokédex ── */
+function cardsForPokedexEntry(entry) {
+  return ownedCards().filter(c => c.pokemon.toLowerCase() === entry.name.toLowerCase());
+}
+function selectedPokedexCard(entry, matches) {
+  if (!matches.length) return null;
+  const pickedId = pokedexPicks[state.activeOwner + "::" + entry.name.toLowerCase()];
+  return matches.find(c => c.id === pickedId) || matches[0];
+}
 function renderPokedex() {
   const query = $("#pokedexSearch").value.trim().toLowerCase();
   const type  = $("#pokedexType").value;
-  const ownedNames = new Set(ownedCards().map(c => c.pokemon.toLowerCase()));
   const filtered = pokedex
     .filter(e => !query || e.name.toLowerCase().includes(query))
     .filter(e => type === "all" || e.types.includes(type));
   $("#pokedexGrid").innerHTML = filtered.map(entry => {
-    const mt    = entry.types[0];
-    const owned = ownedNames.has(entry.name.toLowerCase());
+    const mt = entry.types[0];
+    const matches = cardsForPokedexEntry(entry);
+    const selected = selectedPokedexCard(entry, matches);
+    const pickKey = state.activeOwner + "::" + entry.name.toLowerCase();
+    const image = selected ? cardImageUrl(selected) : spriteUrl(entry.name);
+    const choice = matches.length > 1
+      ? `<select class="pokedex-card-select" data-pokedex-pick="${pickKey}" aria-label="Kies kaart voor ${entry.name}">
+          ${matches.map(c => `<option value="${c.id}" ${selected && selected.id === c.id ? "selected" : ""}>${c.set} #${c.number || "?"}</option>`).join("")}
+        </select>`
+      : `<span class="rarity-pill">${matches.length === 1 ? matches[0].set : "Nog zoeken"}</span>`;
     return `<article class="pokemon-card" style="--card-tint:${(typeColors[mt] || "#d8e1ea") + "30"}">
       <span class="type-pill"><span class="type-dot" style="--type-color:${typeColors[mt] || "#73808c"}"></span>#${String(entry.id).padStart(3,"0")}</span>
-      <img src="${spriteUrl(entry.name)}" alt="${entry.name}" />
+      <img src="${image}" alt="${entry.name}" />
       <h3>${entry.name}</h3>
       <p>${entry.region} · ${entry.types.join(" / ")}</p>
-      <div class="card-footer">
-        <span class="rarity-pill">${owned ? "✓ In collectie" : "Nog zoeken"}</span>
-        <button class="text-action" data-lore="${entry.name}" type="button">Lore</button>
+      <div class="card-footer pokedex-footer">
+        <span class="rarity-pill">${matches.length ? "✓ In collectie" : "Nog niet in collectie"}</span>
+        ${choice}
       </div>
     </article>`;
   }).join("") || `<div class="empty-state">Geen Pokemon gevonden.</div>`;
@@ -275,20 +310,6 @@ function renderManage() {
       <img class="sprite" src="${cardImageUrl(card)}" alt="${card.pokemon}" />
       <div><strong>${card.pokemon}</strong><p>${card.status === "owned" ? "Collectie" : "Wishlist"} · ${card.set} · x${card.quantity}</p></div>
       <button data-delete="${card.id}" type="button" aria-label="Verwijderen">✕</button>
-    </div>`
-  ).join("");
-}
-
-/* ── Lore ── */
-function renderLore() {
-  const entry = pokedex.find(p => p.name === state.lorePokemon) || pokedex[4];
-  $("#loreSprite").src        = spriteUrl(entry.name);
-  $("#loreName").textContent  = entry.name;
-  $("#loreText").textContent  = entry.lore;
-  $("#loreList").innerHTML = pokedex.map(item =>
-    `<div class="lore-row" data-lore="${item.name}">
-      <img class="sprite" src="${spriteUrl(item.name)}" alt="${item.name}" />
-      <div><strong>${item.name}</strong><p>${item.region} · ${item.types.join(" / ")}</p></div>
     </div>`
   ).join("");
 }
@@ -344,6 +365,42 @@ async function loadSetCards(setId) {
     return;
   }
   renderSets();
+}
+
+
+async function searchCards() {
+  const input = $("#cardSearch");
+  const status = $("#cardSearchStatus");
+  const grid = $("#cardSearchGrid");
+  const query = input ? input.value.trim() : "";
+  if (!query) {
+    if (status) status.textContent = "Vul een Pokemon-naam of deel van de naam in.";
+    return;
+  }
+  if (status) status.textContent = "Kaarten worden gezocht…";
+  if (grid) grid.innerHTML = `<div class="empty-state">Zoeken in Pokemon TCG API…</div>`;
+  try {
+    const url = `${TCG_API}/cards?q=${encodeURIComponent(`name:*${query}*`)}&orderBy=name,set.releaseDate,number&pageSize=250`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Cards API ${res.status}`);
+    const payload = await res.json();
+    cardSearchResults = payload.data || [];
+    cardSearchById = Object.fromEntries(cardSearchResults.map(c => [c.id, c]));
+    if (status) status.textContent = `${cardSearchResults.length} kaarten gevonden voor “${query}”.`;
+    renderCardSearchResults();
+  } catch (e) {
+    if (status) status.textContent = "Zoeken is niet gelukt. Controleer je internetverbinding of probeer later opnieuw.";
+    if (grid) grid.innerHTML = `<div class="empty-state">Geen zoekresultaten beschikbaar.</div>`;
+  }
+}
+
+function renderCardSearchResults() {
+  const grid = $("#cardSearchGrid");
+  if (!grid) return;
+  const previousSetCards = setCards;
+  setCards = cardSearchResults;
+  grid.innerHTML = cardSearchResults.length ? renderTcgCardItems(cardSearchResults) : `<div class="empty-state">Geen kaarten gevonden.</div>`;
+  setCards = previousSetCards;
 }
 
 function filteredSets() {
@@ -414,8 +471,12 @@ function renderSetCards(set) {
     grid.innerHTML = `<div class="empty-state">Klik op deze set om alle kaarten te laden.</div>`;
     return;
   }
+  grid.innerHTML = renderTcgCardItems(setCards);
+}
+
+function renderTcgCardItems(tcgCards) {
   const keys = collectionKeys();
-  grid.innerHTML = setCards.map(card => {
+  return tcgCards.map(card => {
     const key   = ownedKey(card.set.name, card.number);
     const owned = keys.owned.has(key);
     const wish  = keys.wishlist.has(key);
@@ -424,18 +485,18 @@ function renderSetCards(set) {
     return `<article class="set-card-item${cls}">
       <img src="${image}" alt="${card.name}" />
       <h3>${card.name}</h3>
-      <p>#${card.number} · ${card.rarity || "Onbekend"}</p>
+      <p>${card.set.name} · #${card.number} · ${card.rarity || "Onbekend"}</p>
       <p>${card.supertype || "Card"}</p>
       <div class="set-card-actions">
         <button data-add-card="${card.id}" type="button" ${owned ? "disabled" : ""}>${owned ? "In collectie" : "+ Collectie"}</button>
-        <button data-wish-card="${card.id}" type="button" ${wish || owned ? "disabled" : ""}>+ Wishlist</button>
+        <button data-wish-card="${card.id}" type="button" ${wish || owned ? "disabled" : ""}>${wish ? "Op wishlist" : "+ Wishlist"}</button>
       </div>
     </article>`;
   }).join("");
 }
 
 function addTcgCard(cardId, status) {
-  const card = setCardsById[cardId];
+  const card = setCardsById[cardId] || cardSearchById[cardId];
   if (!card) return;
   const key = ownedKey(card.set.name, card.number);
   cards = cards.filter(item =>
@@ -460,6 +521,7 @@ function addTcgCard(cardId, status) {
   });
   saveCards();
   render();
+  renderCardSearchResults();
 }
 
 /* ── Detail dialog ── */
@@ -547,6 +609,7 @@ function bindEvents() {
   // Collection filters
   $("#collectionSearch").addEventListener("input", renderCollection);
   $("#pokedexSearch").addEventListener("input",    renderPokedex);
+  $("#wishlistSearch").addEventListener("input",   renderWishlist);
   $("#typeFilter").addEventListener("change",      renderCollection);
   $("#rarityFilter").addEventListener("change",    renderCollection);
   $("#pokedexType").addEventListener("change",     renderPokedex);
@@ -555,6 +618,8 @@ function bindEvents() {
   $("#setSearch").addEventListener("input", e => { state.setQuery = e.target.value; renderSets(); });
   $("#setSelect").addEventListener("change", e => loadSetCards(e.target.value));
   $("#refreshSetsBtn").addEventListener("click",  () => loadSets(true));
+  $("#cardSearchBtn").addEventListener("click",   searchCards);
+  $("#cardSearch").addEventListener("keydown", e => { if (e.key === "Enter") searchCards(); });
 
   // Sort toggle
   $("#sortToggle").addEventListener("click", () => {
@@ -578,9 +643,17 @@ function bindEvents() {
   $("#closeDialog").addEventListener("click", () => $("#detailDialog").close());
 
   // Delegated clicks
+  document.addEventListener("change", event => {
+    const pick = event.target.closest("[data-pokedex-pick]");
+    if (pick) {
+      pokedexPicks[pick.dataset.pokedexPick] = pick.value;
+      savePokedexPicks();
+      renderPokedex();
+    }
+  });
+
   document.addEventListener("click", event => {
     const detail  = event.target.closest("[data-detail]");
-    const lore    = event.target.closest("[data-lore]");
     const remove  = event.target.closest("[data-delete]");
     const setBtn  = event.target.closest("[data-set-id]");
     const addBtn  = event.target.closest("[data-add-card]");
@@ -589,7 +662,6 @@ function bindEvents() {
     if (setBtn)  loadSetCards(setBtn.dataset.setId);
     if (addBtn)  addTcgCard(addBtn.dataset.addCard, "owned");
     if (wishBtn) addTcgCard(wishBtn.dataset.wishCard, "wishlist");
-    if (lore) { state.lorePokemon = lore.dataset.lore; setView("lore"); }
     if (remove) { cards = cards.filter(c => c.id !== remove.dataset.delete); saveCards(); render(); }
   });
 }
