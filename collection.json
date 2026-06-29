@@ -62,7 +62,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:33:37.618Z"
   },
   {
     "id": "a127b7b1-6298-4840-832e-bb0878e91983",
@@ -82,8 +84,9 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10tg-TG25",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10tg-TG25",
-    "dexLookupStatus": "not-applicable",
-    "dexLookupCheckedAt": "2026-06-29T20:37:05.605Z"
+    "dexLookupStatus": "details-only",
+    "dexLookupCheckedAt": "2026-06-29T21:33:37.951Z",
+    "cardDataSource": "pokemontcg"
   },
   {
     "id": "02dea798-c996-4a0d-97c8-6019fe7b425d",
@@ -102,7 +105,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:33:38.474Z"
   },
   {
     "id": "4346eb9c-d808-43c2-b367-5e978df047cb",
@@ -213,14 +218,16 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:33:40.113Z"
   },
   {
     "id": "ad2793e6-300e-4a55-83b5-534ef652fbde",
     "pokemon": "Chesnaught V",
-    "set": "swsh12",
-    "number": "swsh12-15",
-    "rarity": "Onbekend",
+    "set": "Silver Tempest",
+    "number": "15",
+    "rarity": "Rare Holo V",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh12/15.png",
@@ -236,7 +243,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:40.838Z"
   },
   {
     "id": "425714a7-5638-44b9-8fd6-3c8a0cfdc501",
@@ -255,14 +265,16 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:33:42.719Z"
   },
   {
     "id": "c83eaa6b-8a8e-49a1-8393-12ed6cc47e81",
     "pokemon": "Lileep",
-    "set": "sv7",
-    "number": "sv7-5",
-    "rarity": "Onbekend",
+    "set": "Stellar Crown",
+    "number": "5",
+    "rarity": "Common",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/sv7/5.png",
@@ -278,14 +290,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:43.046Z"
   },
   {
     "id": "36f92aa9-1021-4e23-a829-07975c6322d5",
     "pokemon": "Gumshoos",
-    "set": "swsh12pt5",
-    "number": "swsh12pt5-118",
-    "rarity": "Onbekend",
+    "set": "Crown Zenith",
+    "number": "118",
+    "rarity": "Rare",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh12pt5/118.png",
@@ -301,14 +316,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:43.902Z"
   },
   {
     "id": "48f768e6-2051-46ee-a764-64223802c77d",
     "pokemon": "Skeledirge",
-    "set": "sv1",
-    "number": "sv1-38",
-    "rarity": "Onbekend",
+    "set": "Scarlet & Violet",
+    "number": "38",
+    "rarity": "Rare",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/sv1/38.png",
@@ -324,14 +342,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:45.290Z"
   },
   {
     "id": "d6b66a79-6da1-4454-9e2a-8c4aee6047f9",
     "pokemon": "Araquanid",
-    "set": "swsh12",
-    "number": "swsh12-48",
-    "rarity": "Onbekend",
+    "set": "Silver Tempest",
+    "number": "48",
+    "rarity": "Uncommon",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh12/48.png",
@@ -347,7 +368,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:45.552Z"
   },
   {
     "id": "1c9fe648-f848-4297-bc6b-338f28bc63ea",
