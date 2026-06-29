@@ -1,5 +1,28 @@
 [
   {
+    "id": "719af628-e365-43bf-9ccc-dd60bcbbe159",
+    "pokemon": "Flygon ex",
+    "set": "Surging Sparks",
+    "number": "106",
+    "rarity": "Double Rare",
+    "condition": "Near Mint",
+    "quantity": 1,
+    "imageSmall": "https://images.pokemontcg.io/sv8/106.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/106_hires.png",
+    "tcgId": "sv8-106",
+    "types": [
+      "Fighting"
+    ],
+    "status": "owned",
+    "collection": "Lars",
+    "addedAt": "2026-06-29",
+    "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-106",
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-106",
+    "dexNumbers": [
+      330
+    ]
+  },
+  {
     "id": "f7fc8141-4cea-40f2-9d26-afdb97d017ac",
     "pokemon": "Ivysaur",
     "set": "Mega Evolution",
