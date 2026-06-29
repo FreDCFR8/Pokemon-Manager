@@ -930,7 +930,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:17.647Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:20.772Z"
   },
   {
     "id": "6b6428c6-01e6-42a0-8f5a-c724b3049ed6",
@@ -1242,7 +1242,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:18.281Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:21.600Z"
   },
   {
     "id": "98b5ba78-7ba3-468d-9cf8-7d12cd94d26f",
@@ -1401,7 +1401,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:19.333Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:22.315Z"
   },
   {
     "id": "9ca09078-815d-426a-9857-9e1b7c270980",
@@ -1470,7 +1470,7 @@
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-155",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-155",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-29T21:37:21.494Z",
+    "dexLookupCheckedAt": "2026-06-29T21:51:22.508Z",
     "cardDataSource": "pokemontcg"
   },
   {
@@ -1492,7 +1492,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:22.342Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:23.255Z"
   },
   {
     "id": "71f90423-0baf-49dd-9895-8d28093baf0b",
@@ -1674,7 +1674,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:22.823Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:23.959Z"
   },
   {
     "id": "04dcf03c-fc3a-41af-b394-8b9dbf322f77",
@@ -1787,7 +1787,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:23.257Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:24.508Z"
   },
   {
     "id": "e40c3230-43f1-443d-9af1-848cb7fa565e",
@@ -1831,7 +1831,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:23.764Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:28.400Z"
   },
   {
     "id": "ab8301da-5631-4aaa-a5ad-b4e03bb92bac",
