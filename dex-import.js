@@ -8,6 +8,7 @@
     sv105w: "rsv10pt5",
     me25: "me2pt5"
   };
+  const DEX_SET_CACHE = new Map();
   const DEX_CARD_FALLBACKS = {
     "mep-10": ["Riolu", "Mega Evolution Black Star Promos", "10", "Promo", ["Fighting"], [447]],
     "mep-11": ["Mega Latias ex", "Mega Evolution Black Star Promos", "11", "Promo", ["Dragon"], [380]],
@@ -71,25 +72,53 @@
     };
   }
 
+  async function fetchJsonWithRetry(url) {
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      try {
+        const response = await fetch(url);
+        if (response.ok) return response.json();
+        if (response.status !== 429 && response.status < 500) return null;
+      } catch (error) {
+        // Retry temporary network failures.
+      }
+      await new Promise(resolve => setTimeout(resolve, 500 * (attempt + 1)));
+    }
+    return null;
+  }
+
+  function fetchSetCards(setId) {
+    if (DEX_SET_CACHE.has(setId)) return DEX_SET_CACHE.get(setId);
+
+    const request = (async () => {
+      const cardsById = new Map();
+      let page = 1;
+      let totalCount = 1;
+      const query = encodeURIComponent(`set.id:${setId}`);
+
+      while (cardsById.size < totalCount) {
+        const payload = await fetchJsonWithRetry(`${TCG_API_IMPORT}/cards?q=${query}&pageSize=250&page=${page}`);
+        if (!payload || !Array.isArray(payload.data)) break;
+        payload.data.forEach(card => cardsById.set(card.id, card));
+        totalCount = Number(payload.totalCount || payload.data.length);
+        if (!payload.data.length) break;
+        page += 1;
+      }
+      return cardsById;
+    })();
+
+    DEX_SET_CACHE.set(setId, request);
+    return request;
+  }
+
   async function fetchCardDetails(id) {
     const fallback = fallbackCardDetails(id);
     if (fallback) return fallback;
 
     const apiId = normalizedDexId(id);
-    for (let attempt = 0; attempt < 3; attempt += 1) {
-      try {
-        const response = await fetch(`${TCG_API_IMPORT}/cards/${encodeURIComponent(apiId)}`);
-        if (response.ok) {
-          const payload = await response.json();
-          return payload.data || null;
-        }
-        if (response.status !== 429 && response.status < 500) break;
-      } catch (error) {
-        // A short retry handles temporary API/network failures during large imports.
-      }
-      await new Promise(resolve => setTimeout(resolve, 400 * (attempt + 1)));
-    }
-    return null;
+    const separator = apiId.lastIndexOf("-");
+    if (separator < 1) return null;
+    const cardsById = await fetchSetCards(apiId.slice(0, separator));
+    return cardsById.get(apiId) || null;
   }
 
   function applyCardDetails(card, detail, sourceId) {
