@@ -720,24 +720,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-2"
   },
   {
-    "id": "8f6e4b6a-4647-4b4f-95e8-3d03f02b68de",
-    "pokemon": "sv85-65",
-    "set": "sv85",
-    "number": "sv85-65",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv85-65",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "d957ec43-b69d-4540-a767-e190e5c1cee1",
     "pokemon": "Diggersby",
     "set": "Fusion Strike",
@@ -12772,24 +12754,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-39",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-39"
-  },
-  {
-    "id": "7ce05ec8-e883-4622-afd9-938dcd3c3556",
-    "pokemon": "sv85-69",
-    "set": "sv85",
-    "number": "sv85-69",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv85-69",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "2534e240-1c8d-42bb-9e79-f50c63dadda8",
