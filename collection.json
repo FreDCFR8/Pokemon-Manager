@@ -906,24 +906,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11tg-TG11"
   },
   {
-    "id": "649812fa-e37b-4a64-ad76-95e2ed75ad2a",
-    "pokemon": "sv45-26",
-    "set": "sv45",
-    "number": "sv45-26",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv45-26",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "a575a11a-04e6-44a6-b892-1894d93d0fed",
     "pokemon": "Alolan Graveler",
     "set": "Journey Together",
@@ -2460,24 +2442,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-147",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-147"
-  },
-  {
-    "id": "6765bf7a-9690-4cd6-a2bb-008374a50d10",
-    "pokemon": "sv45-28",
-    "set": "sv45",
-    "number": "sv45-28",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv45-28",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "b02ce750-7885-4808-ae26-44e16a7d0df0",
