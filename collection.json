@@ -78,24 +78,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10tg-TG25"
   },
   {
-    "id": "fdc7de28-6ce8-4157-b3ec-63fe90486a5e",
-    "pokemon": "sv45-15",
-    "set": "sv45",
-    "number": "sv45-15",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv45-15",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "6304df93-972f-4a74-89c3-c5086940e1d7",
     "pokemon": "Inkay",
     "set": "Lost Origin",
