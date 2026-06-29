@@ -215,17 +215,21 @@
   },
   {
     "id": "ad2793e6-300e-4a55-83b5-534ef652fbde",
-    "pokemon": "swsh12-15",
+    "pokemon": "Chesnaught V",
     "set": "swsh12",
     "number": "swsh12-15",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh12/15.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh12/15_hires.png",
     "tcgId": "swsh12-15",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      652
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -253,17 +257,21 @@
   },
   {
     "id": "c83eaa6b-8a8e-49a1-8393-12ed6cc47e81",
-    "pokemon": "sv7-5",
+    "pokemon": "Lileep",
     "set": "sv7",
     "number": "sv7-5",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv7/5.png",
+    "imageLarge": "https://images.pokemontcg.io/sv7/5_hires.png",
     "tcgId": "sv7-5",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      345
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -272,17 +280,21 @@
   },
   {
     "id": "36f92aa9-1021-4e23-a829-07975c6322d5",
-    "pokemon": "swsh12pt5-118",
+    "pokemon": "Gumshoos",
     "set": "swsh12pt5",
     "number": "swsh12pt5-118",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh12pt5/118.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh12pt5/118_hires.png",
     "tcgId": "swsh12pt5-118",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      735
+    ],
+    "types": [
+      "Colorless"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -291,17 +303,21 @@
   },
   {
     "id": "48f768e6-2051-46ee-a764-64223802c77d",
-    "pokemon": "sv1-38",
+    "pokemon": "Skeledirge",
     "set": "sv1",
     "number": "sv1-38",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv1/38.png",
+    "imageLarge": "https://images.pokemontcg.io/sv1/38_hires.png",
     "tcgId": "sv1-38",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      911
+    ],
+    "types": [
+      "Fire"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -310,17 +326,21 @@
   },
   {
     "id": "d6b66a79-6da1-4454-9e2a-8c4aee6047f9",
-    "pokemon": "swsh12-48",
+    "pokemon": "Araquanid",
     "set": "swsh12",
     "number": "swsh12-48",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh12/48.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh12/48_hires.png",
     "tcgId": "swsh12-48",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      752
+    ],
+    "types": [
+      "Water"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -329,17 +349,21 @@
   },
   {
     "id": "1c9fe648-f848-4297-bc6b-338f28bc63ea",
-    "pokemon": "me1-36",
+    "pokemon": "Mega Abomasnow ex",
     "set": "me1",
     "number": "me1-36",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/me1/36.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/36_hires.png",
     "tcgId": "me1-36",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      460
+    ],
+    "types": [
+      "Water"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -367,17 +391,21 @@
   },
   {
     "id": "f3c40c89-0833-4e9f-b909-ab131a608254",
-    "pokemon": "swsh8-142",
+    "pokemon": "Makuhita",
     "set": "swsh8",
     "number": "swsh8-142",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh8/142.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh8/142_hires.png",
     "tcgId": "swsh8-142",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      296
+    ],
+    "types": [
+      "Fighting"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -386,14 +414,14 @@
   },
   {
     "id": "0f743d3d-45a1-4c2c-9b14-658d9257f628",
-    "pokemon": "sv8-185",
+    "pokemon": "Precious Trolley",
     "set": "sv8",
     "number": "sv8-185",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv8/185.png",
+    "imageLarge": "https://images.pokemontcg.io/sv8/185_hires.png",
     "tcgId": "sv8-185",
     "dexNumbers": [],
     "types": [],
@@ -462,17 +490,21 @@
   },
   {
     "id": "af2d7511-bc89-4671-80bc-1c3b4a279f5a",
-    "pokemon": "pgo-52",
+    "pokemon": "Blissey",
     "set": "pgo",
     "number": "pgo-52",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/pgo/52.png",
+    "imageLarge": "https://images.pokemontcg.io/pgo/52_hires.png",
     "tcgId": "pgo-52",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      242
+    ],
+    "types": [
+      "Colorless"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -481,17 +513,21 @@
   },
   {
     "id": "55458096-21eb-469f-a9d3-cbd9d35efa5e",
-    "pokemon": "swsh12-66",
+    "pokemon": "Unown VSTAR",
     "set": "swsh12",
     "number": "swsh12-66",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh12/66.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh12/66_hires.png",
     "tcgId": "swsh12-66",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      201
+    ],
+    "types": [
+      "Psychic"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -500,17 +536,21 @@
   },
   {
     "id": "7c4bdc8b-dbcd-4303-9454-f9d9af447a9a",
-    "pokemon": "sv3-103",
+    "pokemon": "Diglett",
     "set": "sv3",
     "number": "sv3-103",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv3/103.png",
+    "imageLarge": "https://images.pokemontcg.io/sv3/103_hires.png",
     "tcgId": "sv3-103",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      50
+    ],
+    "types": [
+      "Fighting"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -519,17 +559,21 @@
   },
   {
     "id": "1e25ddb7-32ff-4646-8fdf-d1e9d9a8ae60",
-    "pokemon": "swsh12-4",
+    "pokemon": "Ariados",
     "set": "swsh12",
     "number": "swsh12-4",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh12/4.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh12/4_hires.png",
     "tcgId": "swsh12-4",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      168
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -557,17 +601,21 @@
   },
   {
     "id": "db35147b-4dd6-439b-b550-f9a60cbd308d",
-    "pokemon": "me3-47",
+    "pokemon": "Mega Zygarde ex",
     "set": "me3",
     "number": "me3-47",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.scrydex.com/pokemon/me3-47/small",
+    "imageLarge": "https://images.scrydex.com/pokemon/me3-47/large",
     "tcgId": "me3-47",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      718
+    ],
+    "types": [
+      "Fighting"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -576,17 +624,21 @@
   },
   {
     "id": "4dc1ceb9-b272-4220-82f8-21249f442ba1",
-    "pokemon": "swsh12-115",
+    "pokemon": "Toxapex",
     "set": "swsh12",
     "number": "swsh12-115",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh12/115.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh12/115_hires.png",
     "tcgId": "swsh12-115",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      748
+    ],
+    "types": [
+      "Darkness"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -595,17 +647,21 @@
   },
   {
     "id": "50756293-a980-4974-b282-515e1ddaa834",
-    "pokemon": "sv3-180",
+    "pokemon": "Lechonk",
     "set": "sv3",
     "number": "sv3-180",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv3/180.png",
+    "imageLarge": "https://images.pokemontcg.io/sv3/180_hires.png",
     "tcgId": "sv3-180",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      915
+    ],
+    "types": [
+      "Colorless"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -633,17 +689,21 @@
   },
   {
     "id": "5e3fdcef-ed64-4571-be5f-56f86b76dc83",
-    "pokemon": "swsh7-81",
+    "pokemon": "Hitmonchan",
     "set": "swsh7",
     "number": "swsh7-81",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh7/81.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh7/81_hires.png",
     "tcgId": "swsh7-81",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      107
+    ],
+    "types": [
+      "Fighting"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -652,17 +712,21 @@
   },
   {
     "id": "56ef1358-8ed9-4e27-aae9-61aa5dbc6082",
-    "pokemon": "me1-31",
+    "pokemon": "Chi-Yu",
     "set": "me1",
     "number": "me1-31",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/me1/31.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/31_hires.png",
     "tcgId": "me1-31",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      1004
+    ],
+    "types": [
+      "Fire"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -671,17 +735,21 @@
   },
   {
     "id": "05517b56-0344-4dfa-8e4c-b1aa4afae13d",
-    "pokemon": "swsh4-54",
+    "pokemon": "Zebstrika",
     "set": "swsh4",
     "number": "swsh4-54",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh4/54.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh4/54_hires.png",
     "tcgId": "swsh4-54",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      523
+    ],
+    "types": [
+      "Lightning"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -709,17 +777,21 @@
   },
   {
     "id": "53c7339c-9127-4d02-97de-602fd8b77913",
-    "pokemon": "sv1-12",
+    "pokemon": "Gogoat",
     "set": "sv1",
     "number": "sv1-12",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv1/12.png",
+    "imageLarge": "https://images.pokemontcg.io/sv1/12_hires.png",
     "tcgId": "sv1-12",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      673
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -728,17 +800,21 @@
   },
   {
     "id": "8ed1dd4d-cc90-4925-8219-d206de22af70",
-    "pokemon": "sv9-2",
+    "pokemon": "Metapod",
     "set": "sv9",
     "number": "sv9-2",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv9/2.png",
+    "imageLarge": "https://images.pokemontcg.io/sv9/2_hires.png",
     "tcgId": "sv9-2",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      11
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -766,17 +842,21 @@
   },
   {
     "id": "6b6428c6-01e6-42a0-8f5a-c724b3049ed6",
-    "pokemon": "swsh8-215",
+    "pokemon": "Diggersby",
     "set": "swsh8",
     "number": "swsh8-215",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh8/215.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh8/215_hires.png",
     "tcgId": "swsh8-215",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      660
+    ],
+    "types": [
+      "Colorless"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -785,17 +865,21 @@
   },
   {
     "id": "1bb5488f-cda0-41b5-ad5c-c0d95e8a5a18",
-    "pokemon": "swsh8-138",
+    "pokemon": "Onix",
     "set": "swsh8",
     "number": "swsh8-138",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh8/138.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh8/138_hires.png",
     "tcgId": "swsh8-138",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      95
+    ],
+    "types": [
+      "Fighting"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -804,17 +888,21 @@
   },
   {
     "id": "2acfb706-5769-41fc-8571-4801ae330a2a",
-    "pokemon": "swsh35-16",
+    "pokemon": "Gardevoir V",
     "set": "swsh35",
     "number": "swsh35-16",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh35/16.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh35/16_hires.png",
     "tcgId": "swsh35-16",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      282
+    ],
+    "types": [
+      "Psychic"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -823,17 +911,21 @@
   },
   {
     "id": "fde5dad5-218d-43a9-921e-4447cb98f957",
-    "pokemon": "sv1-18",
+    "pokemon": "Tarountula",
     "set": "sv1",
     "number": "sv1-18",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv1/18.png",
+    "imageLarge": "https://images.pokemontcg.io/sv1/18_hires.png",
     "tcgId": "sv1-18",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      917
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -842,17 +934,21 @@
   },
   {
     "id": "55b99885-2415-456f-b357-022cd5c37638",
-    "pokemon": "swsh12pt5-1",
+    "pokemon": "Oddish",
     "set": "swsh12pt5",
     "number": "swsh12pt5-1",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh12pt5/1.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh12pt5/1_hires.png",
     "tcgId": "swsh12pt5-1",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      43
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -14234,17 +14330,21 @@
   },
   {
     "id": "7ba1b141-9ec0-4dde-beac-6c1588400ffb",
-    "pokemon": "swsh10-3",
+    "pokemon": "Hisuian Electrode",
     "set": "swsh10",
     "number": "swsh10-3",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/swsh10/3.png",
+    "imageLarge": "https://images.pokemontcg.io/swsh10/3_hires.png",
     "tcgId": "swsh10-3",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      101
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -24068,17 +24168,21 @@
   },
   {
     "id": "c6894280-1708-4151-bfc6-8f52e51ecd69",
-    "pokemon": "me1-96",
+    "pokemon": "Tinkatink",
     "set": "me1",
     "number": "me1-96",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/me1/96.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/96_hires.png",
     "tcgId": "me1-96",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      957
+    ],
+    "types": [
+      "Metal"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
@@ -24110,17 +24214,21 @@
   },
   {
     "id": "059d644e-eab8-4843-b112-1da5eab230d0",
-    "pokemon": "sv5-88",
+    "pokemon": "Golurk",
     "set": "sv5",
     "number": "sv5-88",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv5/88.png",
+    "imageLarge": "https://images.pokemontcg.io/sv5/88_hires.png",
     "tcgId": "sv5-88",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      623
+    ],
+    "types": [
+      "Fighting"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
