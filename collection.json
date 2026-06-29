@@ -11547,7 +11547,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:39:19.378Z"
   },
   {
     "id": "440d59ac-69f3-468b-9321-e62cbcb96ba7",
@@ -11773,7 +11775,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:39:21.190Z"
   },
   {
     "id": "3bcfb466-16bb-4e89-8ae6-ce515dcc9c87",
@@ -12068,7 +12072,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:39:25.885Z"
   },
   {
     "id": "92c3b8f6-be7b-4d53-a339-650d849ad844",
@@ -12317,7 +12323,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:06.716Z"
   },
   {
     "id": "15646c20-9012-408d-b1c2-3a78aeba2542",
@@ -12405,7 +12413,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:11.122Z"
   },
   {
     "id": "aad4c6cd-9b66-4507-a85d-a95ac876c7d4",
@@ -12516,7 +12526,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:13.901Z"
   },
   {
     "id": "9521b1b8-fe8d-44d8-8d1f-b90ee4a7509e",
@@ -12581,7 +12593,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:14.343Z"
   },
   {
     "id": "c92a9b95-9c0f-429d-aebb-5795e6f99e5a",
@@ -12784,7 +12798,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:15.437Z"
   },
   {
     "id": "bda04b17-c8c6-4c1c-a5a3-58ad21db9ec6",
@@ -12896,8 +12912,9 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-277",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-277",
-    "dexLookupStatus": "not-applicable",
-    "dexLookupCheckedAt": "2026-06-29T20:37:12.017Z"
+    "dexLookupStatus": "details-only",
+    "dexLookupCheckedAt": "2026-06-29T21:41:16.534Z",
+    "cardDataSource": "pokemontcg"
   },
   {
     "id": "65b8db71-c723-4415-8bec-0baf761d236b",
@@ -13100,7 +13117,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:19.766Z"
   },
   {
     "id": "110f1af1-d028-4357-b364-e5187c36b2c1",
@@ -13165,7 +13184,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:26.202Z"
   },
   {
     "id": "b4d57c31-b16b-47c7-a3f8-9c05b49473a9",
@@ -13276,7 +13297,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:27.816Z"
   },
   {
     "id": "a5e50e52-02d9-4d51-a706-453aad7f6279",
@@ -13295,7 +13318,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:32.081Z"
   },
   {
     "id": "155a5679-8dcb-4585-9f8d-f4c0baa38ae5",
@@ -13314,7 +13339,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:32.499Z"
   },
   {
     "id": "8fa34e90-8ed1-40f8-9acf-044c6d2489bb",
@@ -13356,7 +13383,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:33.384Z"
   },
   {
     "id": "e2c2d02c-80b9-4338-b8f7-81c98a08a6d1",
@@ -13467,7 +13496,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:34.441Z"
   },
   {
     "id": "55cd7265-6fa5-40ce-af61-9fe72579725b",
@@ -13762,7 +13793,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:35.878Z"
   },
   {
     "id": "80496a38-2c50-4eff-a19e-d2d5f4b624bd",
@@ -13781,7 +13814,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:36.267Z"
   },
   {
     "id": "83181a16-1b1c-4347-8465-56abaf9952b5",
@@ -13800,7 +13835,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:37.667Z"
   },
   {
     "id": "6cd48f1e-26e3-43fe-b438-e99772e35786",
@@ -13819,7 +13856,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:38.500Z"
   },
   {
     "id": "95c86a1d-8a75-4fd2-8d53-ab14d76f337c",
@@ -14023,8 +14062,9 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-211",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-211",
-    "dexLookupStatus": "not-applicable",
-    "dexLookupCheckedAt": "2026-06-29T20:37:12.213Z"
+    "dexLookupStatus": "details-only",
+    "dexLookupCheckedAt": "2026-06-29T21:41:38.695Z",
+    "cardDataSource": "pokemontcg"
   },
   {
     "id": "268f8b8d-44bd-48ef-a04c-37092c371a38",
@@ -14089,7 +14129,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:39.113Z"
   },
   {
     "id": "89fe11d5-0897-4627-84ed-d778b69c761f",
@@ -14292,7 +14334,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:39.525Z"
   },
   {
     "id": "f44e703b-7a4c-4bdf-874e-dce3d0126e0c",
@@ -14380,7 +14424,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:40.065Z"
   },
   {
     "id": "51a55887-56a5-4edb-ad98-1797bf402902",
@@ -14422,7 +14468,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:40.598Z"
   },
   {
     "id": "db545e88-2f0b-4595-9bfb-9105db18d418",
@@ -14441,7 +14489,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:41.683Z"
   },
   {
     "id": "0dd92e59-5e5d-481f-a725-df29afedffd9",
@@ -14460,7 +14510,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:42.159Z"
   },
   {
     "id": "38516a44-98e7-4bfd-8f1a-ff018f3e0efa",
@@ -14571,7 +14623,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:41:42.586Z"
   },
   {
     "id": "6fd97a53-c6d8-4659-aa5f-e673c86f97dd",
