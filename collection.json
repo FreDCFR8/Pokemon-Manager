@@ -7180,24 +7180,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swshp-SWSH280"
   },
   {
-    "id": "f96ac434-a708-4f85-8ce2-15de4bbd5940",
-    "pokemon": "ba22p-60",
-    "set": "ba22p",
-    "number": "ba22p-60",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "ba22p-60",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "4df0746b-95cc-433d-841f-1c2472ec1add",
     "pokemon": "Deoxys",
     "set": "Fusion Strike",
@@ -13866,24 +13848,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-110",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-110"
-  },
-  {
-    "id": "8fc4ca0e-b1c6-486d-8beb-2b5cb0dcb7c0",
-    "pokemon": "cclb-10",
-    "set": "cclb",
-    "number": "cclb-10",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "cclb-10",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "e5f5cdc9-c5fa-481d-8587-1842d7e0db00",
