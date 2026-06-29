@@ -51,6 +51,7 @@
         imageSmall: detail && detail.images ? detail.images.small || "" : "",
         imageLarge: detail && detail.images ? detail.images.large || "" : "",
         tcgId: item.id,
+        dexNumbers: detail && Array.isArray(detail.nationalPokedexNumbers) ? detail.nationalPokedexNumbers : [],
         types: detail && detail.types ? detail.types : [],
         status: "owned",
         collection: owner,
