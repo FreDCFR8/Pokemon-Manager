@@ -2850,7 +2850,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:55.447Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:37.029Z"
   },
   {
     "id": "70dbafba-99ab-4b7f-892e-1eb38886e09c",
@@ -3078,7 +3078,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:56.544Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:38.944Z"
   },
   {
     "id": "72d31a4c-892e-40be-87f1-9cad27268aaf",
@@ -3168,7 +3168,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:57.145Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:39.902Z"
   },
   {
     "id": "f86f260e-cad0-4d6c-bb82-98c2f8c0a495",
@@ -3235,7 +3235,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:57.812Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:40.488Z"
   },
   {
     "id": "fc4efde6-9baf-4337-b6b0-cc6457e1168a",
@@ -3348,7 +3348,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:00.891Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:41.224Z"
   },
   {
     "id": "e20a0ee0-62e2-4e3c-90bb-2ad44fd909f7",
@@ -3484,7 +3484,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:01.381Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:41.559Z"
   },
   {
     "id": "ae3fb4db-15fb-4a26-a6dd-5cea596a4c05",
@@ -3964,8 +3964,8 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-119",
-    "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-29T21:38:03.672Z",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:51:42.183Z",
     "cardDataSource": "pokemontcg"
   },
   {
@@ -4033,7 +4033,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:04.157Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:42.932Z"
   },
   {
     "id": "1b247e07-1ba9-4b7f-9c82-30d5374a3e73",
@@ -4215,7 +4215,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:05.588Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:43.279Z"
   },
   {
     "id": "335053ee-6247-4039-a3df-ea4240c5461a",
@@ -4351,7 +4351,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:07.332Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:43.881Z"
   },
   {
     "id": "aa384b78-36e7-4cf2-8469-67d6a7c6cc60",
@@ -4395,7 +4395,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:08.586Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:44.217Z"
   },
   {
     "id": "e6bb3a4b-bdae-4365-b58a-4ab11ccb3e8f",
@@ -4462,7 +4462,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:11.342Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:45.476Z"
   },
   {
     "id": "91771943-df4c-4da8-ada8-79eb97974fc2",
@@ -4530,8 +4530,8 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv6-20",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-20",
-    "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-29T21:38:11.620Z",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:51:45.804Z",
     "cardDataSource": "pokemontcg"
   },
   {
@@ -4576,7 +4576,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:12.202Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:46.165Z"
   },
   {
     "id": "0d7bea9f-1652-475d-b42a-e269b0ab4bb1",
@@ -4712,7 +4712,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:12.779Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:46.492Z"
   },
   {
     "id": "240278ab-aea6-4e76-99cc-dbafef11d7f3",
@@ -4733,7 +4733,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:14.401Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:46.806Z"
   },
   {
     "id": "d5d1b3c9-3566-4fad-bfba-80a28426c505",
@@ -4869,7 +4869,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:15.248Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:47.139Z"
   },
   {
     "id": "9d72f1cb-2381-49f0-8b9f-13b0668102a3",
@@ -4913,7 +4913,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:16.339Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:47.474Z"
   },
   {
     "id": "d19cce18-6de8-4d7d-be56-d51fc69c0a15",
@@ -5164,7 +5164,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:18.833Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:48.503Z"
   },
   {
     "id": "1e3ed6f1-1ebf-4319-afa8-76f5d22e624a",
@@ -5254,7 +5254,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:22.595Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:49.584Z"
   },
   {
     "id": "bced5093-41f7-44ab-adee-621461674451",
