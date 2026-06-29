@@ -15190,24 +15190,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-130"
   },
   {
-    "id": "124f5491-201a-42bb-8503-c3950997cebd",
-    "pokemon": "svp-209",
-    "set": "svp",
-    "number": "svp-209",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "svp-209",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "e7dd53e0-a575-4ac5-8e66-130c694e0845",
     "pokemon": "Ninetales",
     "set": "Silver Tempest",
@@ -19882,24 +19864,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-63",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-63"
-  },
-  {
-    "id": "4975c1cf-9e62-4f03-8de4-2b46a6468d3d",
-    "pokemon": "svp-212",
-    "set": "svp",
-    "number": "svp-212",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "svp-212",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "c83380d6-b308-446a-938d-55b03000ce4d",
