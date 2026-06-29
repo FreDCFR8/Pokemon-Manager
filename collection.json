@@ -2010,24 +2010,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-29"
   },
   {
-    "id": "cd99dd33-2c0c-40b3-ab0f-12dfa9d6b62c",
-    "pokemon": "sv105b-23",
-    "set": "sv105b",
-    "number": "sv105b-23",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv105b-23",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "90dc76f5-9dd6-4af0-bff1-ca47d22cd217",
     "pokemon": "Tympole",
     "set": "Evolving Skies",
@@ -17556,24 +17538,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-107",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-107"
-  },
-  {
-    "id": "12cac9ed-5ee2-408d-9ea1-f86d702920f9",
-    "pokemon": "sv105b-20",
-    "set": "sv105b",
-    "number": "sv105b-20",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv105b-20",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "ad3ae16b-bf27-466c-aa2b-3d08f5595b44",
