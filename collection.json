@@ -423,9 +423,9 @@
   {
     "id": "f3c40c89-0833-4e9f-b909-ab131a608254",
     "pokemon": "Makuhita",
-    "set": "swsh8",
-    "number": "swsh8-142",
-    "rarity": "Onbekend",
+    "set": "Fusion Strike",
+    "number": "142",
+    "rarity": "Common",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh8/142.png",
@@ -441,14 +441,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:56.011Z"
   },
   {
     "id": "0f743d3d-45a1-4c2c-9b14-658d9257f628",
     "pokemon": "Precious Trolley",
-    "set": "sv8",
-    "number": "sv8-185",
-    "rarity": "Onbekend",
+    "set": "Surging Sparks",
+    "number": "185",
+    "rarity": "ACE SPEC Rare",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/sv8/185.png",
@@ -460,7 +463,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "details-only",
+    "dexLookupCheckedAt": "2026-06-29T21:33:56.691Z"
   },
   {
     "id": "61618a29-5610-49b6-bb38-19873140c290",
@@ -479,7 +485,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:33:57.333Z"
   },
   {
     "id": "e5dad021-b893-485c-8749-f14a71ff1eac",
@@ -498,14 +506,16 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:33:57.881Z"
   },
   {
     "id": "4aecd991-bf77-4082-ad15-86cd7e50a759",
     "pokemon": "Arboliva",
-    "set": "sv1",
-    "number": "sv1-23",
-    "rarity": "Onbekend",
+    "set": "Scarlet & Violet",
+    "number": "23",
+    "rarity": "Rare",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/sv1/23.png",
@@ -521,14 +531,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:58.165Z"
   },
   {
     "id": "af2d7511-bc89-4671-80bc-1c3b4a279f5a",
     "pokemon": "Blissey",
-    "set": "pgo",
-    "number": "pgo-52",
-    "rarity": "Onbekend",
+    "set": "Pokémon GO",
+    "number": "52",
+    "rarity": "Rare Holo",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/pgo/52.png",
@@ -544,14 +557,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:58.362Z"
   },
   {
     "id": "55458096-21eb-469f-a9d3-cbd9d35efa5e",
     "pokemon": "Unown VSTAR",
-    "set": "swsh12",
-    "number": "swsh12-66",
-    "rarity": "Onbekend",
+    "set": "Silver Tempest",
+    "number": "66",
+    "rarity": "Rare Holo VSTAR",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh12/66.png",
@@ -567,14 +583,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:58.550Z"
   },
   {
     "id": "7c4bdc8b-dbcd-4303-9454-f9d9af447a9a",
     "pokemon": "Diglett",
-    "set": "sv3",
-    "number": "sv3-103",
-    "rarity": "Onbekend",
+    "set": "Obsidian Flames",
+    "number": "103",
+    "rarity": "Common",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/sv3/103.png",
@@ -590,14 +609,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:59.032Z"
   },
   {
     "id": "1e25ddb7-32ff-4646-8fdf-d1e9d9a8ae60",
     "pokemon": "Ariados",
-    "set": "swsh12",
-    "number": "swsh12-4",
-    "rarity": "Onbekend",
+    "set": "Silver Tempest",
+    "number": "4",
+    "rarity": "Rare Holo",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh12/4.png",
@@ -613,7 +635,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:59.388Z"
   },
   {
     "id": "4ec6b20d-bff7-41b4-8ec7-f63d0426ab9b",
