@@ -2580,24 +2580,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-66"
   },
   {
-    "id": "be78ffc4-4663-4131-b71c-c56109b0c4a9",
-    "pokemon": "sv45-31",
-    "set": "sv45",
-    "number": "sv45-31",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv45-31",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "17761fd9-9fb7-40c1-bbaf-dd38004d1f7b",
     "pokemon": "Magearna V",
     "set": "Silver Tempest",
@@ -15864,24 +15846,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-133"
   },
   {
-    "id": "3fda3bd1-b97d-406e-a574-20c293d843d9",
-    "pokemon": "sv45-3",
-    "set": "sv45",
-    "number": "sv45-3",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv45-3",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "ac3512b5-7bd8-4316-bb60-69ffae0a251c",
     "pokemon": "Tropius",
     "set": "Scarlet & Violet",
@@ -16504,24 +16468,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-106",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-106"
-  },
-  {
-    "id": "123db049-38e1-4a05-9852-7696c24ce2b4",
-    "pokemon": "sv45-33",
-    "set": "sv45",
-    "number": "sv45-33",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv45-33",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "a1273196-c0b1-4def-a315-8a4eea1bd9ca",
@@ -17642,24 +17588,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-33",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-33"
-  },
-  {
-    "id": "e7c7b9ac-2b2e-48c1-abb0-5a32e29c7944",
-    "pokemon": "sv45-30",
-    "set": "sv45",
-    "number": "sv45-30",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv45-30",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "0a06b67e-11a2-4b99-b0f8-d96fb97fe192",
