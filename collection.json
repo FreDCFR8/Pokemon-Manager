@@ -657,14 +657,16 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:34:11.224Z"
   },
   {
     "id": "db35147b-4dd6-439b-b550-f9a60cbd308d",
     "pokemon": "Mega Zygarde ex",
-    "set": "me3",
-    "number": "me3-47",
-    "rarity": "Onbekend",
+    "set": "Perfect Order",
+    "number": "47",
+    "rarity": "Double Rare",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.scrydex.com/pokemon/me3-47/small",
@@ -680,14 +682,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:34:13.795Z"
   },
   {
     "id": "4dc1ceb9-b272-4220-82f8-21249f442ba1",
     "pokemon": "Toxapex",
-    "set": "swsh12",
-    "number": "swsh12-115",
-    "rarity": "Onbekend",
+    "set": "Silver Tempest",
+    "number": "115",
+    "rarity": "Uncommon",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh12/115.png",
@@ -703,14 +708,17 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:34:14.072Z"
   },
   {
     "id": "50756293-a980-4974-b282-515e1ddaa834",
     "pokemon": "Lechonk",
-    "set": "sv3",
-    "number": "sv3-180",
-    "rarity": "Onbekend",
+    "set": "Obsidian Flames",
+    "number": "180",
+    "rarity": "Common",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/sv3/180.png",
@@ -726,7 +734,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:34:15.101Z"
   },
   {
     "id": "4dec941c-39d6-4480-a046-b57fb3bb6f85",
@@ -745,14 +756,16 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:34:17.111Z"
   },
   {
     "id": "5e3fdcef-ed64-4571-be5f-56f86b76dc83",
     "pokemon": "Hitmonchan",
-    "set": "swsh7",
-    "number": "swsh7-81",
-    "rarity": "Onbekend",
+    "set": "Evolving Skies",
+    "number": "81",
+    "rarity": "Common",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/swsh7/81.png",
@@ -768,7 +781,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:34:18.298Z"
   },
   {
     "id": "56ef1358-8ed9-4e27-aae9-61aa5dbc6082",
