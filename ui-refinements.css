@@ -1,4 +1,27 @@
 /* Extra UI polish for the mobile card workflow */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.app-shell,
+.workspace,
+.view,
+.panel,
+.editor-panel,
+.card-grid,
+.pokedex-grid,
+.set-cards-grid,
+.sets-grid {
+  max-width: 100%;
+}
+img,
+button,
+select,
+input {
+  max-width: 100%;
+}
 .price-links {
   display: flex;
   flex-wrap: wrap;
@@ -49,13 +72,8 @@
   background: linear-gradient(180deg, rgba(255,255,255,.65), rgba(247,249,251,.9));
   text-align: center;
 }
-.card-placeholder span {
-  color: var(--ink);
-  font-weight: 900;
-}
-.card-placeholder small {
-  color: var(--muted);
-}
+.card-placeholder span { color: var(--ink); font-weight: 900; }
+.card-placeholder small { color: var(--muted); }
 .card-mini {
   border: 1px dashed var(--line);
   border-radius: 7px;
@@ -82,59 +100,144 @@
   overflow: auto;
   border-radius: 18px;
 }
-.set-dialog-view {
-  padding: 26px;
+.set-dialog-view { padding: 26px; }
+.set-dialog-view > .set-cards-grid { margin-top: 16px; }
+.search-panel { margin-bottom: 14px; }
+.nav-tabs { scrollbar-width: none; }
+.nav-tabs::-webkit-scrollbar { display: none; }
+.pokedex-tools .chip-button.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
 }
-.set-dialog-view > .set-cards-grid {
-  margin-top: 16px;
+.binder-view {
+  display: grid;
+  gap: 18px;
 }
-.search-panel {
-  margin-bottom: 14px;
+.binder-page {
+  border: 1px solid rgba(23,32,42,.16);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(23,32,42,.88), rgba(49,70,92,.86));
+  box-shadow: var(--shadow);
+  padding: 14px;
 }
-.nav-tabs {
-  scrollbar-width: none;
+.binder-page-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: #fff;
 }
-.nav-tabs::-webkit-scrollbar {
-  display: none;
+.binder-page-title span {
+  color: rgba(255,255,255,.72);
+  font-size: .86rem;
+}
+.binder-slots {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.binder-slot {
+  position: relative;
+  display: grid;
+  align-content: start;
+  min-width: 0;
+  min-height: 190px;
+  padding: 8px;
+  border: 1px solid rgba(255,255,255,.20);
+  border-radius: 12px;
+  background: rgba(255,255,255,.12);
+  color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+.binder-slot img {
+  width: 100%;
+  height: 132px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+.binder-slot strong,
+.binder-slot small {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.binder-slot strong { font-size: .86rem; }
+.binder-slot small { color: rgba(255,255,255,.68); font-size: .72rem; }
+.binder-number {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  z-index: 2;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(23,32,42,.72);
+  color: #fff;
+  font-size: .68rem;
+  font-weight: 900;
+}
+.binder-missing {
+  display: grid;
+  place-items: center;
+  height: 132px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border: 1px dashed rgba(255,255,255,.34);
+  border-radius: 10px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--type-color) 28%, transparent), rgba(255,255,255,.06));
+  text-align: center;
+  color: rgba(255,255,255,.76);
+  font-size: .75rem;
+  font-weight: 800;
+}
+.empty-slot {
+  cursor: default;
+  opacity: .35;
 }
 @media (max-width: 900px) {
   .nav-tabs {
-    overflow-x: auto;
+    overflow-x: hidden;
     overscroll-behavior-x: contain;
   }
   .nav-tab {
-    min-width: 64px;
+    min-width: 0;
   }
-  .real-card-image {
-    height: 168px !important;
-  }
-  .card-placeholder {
-    min-height: 168px;
-  }
-  .card-detail-view {
-    grid-template-columns: 1fr;
-  }
+  .real-card-image { height: 168px !important; }
+  .card-placeholder { min-height: 168px; }
+  .card-detail-view { grid-template-columns: 1fr; }
   .detail-card-image {
     width: min(330px, 82vw) !important;
     margin: 0 auto !important;
   }
-  .set-dialog-view {
-    padding: 20px 12px 14px;
-  }
+  .set-dialog-view { padding: 20px 12px 14px; }
   #setDialog {
     width: calc(100vw - 12px);
     max-width: calc(100vw - 12px);
     max-height: calc(100svh - 18px);
   }
+  .binder-view { gap: 14px; }
+  .binder-page { padding: 10px; border-radius: 16px; }
+  .binder-slots { gap: 7px; }
+  .binder-slot {
+    min-height: 148px;
+    padding: 6px;
+    border-radius: 10px;
+  }
+  .binder-slot img,
+  .binder-missing {
+    height: 98px;
+  }
+  .binder-slot strong { font-size: .72rem; }
+  .binder-slot small { font-size: .62rem; }
 }
 @media (max-width: 390px) {
-  .real-card-image {
-    height: 145px !important;
-  }
-  .card-placeholder {
-    min-height: 145px;
-  }
-  .nav-tab {
-    min-width: 58px;
-  }
+  .real-card-image { height: 145px !important; }
+  .card-placeholder { min-height: 145px; }
+  .binder-slot { min-height: 132px; }
+  .binder-slot img,
+  .binder-missing { height: 86px; }
+  .binder-number { font-size: .58rem; }
 }
