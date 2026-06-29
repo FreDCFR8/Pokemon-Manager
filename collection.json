@@ -471,17 +471,21 @@
   },
   {
     "id": "4aecd991-bf77-4082-ad15-86cd7e50a759",
-    "pokemon": "sv1-23",
+    "pokemon": "Arboliva",
     "set": "sv1",
     "number": "sv1-23",
     "rarity": "Onbekend",
     "condition": "Near Mint",
     "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
+    "imageSmall": "https://images.pokemontcg.io/sv1/23.png",
+    "imageLarge": "https://images.pokemontcg.io/sv1/23_hires.png",
     "tcgId": "sv1-23",
-    "dexNumbers": [],
-    "types": [],
+    "dexNumbers": [
+      930
+    ],
+    "types": [
+      "Grass"
+    ],
     "status": "owned",
     "collection": "Lars",
     "addedAt": "2026-06-29",
