@@ -40,7 +40,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-134"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-134",
+    "dexNumbers": [
+      2
+    ]
   },
   {
     "id": "6b3f202a-91ce-47db-8290-51a73524d321",
@@ -60,7 +63,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-1",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-1"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-1",
+    "dexNumbers": [
+      15
+    ]
   },
   {
     "id": "c47d100a-2ff1-4326-a00e-83161a8321da",
@@ -80,7 +86,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-83",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-83"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-83",
+    "dexNumbers": [
+      343
+    ]
   },
   {
     "id": "b98bb1a6-e165-4dd3-a6a6-fbd07b8240c4",
@@ -118,7 +127,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-121",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-121"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-121",
+    "dexNumbers": [
+      686
+    ]
   },
   {
     "id": "32b73955-48ed-4343-b28d-e51b53569a2d",
@@ -138,7 +150,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-7",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-7"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-7",
+    "dexNumbers": [
+      469
+    ]
   },
   {
     "id": "ccf5e99d-e7f8-42ac-ac7c-332b97edfb39",
@@ -158,7 +173,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-23",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-23"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-23",
+    "dexNumbers": [
+      155
+    ]
   },
   {
     "id": "1248b698-ccd6-4e08-ade5-f0c618552588",
@@ -178,7 +196,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-19",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-19"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-19",
+    "dexNumbers": [
+      58
+    ]
   },
   {
     "id": "43cc5f46-25a4-4cc3-8eec-9e2d2bcda4a9",
@@ -198,7 +219,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-15",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-15"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-15",
+    "dexNumbers": [
+      652
+    ]
   },
   {
     "id": "34318531-d29c-4d98-a9c8-1f7401d78932",
@@ -218,7 +242,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-5",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-5"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-5",
+    "dexNumbers": [
+      345
+    ]
   },
   {
     "id": "3b30ae56-fa30-4967-85e1-2415bec8d1d4",
@@ -238,7 +265,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-118",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-118"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-118",
+    "dexNumbers": [
+      735
+    ]
   },
   {
     "id": "c81b8264-b21e-4dc9-8436-12dd01663bf2",
@@ -258,7 +288,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-38",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-38"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-38",
+    "dexNumbers": [
+      911
+    ]
   },
   {
     "id": "1587399f-0fc9-4a39-8873-a47eb723f0cd",
@@ -278,7 +311,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-48",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-48"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-48",
+    "dexNumbers": [
+      752
+    ]
   },
   {
     "id": "f244cc27-7068-4acd-9e38-e36a18fc1831",
@@ -298,7 +334,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-36"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-36",
+    "dexNumbers": [
+      460
+    ]
   },
   {
     "id": "46729fd0-a0fe-4e5f-9086-15e980ecdf85",
@@ -318,7 +357,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-142",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-142"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-142",
+    "dexNumbers": [
+      296
+    ]
   },
   {
     "id": "ffea2a7c-64d4-49a1-93be-96bfbd9beb37",
@@ -356,7 +398,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-23",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-23"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-23",
+    "dexNumbers": [
+      930
+    ]
   },
   {
     "id": "c38d9880-bcd8-4084-b52f-50235d1e0822",
@@ -376,7 +421,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/pgo-52",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-52"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-52",
+    "dexNumbers": [
+      242
+    ]
   },
   {
     "id": "aeff8917-0730-4248-893e-6275ea07bab9",
@@ -396,7 +444,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-66",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-66"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-66",
+    "dexNumbers": [
+      201
+    ]
   },
   {
     "id": "cf31c5e1-13e3-4bff-baf7-d77312dbcbc9",
@@ -416,7 +467,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-103",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-103"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-103",
+    "dexNumbers": [
+      50
+    ]
   },
   {
     "id": "7d9812fd-6152-43d4-bf42-d5014b66a78f",
@@ -436,7 +490,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-4",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-4"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-4",
+    "dexNumbers": [
+      168
+    ]
   },
   {
     "id": "55c7d21d-95a7-4c6a-9fd5-73bb5c3040e1",
@@ -456,7 +513,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me3-47"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me3-47",
+    "dexNumbers": [
+      718
+    ]
   },
   {
     "id": "83cb8112-3594-4e50-9e96-e47f08440824",
@@ -476,7 +536,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-115",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-115"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-115",
+    "dexNumbers": [
+      748
+    ]
   },
   {
     "id": "25753381-cad6-4696-bd5a-8c4c2738ae3e",
@@ -496,7 +559,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-180",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-180"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-180",
+    "dexNumbers": [
+      915
+    ]
   },
   {
     "id": "3d5af36d-9a7e-464d-902a-38ee383a8361",
@@ -516,7 +582,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-81",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-81"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-81",
+    "dexNumbers": [
+      107
+    ]
   },
   {
     "id": "c65ae5fd-5d81-409c-a25b-c5dc309bf77d",
@@ -536,7 +605,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-31"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-31",
+    "dexNumbers": [
+      1004
+    ]
   },
   {
     "id": "b8bbf91f-becc-444b-8deb-58500d5ac354",
@@ -556,7 +628,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh4-54",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-54"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-54",
+    "dexNumbers": [
+      523
+    ]
   },
   {
     "id": "7717df18-af41-440a-b754-156a9429ae41",
@@ -576,7 +651,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-12",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-12"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-12",
+    "dexNumbers": [
+      673
+    ]
   },
   {
     "id": "d3c536ea-5b4c-4c47-b1ed-df77af6a588e",
@@ -596,7 +674,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-2",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-2"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-2",
+    "dexNumbers": [
+      11
+    ]
   },
   {
     "id": "d957ec43-b69d-4540-a767-e190e5c1cee1",
@@ -616,7 +697,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-215",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-215"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-215",
+    "dexNumbers": [
+      660
+    ]
   },
   {
     "id": "3d466bb9-e025-420c-ab92-511886a4aa80",
@@ -636,7 +720,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-138",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-138"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-138",
+    "dexNumbers": [
+      95
+    ]
   },
   {
     "id": "850fd80d-7874-45bd-b1e5-b64581d66a9e",
@@ -656,7 +743,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh35-16",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-16"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-16",
+    "dexNumbers": [
+      282
+    ]
   },
   {
     "id": "27da3cff-9e7f-47b6-8be8-6e5857ba7a82",
@@ -676,7 +766,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-18",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-18"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-18",
+    "dexNumbers": [
+      917
+    ]
   },
   {
     "id": "fc4ec597-b1fa-44a3-a416-25edc6ddc5ff",
@@ -696,7 +789,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-1",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-1"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-1",
+    "dexNumbers": [
+      43
+    ]
   },
   {
     "id": "6d75bf81-c61e-422b-b19a-b2a461b11f7d",
@@ -716,7 +812,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-24"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-24",
+    "dexNumbers": [
+      668
+    ]
   },
   {
     "id": "411182ca-da61-47dc-ba84-f91e659f57e6",
@@ -736,7 +835,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh2-96",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-96"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-96",
+    "dexNumbers": [
+      299
+    ]
   },
   {
     "id": "13efe7c8-c1e2-4f12-a125-6d265762516c",
@@ -756,7 +858,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-20",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-20"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-20",
+    "dexNumbers": [
+      78
+    ]
   },
   {
     "id": "e0b139c5-3971-41b3-a794-d8ee6c54a7db",
@@ -776,7 +881,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/xy9-95",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/xy9-95"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/xy9-95",
+    "dexNumbers": [
+      676
+    ]
   },
   {
     "id": "c4b9926a-28af-4af5-a1cc-8288af7ff259",
@@ -796,7 +904,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-139",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-139"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-139",
+    "dexNumbers": [
+      993
+    ]
   },
   {
     "id": "1ea1d422-1d3f-4b4a-bd44-8791f02b9159",
@@ -816,7 +927,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv6-62",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-62"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-62",
+    "dexNumbers": [
+      991
+    ]
   },
   {
     "id": "634a8c62-fe21-4015-bf02-993fab4da0fc",
@@ -836,7 +950,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11tg-TG11",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11tg-TG11"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11tg-TG11",
+    "dexNumbers": [
+      351
+    ]
   },
   {
     "id": "a575a11a-04e6-44a6-b892-1894d93d0fed",
@@ -856,7 +973,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-45",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-45"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-45",
+    "dexNumbers": [
+      75
+    ]
   },
   {
     "id": "a1d83a33-4d9c-4cd2-8046-940841ca4e14",
@@ -876,7 +996,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-25",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-25"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-25",
+    "dexNumbers": [
+      653
+    ]
   },
   {
     "id": "b5c5aeb1-becb-4621-885c-fd8f89285400",
@@ -896,7 +1019,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-134",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-134"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-134",
+    "dexNumbers": [
+      507
+    ]
   },
   {
     "id": "4250099f-02d2-4ef3-b0fc-ca19655fca1e",
@@ -916,7 +1042,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-73",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-73"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-73",
+    "dexNumbers": [
+      744
+    ]
   },
   {
     "id": "095df1e2-a2c9-46c5-8a82-018887df6db5",
@@ -936,7 +1065,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-50",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-50"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-50",
+    "dexNumbers": [
+      595
+    ]
   },
   {
     "id": "50d82c9e-1fdf-4cad-a99c-0bcc642f45c8",
@@ -956,7 +1088,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-15",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-15"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-15",
+    "dexNumbers": [
+      908
+    ]
   },
   {
     "id": "0857b23d-e7b3-4cfe-a185-6228549bf64e",
@@ -976,7 +1111,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh1-81",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh1-81"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh1-81",
+    "dexNumbers": [
+      77
+    ]
   },
   {
     "id": "2b05f49c-0f41-4373-a89e-59104ebe559f",
@@ -996,7 +1134,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-69",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-69"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-69",
+    "dexNumbers": [
+      479
+    ]
   },
   {
     "id": "f439f849-470d-413b-9a31-619140c9f3cd",
@@ -1036,7 +1177,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-15",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-15"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-15",
+    "dexNumbers": [
+      829
+    ]
   },
   {
     "id": "6bca1d53-1236-4ef8-902e-4638937e819c",
@@ -1056,7 +1200,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-119",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-119"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-119",
+    "dexNumbers": [
+      843
+    ]
   },
   {
     "id": "20306871-ec51-4093-85b5-362cf21bcc0a",
@@ -1076,7 +1223,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH291",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swshp-SWSH291"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swshp-SWSH291",
+    "dexNumbers": [
+      448
+    ]
   },
   {
     "id": "abb35d3b-638b-4d49-a9b3-738b0c22ff5a",
@@ -1096,7 +1246,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-126",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-126"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-126",
+    "dexNumbers": [
+      437
+    ]
   },
   {
     "id": "e927d946-25fd-47cd-ae9c-d0c852691ec9",
@@ -1116,7 +1269,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh1-93",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh1-93"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh1-93",
+    "dexNumbers": [
+      51
+    ]
   },
   {
     "id": "adf376b6-37fc-4a81-b7bb-501b8fdaa882",
@@ -1136,7 +1292,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-110",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-110"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-110",
+    "dexNumbers": [
+      968
+    ]
   },
   {
     "id": "20e32e14-c1c1-4323-b6ed-2097380ecf98",
@@ -1156,7 +1315,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-38",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-38"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-38",
+    "dexNumbers": [
+      1020
+    ]
   },
   {
     "id": "9d739bc6-d291-4587-af57-feec6e2d8942",
@@ -1176,7 +1338,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-80",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-80"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-80",
+    "dexNumbers": [
+      538
+    ]
   },
   {
     "id": "c667414b-ddf0-4021-b6d8-9720166a0e6c",
@@ -1196,7 +1361,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-36",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-36"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-36",
+    "dexNumbers": [
+      607
+    ]
   },
   {
     "id": "7f55dffc-ad7d-48d8-9c62-0fc8bd68e26c",
@@ -1216,7 +1384,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-167",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-167"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-167",
+    "dexNumbers": [
+      484
+    ]
   },
   {
     "id": "82f4839c-ce52-4c83-beef-9f68a65a609f",
@@ -1236,7 +1407,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-111",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-111"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-111",
+    "dexNumbers": [
+      212
+    ]
   },
   {
     "id": "65ac1736-e657-4ce5-b5dc-7fb151b34f2f",
@@ -1256,7 +1430,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-120",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-120"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-120",
+    "dexNumbers": [
+      944
+    ]
   },
   {
     "id": "2d10f487-9ea8-4bd5-bcf4-95279823a380",
@@ -1276,7 +1453,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-23",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-23"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-23",
+    "dexNumbers": [
+      953
+    ]
   },
   {
     "id": "11be6988-3886-4d61-8af4-d5d8ae351c3d",
@@ -1296,7 +1476,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-210",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-210"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-210",
+    "dexNumbers": [
+      875
+    ]
   },
   {
     "id": "174572d0-656c-4ed0-b699-81c5a19e5c5f",
@@ -1316,7 +1499,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-17",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-17"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-17",
+    "dexNumbers": [
+      549
+    ]
   },
   {
     "id": "48b92516-bdfd-4293-a874-2a1aa7df6344",
@@ -1336,7 +1522,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-128",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-128"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-128",
+    "dexNumbers": [
+      336
+    ]
   },
   {
     "id": "a803e649-8837-404e-809c-227474767211",
@@ -1356,7 +1545,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-80",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-80"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-80",
+    "dexNumbers": [
+      482
+    ]
   },
   {
     "id": "425c895b-1b73-41d2-aa0b-5b523a7f1253",
@@ -1376,7 +1568,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-84"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-84",
+    "dexNumbers": [
+      428
+    ]
   },
   {
     "id": "88bd4e14-c9a1-4906-ab6c-075d678bee27",
@@ -1396,7 +1591,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-110",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-110"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-110",
+    "dexNumbers": [
+      39
+    ]
   },
   {
     "id": "b9ff0611-610a-4191-8a73-83076804859b",
@@ -1416,7 +1614,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh35-19",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-19"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-19",
+    "dexNumbers": [
+      857
+    ]
   },
   {
     "id": "77bf9211-f813-462e-b158-608a74661b80",
@@ -1436,7 +1637,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-131",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-131"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-131",
+    "dexNumbers": [
+      301
+    ]
   },
   {
     "id": "b37cbca0-36ab-49f7-82d3-f416b0327424",
@@ -1456,7 +1660,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-182",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-182"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-182",
+    "dexNumbers": [
+      915
+    ]
   },
   {
     "id": "724938dc-ad47-4f29-a19b-37e69f23ed57",
@@ -1476,7 +1683,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/svp-52",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/svp-52"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/svp-52",
+    "dexNumbers": [
+      150
+    ]
   },
   {
     "id": "9d326e46-f264-4992-bdd6-c7ca0feded4a",
@@ -1496,7 +1706,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-69",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-69"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-69",
+    "dexNumbers": [
+      956
+    ]
   },
   {
     "id": "d7890084-89f0-497e-a4a7-f1a035c26c73",
@@ -1516,7 +1729,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-40",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-40"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-40",
+    "dexNumbers": [
+      1004
+    ]
   },
   {
     "id": "2f5e6f36-0f33-48f5-9513-c7f4b98e5fc7",
@@ -1536,7 +1752,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-37",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-37"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-37",
+    "dexNumbers": [
+      952
+    ]
   },
   {
     "id": "aa2b7d2a-9bf1-452c-90fd-a24f6e2ed8bc",
@@ -1556,7 +1775,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-94",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-94"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-94",
+    "dexNumbers": [
+      185
+    ]
   },
   {
     "id": "e1db6103-1b15-4ed3-921c-1f8ed1260328",
@@ -1576,7 +1798,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-85",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-85"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-85",
+    "dexNumbers": [
+      89
+    ]
   },
   {
     "id": "7f4e8ee0-d5dc-40cd-85a1-76ddf0b7b819",
@@ -1596,7 +1821,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-43",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-43"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-43",
+    "dexNumbers": [
+      80
+    ]
   },
   {
     "id": "d55d291f-8f12-4ea6-8173-6b1cec9fb430",
@@ -1616,7 +1844,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-47",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-47"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-47",
+    "dexNumbers": [
+      370
+    ]
   },
   {
     "id": "9b1fd5e4-1e3f-4c6e-94fa-78b8825c6c0f",
@@ -1636,7 +1867,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-89",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-89"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-89",
+    "dexNumbers": [
+      311
+    ]
   },
   {
     "id": "3b33e248-9c6e-42a4-b1ec-fe435162ecba",
@@ -1656,7 +1890,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-105",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-105"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-105",
+    "dexNumbers": [
+      261
+    ]
   },
   {
     "id": "ac697327-2f47-4775-9d84-6a876e25833d",
@@ -1676,7 +1913,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh6-44",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh6-44"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh6-44",
+    "dexNumbers": [
+      892
+    ]
   },
   {
     "id": "a3b65ea1-85e5-4787-8d45-fec5123cfa81",
@@ -1696,7 +1936,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-120",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-120"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-120",
+    "dexNumbers": [
+      820
+    ]
   },
   {
     "id": "9d201f29-50f7-4541-9c3e-b2ec3f55f42e",
@@ -1716,7 +1959,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/pgo-41",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-41"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-41",
+    "dexNumbers": [
+      19
+    ]
   },
   {
     "id": "de48a604-449b-4a24-a159-80a49cce331f",
@@ -1736,7 +1982,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-87",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-87"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-87",
+    "dexNumbers": [
+      739
+    ]
   },
   {
     "id": "69278c38-71be-49af-962f-5018b079fbd5",
@@ -1756,7 +2005,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh4-23",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-23"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-23",
+    "dexNumbers": [
+      4
+    ]
   },
   {
     "id": "fccf2359-eb17-475c-9c00-4906ba9709a0",
@@ -1776,7 +2028,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-176",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-176"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-176",
+    "dexNumbers": [
+      734
+    ]
   },
   {
     "id": "e3c92f18-78e8-42e7-a837-2f13bc7c27e2",
@@ -1796,7 +2051,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-51",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-51"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-51",
+    "dexNumbers": [
+      779
+    ]
   },
   {
     "id": "b7b4b189-9d99-4fdf-bdbd-b6b623e6b36f",
@@ -1816,7 +2074,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-24",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-24"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-24",
+    "dexNumbers": [
+      390
+    ]
   },
   {
     "id": "c8b5d7be-5c7b-401b-9d5c-99a3bddc8eda",
@@ -1836,7 +2097,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-16",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-16"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-16",
+    "dexNumbers": [
+      37
+    ]
   },
   {
     "id": "8e2aadbe-1b35-4013-86f4-493b7c9ad1f3",
@@ -1856,7 +2120,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-39"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-39",
+    "dexNumbers": [
+      816
+    ]
   },
   {
     "id": "255a5056-c081-44cb-9413-862e449b3476",
@@ -1876,7 +2143,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-3"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-3",
+    "dexNumbers": [
+      45
+    ]
   },
   {
     "id": "2051a6ef-312c-4c9a-babc-2471074f7b7a",
@@ -1896,7 +2166,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-62",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-62"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-62",
+    "dexNumbers": [
+      35
+    ]
   },
   {
     "id": "3875c4cb-3a2a-419e-837a-391c04147490",
@@ -1916,7 +2189,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-8"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-8",
+    "dexNumbers": [
+      152
+    ]
   },
   {
     "id": "3a2f4ba0-2e0d-4993-8210-41c48474808b",
@@ -1936,7 +2212,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-82"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-82",
+    "dexNumbers": [
+      932
+    ]
   },
   {
     "id": "40da13b9-ffe6-47a4-9d20-684943a24662",
@@ -1956,7 +2235,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-49",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-49"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-49",
+    "dexNumbers": [
+      866
+    ]
   },
   {
     "id": "827760bf-ee4e-496d-8d13-fcb6d4c5fa63",
@@ -1976,7 +2258,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh35-29",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-29"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-29",
+    "dexNumbers": [
+      744
+    ]
   },
   {
     "id": "90dc76f5-9dd6-4af0-bff1-ca47d22cd217",
@@ -1996,7 +2281,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-42",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-42"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-42",
+    "dexNumbers": [
+      535
+    ]
   },
   {
     "id": "27c5d4a5-58f6-4d29-a982-9022fc74a624",
@@ -2016,7 +2304,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-102"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-102",
+    "dexNumbers": [
+      21
+    ]
   },
   {
     "id": "f33b795c-03f3-4279-8339-87a010472f88",
@@ -2036,7 +2327,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh35-4",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-4"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-4",
+    "dexNumbers": [
+      15
+    ]
   },
   {
     "id": "04613155-9766-4de2-9fb7-88af2bbd5f59",
@@ -2056,7 +2350,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-116",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-116"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-116",
+    "dexNumbers": [
+      508
+    ]
   },
   {
     "id": "3955bafc-0124-4d51-bfe4-e11ddf17174e",
@@ -2076,7 +2373,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-33",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-33"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-33",
+    "dexNumbers": [
+      183
+    ]
   },
   {
     "id": "3220e752-f4b1-4f87-959b-875ae30cc70b",
@@ -2096,7 +2396,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-9",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-9"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-9",
+    "dexNumbers": [
+      588
+    ]
   },
   {
     "id": "8dddbcf9-37e1-41d6-aaaf-200299c39c12",
@@ -2116,7 +2419,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-31",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-31"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-31",
+    "dexNumbers": [
+      146
+    ]
   },
   {
     "id": "63a38777-daea-415e-8cf1-853a29d7f108",
@@ -2136,7 +2442,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh2-83",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-83"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-83",
+    "dexNumbers": [
+      856
+    ]
   },
   {
     "id": "b995299a-232e-41a2-9533-071c2a142653",
@@ -2156,7 +2465,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-112"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-112",
+    "dexNumbers": [
+      760
+    ]
   },
   {
     "id": "b2f0036f-8abb-4458-a556-7b7eedf55451",
@@ -2176,7 +2488,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-147",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-147"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-147",
+    "dexNumbers": [
+      335
+    ]
   },
   {
     "id": "b02ce750-7885-4808-ae26-44e16a7d0df0",
@@ -2196,7 +2511,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-89",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-89"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-89",
+    "dexNumbers": [
+      949
+    ]
   },
   {
     "id": "3849ce4c-5ee8-4fec-955f-195dc209d81b",
@@ -2216,7 +2534,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-168",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-168"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-168",
+    "dexNumbers": [
+      264
+    ]
   },
   {
     "id": "51b44abf-2e2d-4c93-a4af-f1185f7e2bd8",
@@ -2236,7 +2557,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-66",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-66"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-66",
+    "dexNumbers": [
+      202
+    ]
   },
   {
     "id": "b6171f08-0cac-4358-bbbe-d8fafb8bda4e",
@@ -2256,7 +2580,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-146",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-146"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-146",
+    "dexNumbers": [
+      566
+    ]
   },
   {
     "id": "0b0a7277-3fce-4188-9324-4171ee3a5f72",
@@ -2276,7 +2603,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-66",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-66"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-66",
+    "dexNumbers": [
+      367
+    ]
   },
   {
     "id": "17761fd9-9fb7-40c1-bbaf-dd38004d1f7b",
@@ -2296,7 +2626,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-128",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-128"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-128",
+    "dexNumbers": [
+      801
+    ]
   },
   {
     "id": "50b61ad9-95e7-4c60-a015-efac808e9532",
@@ -2316,7 +2649,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-81",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-81"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-81",
+    "dexNumbers": [
+      539
+    ]
   },
   {
     "id": "d2533140-485e-4653-b420-ab72bd5f5b76",
@@ -2336,7 +2672,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh2-24",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-24"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-24",
+    "dexNumbers": [
+      37
+    ]
   },
   {
     "id": "187a7f38-b402-408e-bc68-cabc65410d6e",
@@ -2356,7 +2695,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-72",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-72"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-72",
+    "dexNumbers": [
+      674
+    ]
   },
   {
     "id": "042390ed-4452-454f-8427-31d1950340bd",
@@ -2376,7 +2718,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-184",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-184"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-184",
+    "dexNumbers": [
+      632
+    ]
   },
   {
     "id": "ee72c2d6-e53e-4ab6-8124-1977effcccee",
@@ -2396,7 +2741,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-127",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-127"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-127",
+    "dexNumbers": [
+      217
+    ]
   },
   {
     "id": "1f8c248a-f870-46dd-b060-10f414f87f72",
@@ -2416,7 +2764,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-17"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-17",
+    "dexNumbers": [
+      291
+    ]
   },
   {
     "id": "d90f5324-7295-4f3b-8cc6-9578f0907119",
@@ -2436,7 +2787,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-147",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-147"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-147",
+    "dexNumbers": [
+      19
+    ]
   },
   {
     "id": "abd8d7f0-0fe7-4f80-a6eb-b43d4fc593b8",
@@ -2456,7 +2810,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/pgo-10",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-10"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-10",
+    "dexNumbers": [
+      6
+    ]
   },
   {
     "id": "2ee5a0fc-38b2-4d0e-8c52-7d667344ab88",
@@ -2476,7 +2833,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-44",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-44"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-44",
+    "dexNumbers": [
+      647
+    ]
   },
   {
     "id": "dc1b6e28-02ef-4656-850f-4c36af9a01f2",
@@ -2496,7 +2856,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-116",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-116"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-116",
+    "dexNumbers": [
+      877
+    ]
   },
   {
     "id": "6fd87628-09a9-4b50-8cd6-1b3d8c4c08c6",
@@ -2516,7 +2879,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh6-1",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh6-1"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh6-1",
+    "dexNumbers": [
+      13
+    ]
   },
   {
     "id": "a535ff1c-14aa-4e2c-a643-fffeb37cc992",
@@ -2536,7 +2902,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh4-63",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-63"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-63",
+    "dexNumbers": [
+      35
+    ]
   },
   {
     "id": "2c7a903d-c1f7-4dd1-9236-0c3da9f86c2e",
@@ -2556,7 +2925,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-166",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-166"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-166",
+    "dexNumbers": [
+      745
+    ]
   },
   {
     "id": "890a3f81-f51e-4e8e-8b6a-6ca335f65a11",
@@ -2576,7 +2948,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-30",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-30"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-30",
+    "dexNumbers": [
+      244
+    ]
   },
   {
     "id": "f7fbd1f6-d6c9-4999-b959-6e897910e5d8",
@@ -2596,7 +2971,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-79",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-79"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-79",
+    "dexNumbers": [
+      941
+    ]
   },
   {
     "id": "19e70675-139b-40f7-9e39-31daa6655b91",
@@ -2616,7 +2994,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-141",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-141"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-141",
+    "dexNumbers": [
+      212
+    ]
   },
   {
     "id": "d8b1798e-fe74-4669-8a3f-095208aebfe2",
@@ -2636,7 +3017,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-170",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-170"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-170",
+    "dexNumbers": [
+      831
+    ]
   },
   {
     "id": "7b1bdb92-393a-439a-8fa2-6f23b28ebae8",
@@ -2656,7 +3040,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-15",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-15"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-15",
+    "dexNumbers": [
+      736
+    ]
   },
   {
     "id": "c89de32c-21cb-42cd-a3ab-7d0be686008c",
@@ -2676,7 +3063,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-3",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-3"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-3",
+    "dexNumbers": [
+      182
+    ]
   },
   {
     "id": "ab28d5e7-acb3-42be-b864-b1697810ab37",
@@ -2696,7 +3086,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/svp-87",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/svp-87"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/svp-87",
+    "dexNumbers": [
+      906
+    ]
   },
   {
     "id": "69829fb6-c751-49d9-b284-baa3272b4c38",
@@ -2716,7 +3109,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-18"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-18",
+    "dexNumbers": [
+      781
+    ]
   },
   {
     "id": "c1e3a2c8-5b47-4b37-b314-15e0ec9fd80f",
@@ -2736,7 +3132,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-122",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-122"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-122",
+    "dexNumbers": [
+      598
+    ]
   },
   {
     "id": "f3323c6c-d04c-454e-95d4-5b3cc1e1b849",
@@ -2756,7 +3155,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10tg-TG07",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10tg-TG07"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10tg-TG07",
+    "dexNumbers": [
+      870
+    ]
   },
   {
     "id": "3b988470-19fd-4831-bccd-7fe596385b2d",
@@ -2776,7 +3178,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-15",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-15"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-15",
+    "dexNumbers": [
+      1001
+    ]
   },
   {
     "id": "5e3ad625-5d3c-4bca-923b-9255055ec736",
@@ -2796,7 +3201,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-39",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-39"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-39",
+    "dexNumbers": [
+      349
+    ]
   },
   {
     "id": "4eee8149-efac-4624-bb63-7c45a6bf8ce0",
@@ -2816,7 +3224,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-37",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-37"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-37",
+    "dexNumbers": [
+      320
+    ]
   },
   {
     "id": "f9f7f62b-b8b3-46db-9d76-257a581ed8ad",
@@ -2836,7 +3247,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-40"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-40",
+    "dexNumbers": [
+      817
+    ]
   },
   {
     "id": "33641ca2-0e8d-418a-a04c-ad8a24a1d4bf",
@@ -2856,7 +3270,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-139",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-139"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-139",
+    "dexNumbers": [
+      634
+    ]
   },
   {
     "id": "b3f6e41d-51db-4292-8a63-dca5cf4b591d",
@@ -2894,7 +3311,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-90",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-90"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-90",
+    "dexNumbers": [
+      950
+    ]
   },
   {
     "id": "0fcd78fc-c078-4133-8f9c-ced18e329f48",
@@ -2914,7 +3334,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-25",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-25"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-25",
+    "dexNumbers": [
+      391
+    ]
   },
   {
     "id": "65624129-ba90-43f7-8c05-6cc125debf44",
@@ -2934,7 +3357,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-115",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-115"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-115",
+    "dexNumbers": [
+      83
+    ]
   },
   {
     "id": "0ac357c2-f846-4f76-9f30-d04f54f7310b",
@@ -2954,7 +3380,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-206",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-206"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-206",
+    "dexNumbers": [
+      329
+    ]
   },
   {
     "id": "53d2a54b-b5ae-4c9e-98b0-a1926c5f7735",
@@ -2974,7 +3403,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-58"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-58",
+    "dexNumbers": [
+      430
+    ]
   },
   {
     "id": "75e752f1-8cfb-4aa9-b60b-306f46ca4a4c",
@@ -2994,7 +3426,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-87",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-87"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-87",
+    "dexNumbers": [
+      304
+    ]
   },
   {
     "id": "4cfed63f-5a4a-418f-9d30-52d5f1317249",
@@ -3014,7 +3449,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-14",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-14"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-14",
+    "dexNumbers": [
+      315
+    ]
   },
   {
     "id": "37fca619-2410-412c-a7d6-2d9195260b6a",
@@ -3034,7 +3472,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-87",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-87"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-87",
+    "dexNumbers": [
+      622
+    ]
   },
   {
     "id": "60ae0dce-c49d-490d-9278-bd0593ed120d",
@@ -3054,7 +3495,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-114",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-114"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-114",
+    "dexNumbers": [
+      29
+    ]
   },
   {
     "id": "0db7164c-6068-4206-b68f-1f86f2f47ac7",
@@ -3074,7 +3518,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv4-43",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4-43"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4-43",
+    "dexNumbers": [
+      582
+    ]
   },
   {
     "id": "dee610d7-ebb3-4dbe-86de-3d300cc3c118",
@@ -3094,7 +3541,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-35",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-35"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-35",
+    "dexNumbers": [
+      116
+    ]
   },
   {
     "id": "bb1c351d-bb4f-4a3a-9676-8f507401a7ec",
@@ -3114,7 +3564,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv4-110",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4-110"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4-110",
+    "dexNumbers": [
+      41
+    ]
   },
   {
     "id": "b51a1860-2a40-42c6-849e-d6a97d1fce18",
@@ -3134,7 +3587,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh2-148",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-148"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh2-148",
+    "dexNumbers": [
+      701
+    ]
   },
   {
     "id": "07ece0ce-26d8-4c08-9aa0-06a0cc9aa184",
@@ -3154,7 +3610,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-1"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-1",
+    "dexNumbers": [
+      1
+    ]
   },
   {
     "id": "f8df959c-9974-4c20-96eb-25d7da7888f3",
@@ -3174,7 +3633,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv6-80",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-80"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-80",
+    "dexNumbers": [
+      63
+    ]
   },
   {
     "id": "90b95561-97a2-44bb-807b-865de0836f7a",
@@ -3194,7 +3656,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/svp-11",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/svp-11"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/svp-11",
+    "dexNumbers": [
+      59
+    ]
   },
   {
     "id": "52b75771-159b-40f5-ac12-f234e4c86ac5",
@@ -3214,7 +3679,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-97"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-97",
+    "dexNumbers": [
+      958
+    ]
   },
   {
     "id": "4147ffe6-ed81-45c2-9cf2-f8248efd531f",
@@ -3234,7 +3702,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-139",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-139"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-139",
+    "dexNumbers": [
+      943
+    ]
   },
   {
     "id": "7ffc0ed5-8119-4111-a1f6-aeeb81b439b5",
@@ -3254,7 +3725,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-104",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-104"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-104",
+    "dexNumbers": [
+      620
+    ]
   },
   {
     "id": "2579f5d8-5a6a-4665-bb7c-8d8b95ddd7a9",
@@ -3294,7 +3768,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-60",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-60"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-60",
+    "dexNumbers": [
+      961
+    ]
   },
   {
     "id": "65c589f7-959d-4beb-b0af-178dba6d9207",
@@ -3314,7 +3791,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-120",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-120"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-120",
+    "dexNumbers": [
+      841
+    ]
   },
   {
     "id": "622720b1-5a87-49c6-90a7-d8dc0cc82971",
@@ -3334,7 +3814,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-31",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-31"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-31",
+    "dexNumbers": [
+      61
+    ]
   },
   {
     "id": "3be133c5-b6e0-4864-8e43-977af3647aaa",
@@ -3354,7 +3837,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-59",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-59"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-59",
+    "dexNumbers": [
+      429
+    ]
   },
   {
     "id": "9eefbe9b-b51b-4193-96ab-03a5ebd78ed3",
@@ -3374,7 +3860,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-120",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-120"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-120",
+    "dexNumbers": [
+      385
+    ]
   },
   {
     "id": "8853ff54-34db-492f-a56c-1528ea97c3a0",
@@ -3394,7 +3883,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-2",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-2"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-2",
+    "dexNumbers": [
+      44
+    ]
   },
   {
     "id": "c73ff58b-04e5-4a7b-9c84-d6743d9f0047",
@@ -3414,7 +3906,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-131",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-131"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-131",
+    "dexNumbers": [
+      510
+    ]
   },
   {
     "id": "90549fe4-d3f5-436a-a5b3-98dd7e57626d",
@@ -3434,7 +3929,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-43"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-43",
+    "dexNumbers": [
+      873
+    ]
   },
   {
     "id": "c2fc4d66-a55d-4381-83de-15198c389919",
@@ -3454,7 +3952,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-138",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-138"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-138",
+    "dexNumbers": [
+      108
+    ]
   },
   {
     "id": "0574770b-33bf-4aaa-ba56-5118d662f9a4",
@@ -3474,7 +3975,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-80",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-80"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-80",
+    "dexNumbers": [
+      675
+    ]
   },
   {
     "id": "7b828d68-5c27-4df6-b9d6-16603ecb515b",
@@ -3494,7 +3998,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-211",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-211"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-211",
+    "dexNumbers": [
+      280
+    ]
   },
   {
     "id": "c2785bbc-d332-459d-b651-4b8e2c9db8e0",
@@ -3514,7 +4021,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me4-35"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me4-35",
+    "dexNumbers": [
+      670
+    ]
   },
   {
     "id": "cb3e49dc-5817-4b33-8f6e-21aabbe05247",
@@ -3534,7 +4044,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-100",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-100"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-100",
+    "dexNumbers": [
+      23
+    ]
   },
   {
     "id": "c4b8561b-7878-4381-b8e6-e7beed5673fe",
@@ -3554,7 +4067,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-8",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-8"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-8",
+    "dexNumbers": [
+      214
+    ]
   },
   {
     "id": "83fefcea-afea-4f83-a4fd-745e52c24ee5",
@@ -3574,7 +4090,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/cel25-8",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/cel25-8"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/cel25-8",
+    "dexNumbers": [
+      25
+    ]
   },
   {
     "id": "327baa51-6830-41ba-ad80-9c6fdf1acd33",
@@ -3594,7 +4113,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh35-70",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-70"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-70",
+    "dexNumbers": [
+      282
+    ]
   },
   {
     "id": "4aacb102-0501-4c07-bfde-7330084a1e96",
@@ -3614,7 +4136,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-68",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-68"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-68",
+    "dexNumbers": [
+      417
+    ]
   },
   {
     "id": "d50f19ca-79b2-4034-9ab1-ad30a425c5e0",
@@ -3634,7 +4159,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-42",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-42"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-42",
+    "dexNumbers": [
+      362
+    ]
   },
   {
     "id": "803bee01-e7f3-48e3-be65-1e1b78c30c8f",
@@ -3654,7 +4182,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-94",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-94"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-94",
+    "dexNumbers": [
+      903
+    ]
   },
   {
     "id": "14980af8-1602-4053-8000-4d87edd74b3a",
@@ -3674,7 +4205,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-85",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-85"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-85",
+    "dexNumbers": [
+      468
+    ]
   },
   {
     "id": "d622eecf-9c94-411f-bb6b-bb246a00c209",
@@ -3694,7 +4228,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv9-60",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-60"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-60",
+    "dexNumbers": [
+      354
+    ]
   },
   {
     "id": "a2a3e0e6-17c8-40e7-8de9-b1fcfccfb9ba",
@@ -3714,7 +4251,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-150",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-150"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-150",
+    "dexNumbers": [
+      595
+    ]
   },
   {
     "id": "f2055cad-58b6-4e14-9227-3ee54aea5a5d",
@@ -3734,7 +4274,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-40",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-40"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-40",
+    "dexNumbers": [
+      350
+    ]
   },
   {
     "id": "11a5041f-3902-47ba-82db-718945bba58a",
@@ -3754,7 +4297,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH284",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swshp-SWSH284"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swshp-SWSH284",
+    "dexNumbers": [
+      146
+    ]
   },
   {
     "id": "648a761d-0a9a-41cd-9b31-7e1bd824b293",
@@ -3774,7 +4320,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-148",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-148"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-148",
+    "dexNumbers": [
+      624
+    ]
   },
   {
     "id": "1e8d6913-4525-40a4-907d-e6851294ff9e",
@@ -3794,7 +4343,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-26"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-26",
+    "dexNumbers": [
+      813
+    ]
   },
   {
     "id": "3c43e6e9-2d00-447a-8574-ff19e2f8dec3",
@@ -3814,7 +4366,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-13"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-13",
+    "dexNumbers": [
+      6
+    ]
   },
   {
     "id": "2b2310fd-b029-44d2-b1b1-5d72cf81f7fd",
@@ -3834,7 +4389,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh35-3",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-3"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh35-3",
+    "dexNumbers": [
+      14
+    ]
   },
   {
     "id": "1eea42ec-6081-4318-ad24-d01053de297e",
@@ -3854,7 +4412,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-2",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-2"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-2",
+    "dexNumbers": [
+      49
+    ]
   },
   {
     "id": "84e4a795-50b3-4ad9-a7f7-f571fec337ae",
@@ -3874,7 +4435,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-30",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-30"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-30",
+    "dexNumbers": [
+      663
+    ]
   },
   {
     "id": "947be1ad-7978-4ba0-b0c0-1180891b7968",
@@ -3894,7 +4458,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-90",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-90"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-90",
+    "dexNumbers": [
+      426
+    ]
   },
   {
     "id": "e4ac793a-9589-43fc-a922-15c10b45ceab",
@@ -3914,7 +4481,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me3-98"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me3-98",
+    "dexNumbers": [
+      680
+    ]
   },
   {
     "id": "f1e0dbf7-5c83-45bd-ad40-3402a71f29af",
@@ -3934,7 +4504,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-157",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-157"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-157",
+    "dexNumbers": [
+      815
+    ]
   },
   {
     "id": "797e0d89-e4b4-4baf-bedc-f9dc3db37a43",
@@ -3954,7 +4527,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv8-48",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-48"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-48",
+    "dexNumbers": [
+      646
+    ]
   },
   {
     "id": "cf946f76-1457-4acb-9786-980ae9c21696",
@@ -3974,7 +4550,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh7-5",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-5"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-5",
+    "dexNumbers": [
+      273
+    ]
   },
   {
     "id": "de12a332-bbe5-41fd-aacd-d05944928823",
@@ -3994,7 +4573,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/pgo-19",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-19"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-19",
+    "dexNumbers": [
+      79
+    ]
   },
   {
     "id": "fd61a01b-21ce-43f2-a81e-60b4b21c2d77",
@@ -4014,7 +4596,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-52",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-52"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-52",
+    "dexNumbers": [
+      25
+    ]
   },
   {
     "id": "0b7c1d3e-8af2-4a47-a63a-5467cee7a3ff",
@@ -4034,7 +4619,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-109",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-109"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-109",
+    "dexNumbers": [
+      410
+    ]
   },
   {
     "id": "34a12d15-6565-444a-a95b-ae1af71c973e",
@@ -4054,7 +4642,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/mcd22-15",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/mcd22-15"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/mcd22-15",
+    "dexNumbers": [
+      235
+    ]
   },
   {
     "id": "32339dc1-3d2f-4ab8-8930-976f0c08a189",
@@ -4074,7 +4665,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-57",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-57"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-57",
+    "dexNumbers": [
+      657
+    ]
   },
   {
     "id": "03755ee8-158a-4925-9f43-6bcaa26b6ac4",
@@ -4094,7 +4688,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-96",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-96"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-96",
+    "dexNumbers": [
+      707
+    ]
   },
   {
     "id": "8f3cb0d2-ed6e-4205-9836-142092036890",
@@ -4114,7 +4711,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-9",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-9"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-9",
+    "dexNumbers": [
+      401
+    ]
   },
   {
     "id": "0f46007e-6a8b-4337-abc0-b51e2cf8c21e",
@@ -4134,7 +4734,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sm2-16",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sm2-16"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sm2-16",
+    "dexNumbers": [
+      758
+    ]
   },
   {
     "id": "21b41cc0-7d05-4314-b936-b0a0161b4a58",
@@ -4154,7 +4757,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-108",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-108"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-108",
+    "dexNumbers": [
+      444
+    ]
   },
   {
     "id": "2e4d911b-172d-4c7c-ab0b-5360a126e343",
@@ -4174,7 +4780,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-2",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-2"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-2",
+    "dexNumbers": [
+      165
+    ]
   },
   {
     "id": "b1f5df54-92ac-407e-b6f1-646e67b3965f",
@@ -4194,7 +4803,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-77"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-77",
+    "dexNumbers": [
+      40
+    ]
   },
   {
     "id": "2ddbbfec-c53a-4d98-ac7b-9774d2a1f734",
@@ -4214,7 +4826,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh45-50",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh45-50"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh45-50",
+    "dexNumbers": [
+      132
+    ]
   },
   {
     "id": "d6c71aee-7800-42eb-8615-395420637b01",
@@ -4234,7 +4849,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh4-144",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-144"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh4-144",
+    "dexNumbers": [
+      732
+    ]
   },
   {
     "id": "99774a5a-f2a9-4933-bb82-e041c79937dd",
@@ -4254,7 +4872,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-15"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-15",
+    "dexNumbers": [
+      275
+    ]
   },
   {
     "id": "13db9dd8-5e07-4465-81c3-61800c6faf4c",
@@ -4274,7 +4895,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-161",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-161"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-161",
+    "dexNumbers": [
+      15
+    ]
   },
   {
     "id": "b8477ffc-606b-4c9c-8cde-8cc131aae32d",
@@ -4294,7 +4918,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-122",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-122"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-122",
+    "dexNumbers": [
+      216
+    ]
   },
   {
     "id": "ff1a78c8-9384-4bdf-b551-17fcda11c24c",
@@ -4314,7 +4941,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-24",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-24"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-24",
+    "dexNumbers": [
+      643
+    ]
   },
   {
     "id": "50490fc1-0d3e-48e8-a43e-37d62d7991a1",
@@ -4334,7 +4964,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12tg-TG19",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12tg-TG19"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12tg-TG19",
+    "dexNumbers": [
+      823
+    ]
   },
   {
     "id": "aa060fa4-8ae5-49ad-94d9-8ea5120d4e1a",
@@ -4354,7 +4987,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-16",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-16"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-16",
+    "dexNumbers": [
+      761
+    ]
   },
   {
     "id": "c6d3d73f-d88b-439c-ac18-e53ce53e1b7d",
@@ -4374,7 +5010,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-20",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-20"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-20",
+    "dexNumbers": [
+      723
+    ]
   },
   {
     "id": "2526a38b-490f-4510-b752-d79b7fc52f79",
@@ -4394,7 +5033,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-33",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-33"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-33",
+    "dexNumbers": [
+      156
+    ]
   },
   {
     "id": "ab9359a4-7668-4379-bc9c-6cd92c51ee6c",
@@ -4414,7 +5056,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-155",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-155"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-155",
+    "dexNumbers": [
+      915
+    ]
   },
   {
     "id": "5e8ed59c-d46e-4f93-94f8-3213f524babc",
@@ -4434,7 +5079,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh6-47",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh6-47"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh6-47",
+    "dexNumbers": [
+      179
+    ]
   },
   {
     "id": "77ff0b3c-786f-4682-8ba1-4b2370f18112",
@@ -4454,7 +5102,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-144",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-144"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-144",
+    "dexNumbers": [
+      427
+    ]
   },
   {
     "id": "341e5c30-b3df-49a7-bb92-37afbb7f0296",
@@ -4474,7 +5125,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-247",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-247"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-247",
+    "dexNumbers": [
+      1007
+    ]
   },
   {
     "id": "016e7cd4-ad89-4421-a23f-7bd13c9555b7",
@@ -4494,7 +5148,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-58",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-58"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-58",
+    "dexNumbers": [
+      996
+    ]
   },
   {
     "id": "fb091b15-4902-4f2b-9f29-12a14093f6d0",
@@ -4514,7 +5171,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-67",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-67"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-67",
+    "dexNumbers": [
+      368
+    ]
   },
   {
     "id": "0895cb87-040c-4507-9c5e-657007683e0f",
@@ -4534,7 +5194,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-29",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-29"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-29",
+    "dexNumbers": [
+      55
+    ]
   },
   {
     "id": "3fce089c-d17b-43d3-994f-0b1ec94a4b9b",
@@ -4554,7 +5217,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-79"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-79",
+    "dexNumbers": [
+      454
+    ]
   },
   {
     "id": "4dd8e3f3-9c68-47b8-99e5-90035a9b9cfc",
@@ -4574,7 +5240,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-109",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-109"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-109",
+    "dexNumbers": [
+      453
+    ]
   },
   {
     "id": "65884fd5-e115-4c93-a822-299721e7f161",
@@ -4594,7 +5263,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh9-7",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-7"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-7",
+    "dexNumbers": [
+      388
+    ]
   },
   {
     "id": "c1b71d5f-c0e4-47d6-9ac7-ee4f08d02c41",
@@ -4614,7 +5286,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-147",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-147"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-147",
+    "dexNumbers": [
+      814
+    ]
   },
   {
     "id": "a4ef09c9-1870-4832-b81f-835c70b7253e",
@@ -4634,7 +5309,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-25",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-25"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-25",
+    "dexNumbers": [
+      776
+    ]
   },
   {
     "id": "54b2b2cf-c3d9-4595-8cb2-be683684dae5",
@@ -4654,7 +5332,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-100",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-100"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-100",
+    "dexNumbers": [
+      770
+    ]
   },
   {
     "id": "36dab582-9788-4e2a-9fe6-36b725c2fa07",
@@ -4674,7 +5355,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5-75",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-75"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-75",
+    "dexNumbers": [
+      109
+    ]
   },
   {
     "id": "2f27f889-f386-4787-9e03-3fa062a34811",
@@ -4694,7 +5378,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sm8-122",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sm8-122"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sm8-122",
+    "dexNumbers": [
+      50
+    ]
   },
   {
     "id": "aeb9b3fa-47e2-490b-af92-f18775649345",
@@ -4714,7 +5401,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-61",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-61"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-61",
+    "dexNumbers": [
+      963
+    ]
   },
   {
     "id": "1e29ee09-a38c-4223-a50c-61dd769f1dc6",
@@ -4734,7 +5424,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-181",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-181"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-181",
+    "dexNumbers": [
+      863
+    ]
   },
   {
     "id": "831e2a08-7041-4acd-84ee-8d36a95ab546",
@@ -4754,7 +5447,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-84",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-84"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-84",
+    "dexNumbers": [
+      685
+    ]
   },
   {
     "id": "60e2e626-ebef-4e26-b04a-8acd2fa944f9",
@@ -4774,7 +5470,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-35",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-35"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-35",
+    "dexNumbers": [
+      139
+    ]
   },
   {
     "id": "96544249-ec1b-4ffe-97b5-96ed770185cf",
@@ -4794,7 +5493,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-125",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-125"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-125",
+    "dexNumbers": [
+      1007
+    ]
   },
   {
     "id": "11dd3b7e-fc0c-4c56-a60b-19b69a9c5789",
@@ -4814,7 +5516,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-225",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-225"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-225",
+    "dexNumbers": [
+      18
+    ]
   },
   {
     "id": "7f426c9e-b9d0-4d3e-af9a-9e4b1cb6e1bb",
@@ -4834,7 +5539,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10-70",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-70"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-70",
+    "dexNumbers": [
+      58
+    ]
   },
   {
     "id": "2f2bde37-77af-46e8-8913-3918fb31699f",
@@ -4854,7 +5562,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/pgo-16",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-16"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-16",
+    "dexNumbers": [
+      8
+    ]
   },
   {
     "id": "d9d3f622-6159-4b7d-a1f9-913b6167ad06",
@@ -4874,7 +5585,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv4-24",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4-24"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4-24",
+    "dexNumbers": [
+      910
+    ]
   },
   {
     "id": "26abc983-bec3-447e-a5c1-851bdf187b10",
@@ -4894,7 +5608,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-2"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-2",
+    "dexNumbers": [
+      44
+    ]
   },
   {
     "id": "cd471eb8-60c8-45d0-a96e-8bdffb27895b",
@@ -4914,7 +5631,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv10-130",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-130"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-130",
+    "dexNumbers": [
+      509
+    ]
   },
   {
     "id": "85667233-f0c9-40bd-8837-46cd7e221c92",
@@ -4934,7 +5654,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-98",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-98"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-98",
+    "dexNumbers": [
+      297
+    ]
   },
   {
     "id": "459deffa-bca8-4d16-8cce-9e8d6ad4c036",
@@ -4954,7 +5677,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-26",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-26"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-26",
+    "dexNumbers": [
+      77
+    ]
   },
   {
     "id": "6e55adf4-5369-4d6e-b364-49cd70e0141f",
@@ -4974,7 +5700,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-138",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-138"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-138",
+    "dexNumbers": [
+      962
+    ]
   },
   {
     "id": "6d0f4aa2-a581-486a-badf-e0a26c00cb7d",
@@ -4994,7 +5723,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv3-76",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-76"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-76",
+    "dexNumbers": [
+      938
+    ]
   },
   {
     "id": "ba945952-f1f5-4124-9c4b-a68e65b0445c",
@@ -5014,7 +5746,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-9",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-9"
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-9",
+    "dexNumbers": [
+      665
+    ]
   },
   {
     "id": "b9e9ed13-efa2-402b-8233-98a8ec42c9e8",
