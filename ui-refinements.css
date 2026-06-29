@@ -1,0 +1,140 @@
+/* Extra UI polish for the mobile card workflow */
+.price-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-top: 10px;
+  font-size: .86rem;
+}
+.price-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 4px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+.collection-card {
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.collection-card:hover,
+.collection-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(38,113,217,.45);
+  box-shadow: 0 16px 38px rgba(23,32,42,.13);
+  outline: none;
+}
+.real-card-image {
+  width: 100% !important;
+  height: 210px !important;
+  margin: 8px auto 12px !important;
+  object-fit: contain !important;
+}
+.card-placeholder {
+  display: grid;
+  place-items: center;
+  gap: 6px;
+  width: 100%;
+  min-height: 210px;
+  margin: 8px auto 12px;
+  padding: 16px;
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,.65), rgba(247,249,251,.9));
+  text-align: center;
+}
+.card-placeholder span {
+  color: var(--ink);
+  font-weight: 900;
+}
+.card-placeholder small {
+  color: var(--muted);
+}
+.card-mini {
+  border: 1px dashed var(--line);
+  border-radius: 7px;
+  background: linear-gradient(180deg, #fff, var(--paper));
+}
+.detail-card-image {
+  width: min(310px, 78vw) !important;
+  height: auto !important;
+  max-height: 70vh;
+  object-fit: contain !important;
+}
+.card-detail-view {
+  grid-template-columns: minmax(210px, 320px) minmax(0, 1fr);
+  align-items: start;
+}
+.detail-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+#setDialog {
+  width: min(1120px, calc(100vw - 24px));
+  max-height: calc(100dvh - 28px);
+  overflow: auto;
+  border-radius: 18px;
+}
+.set-dialog-view {
+  padding: 26px;
+}
+.set-dialog-view > .set-cards-grid {
+  margin-top: 16px;
+}
+.search-panel {
+  margin-bottom: 14px;
+}
+.nav-tabs {
+  scrollbar-width: none;
+}
+.nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 900px) {
+  .nav-tabs {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+  }
+  .nav-tab {
+    min-width: 64px;
+  }
+  .real-card-image {
+    height: 168px !important;
+  }
+  .card-placeholder {
+    min-height: 168px;
+  }
+  .card-detail-view {
+    grid-template-columns: 1fr;
+  }
+  .detail-card-image {
+    width: min(330px, 82vw) !important;
+    margin: 0 auto !important;
+  }
+  .set-dialog-view {
+    padding: 20px 12px 14px;
+  }
+  #setDialog {
+    width: calc(100vw - 12px);
+    max-width: calc(100vw - 12px);
+    max-height: calc(100svh - 18px);
+  }
+}
+@media (max-width: 390px) {
+  .real-card-image {
+    height: 145px !important;
+  }
+  .card-placeholder {
+    min-height: 145px;
+  }
+  .nav-tab {
+    min-width: 58px;
+  }
+}
