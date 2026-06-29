@@ -23,7 +23,6 @@
         <button class="nav-tab" data-view="sets" type="button"><span class="nav-icon">🗂️</span><span class="nav-label">Sets</span></button>
         <button class="nav-tab" data-view="wishlist" type="button"><span class="nav-icon">⭐</span><span class="nav-label">Wishlist</span></button>
         <button class="nav-tab" data-view="pokedex" type="button"><span class="nav-icon">📖</span><span class="nav-label">Pokédex</span></button>
-        <button class="nav-tab" data-view="manage" type="button"><span class="nav-icon">⚙️</span><span class="nav-label">Beheer</span></button>
       </nav>
       <div class="storage-box"><span>Lokale opslag</span><strong>Actief</strong></div>
     </aside>
@@ -92,28 +91,19 @@
         <div id="setsGrid" class="sets-grid"></div>
       </section>
 
-      <section id="wishlist" class="view"><div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="wishlistSearch" type="search" placeholder="Zoek in je wishlist" /></div></div><div id="wishlistGrid" class="card-grid"></div></section>
+      <section id="wishlist" class="view">
+        <div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="wishlistSearch" type="search" placeholder="Zoek in je wishlist" /></div></div>
+        <div id="wishlistGrid" class="card-grid"></div>
+      </section>
 
-      <section id="pokedex" class="view"><div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="pokedexSearch" type="search" placeholder="Zoek Pokémon" /></div><select id="pokedexType" aria-label="Pokedex type"><option value="all">Alle types</option></select></div><div id="pokedexGrid" class="pokedex-grid"></div></section>
-
-      <section id="manage" class="view">
-        <div class="manage-layout">
-          <form id="cardForm" class="editor-panel">
-            <h2>Kaart handmatig toevoegen</h2>
-            <div class="form-grid">
-              <label>Pokémon<input name="pokemon" required placeholder="Pikachu" /></label>
-              <label>Set<input name="set" required placeholder="Scarlet & Violet" /></label>
-              <label>Nummer<input name="number" placeholder="025/198" /></label>
-              <label>Zeldzaamheid<select name="rarity"><option>Common</option><option>Uncommon</option><option>Rare</option><option>Holo Rare</option><option>Ultra Rare</option><option>Secret Rare</option></select></label>
-              <label>Conditie<select name="condition"><option>Near Mint</option><option>Excellent</option><option>Good</option><option>Played</option></select></label>
-              <label>Aantal<input name="quantity" type="number" min="1" value="1" /></label>
-              <label>Status<select name="status"><option value="owned">In collectie</option><option value="wishlist">Wishlist</option></select></label>
-              <label>Collectie<select name="collection"><option value="Lars">Lars</option><option value="Lore">Lore</option></select></label>
-            </div>
-            <button class="primary-action" type="submit">Toevoegen</button>
-          </form>
-          <section class="panel"><div class="panel-heading"><h2>Beheerregels</h2><button id="resetBtn" class="danger-action" type="button">Reset</button></div><div id="manageList" class="manage-list"></div></section>
+      <section id="pokedex" class="view">
+        <div class="tool-strip pokedex-tools">
+          <div class="search-box"><span>Zoek</span><input id="pokedexSearch" type="search" placeholder="Zoek Pokémon" /></div>
+          <select id="pokedexType" aria-label="Pokedex type"><option value="all">Alle types</option></select>
+          <button id="pokedexGridMode" class="chip-button active" type="button">Kaarten</button>
+          <button id="pokedexBinderMode" class="chip-button" type="button">Binder view</button>
         </div>
+        <div id="pokedexGrid" class="pokedex-grid"></div>
       </section>
     </main>
   </div>
