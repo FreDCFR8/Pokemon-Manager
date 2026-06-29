@@ -1,5 +1,25 @@
 [
   {
+    "id": "f7fc8141-4cea-40f2-9d26-afdb97d017ac",
+    "pokemon": "Ivysaur",
+    "set": "Mega Evolution",
+    "number": "134",
+    "rarity": "Illustration Rare",
+    "condition": "Near Mint",
+    "quantity": 1,
+    "imageSmall": "https://images.pokemontcg.io/me1/134.png",
+    "imageLarge": "https://images.pokemontcg.io/me1/134_hires.png",
+    "tcgId": "me1-134",
+    "types": [
+      "Grass"
+    ],
+    "status": "owned",
+    "collection": "Lars",
+    "addedAt": "2026-06-29",
+    "cardmarketUrl": "",
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-134"
+  },
+  {
     "id": "6b3f202a-91ce-47db-8290-51a73524d321",
     "pokemon": "Beedrill V",
     "set": "Astral Radiance",
