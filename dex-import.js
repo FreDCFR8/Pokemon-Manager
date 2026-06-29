@@ -1,5 +1,34 @@
 (() => {
   const TCG_API_IMPORT = "https://api.pokemontcg.io/v2";
+  const DEX_SET_ALIASES = {
+    sv35: "sv3pt5",
+    sv45: "sv4pt5",
+    sv85: "sv8pt5",
+    sv105b: "zsv10pt5",
+    sv105w: "rsv10pt5",
+    me25: "me2pt5"
+  };
+  const DEX_CARD_FALLBACKS = {
+    "mep-10": ["Riolu", "Mega Evolution Black Star Promos", "10", "Promo", ["Fighting"], [447]],
+    "mep-11": ["Mega Latias ex", "Mega Evolution Black Star Promos", "11", "Promo", ["Dragon"], [380]],
+    "mep-22": ["Charcadet", "Mega Evolution Black Star Promos", "22", "Promo", ["Fire"], [935]],
+    "mep-80": ["Fennekin", "Mega Evolution Black Star Promos", "80", "Promo", ["Fire"], [653]],
+    "mcd23-2": ["Fuecoco", "McDonald's Collection 2023", "2/15", "Promo", ["Fire"], [909]],
+    "mcd23-3": ["Quaxly", "McDonald's Collection 2023", "3/15", "Promo", ["Water"], [912]],
+    "mcd23-5": ["Cetitan", "McDonald's Collection 2023", "5/15", "Promo", ["Water"], [975]],
+    "mcd23-6": ["Pikachu", "McDonald's Collection 2023", "6/15", "Promo", ["Lightning"], [25]],
+    "mcd24-1": ["Charizard", "McDonald's Collection 2024", "1/15", "Promo", ["Fire"], [6]],
+    "mcd24-2": ["Pikachu", "McDonald's Collection 2024", "2/15", "Promo", ["Lightning"], [25]],
+    "mcd24-6": ["Dragapult", "McDonald's Collection 2024", "6/15", "Promo", ["Psychic"], [887]],
+    "mcd19fr-20": ["Pikachu", "McDonald's Collection 2019 (French)", "20/40", "Promo", ["Lightning"], [25]],
+    "ba22c-13": ["Vulpix", "Battle Academy 2022 (Cinderace)", "029/264 (#13)", "Common", ["Fire"], [37]],
+    "ba22c-18": ["Vulpix", "Battle Academy 2022 (Cinderace)", "029/264 (#18)", "Common", ["Fire"], [37]],
+    "ba22c-31": ["Vulpix", "Battle Academy 2022 (Cinderace)", "029/264 (#31)", "Common", ["Fire"], [37]],
+    "ba22p-60": ["Pikachu V", "Battle Academy 2022 (Pikachu)", "043/185 (#60)", "Rare Holo V", ["Lightning"], [25]],
+    "cclb-10": ["Suicune ex", "Pokémon TCG Classic (Blastoise)", "010/034", "Double Rare", ["Water"], [245]],
+    "svp-209": ["Thundurus", "Scarlet & Violet Black Star Promos", "209", "Promo", ["Lightning"], [642]],
+    "svp-212": ["Reuniclus", "Scarlet & Violet Black Star Promos", "212", "Promo", ["Psychic"], [579]]
+  };
 
   function isDexBackup(data) {
     return data && !Array.isArray(data) && Array.isArray(data.ownedCards);
@@ -18,15 +47,62 @@
     if (status) status.textContent = message;
   }
 
+  function normalizedDexId(id) {
+    const separator = String(id).lastIndexOf("-");
+    if (separator < 1) return String(id);
+    const setId = String(id).slice(0, separator);
+    return `${DEX_SET_ALIASES[setId] || setId}-${String(id).slice(separator + 1)}`;
+  }
+
+  function fallbackCardDetails(id) {
+    const entry = DEX_CARD_FALLBACKS[id];
+    if (!entry) return null;
+    const setId = String(id).slice(0, String(id).lastIndexOf("-"));
+    const image = `https://images.pokemoncard.io/images/${setId}/${id}.png`;
+    return {
+      id,
+      name: entry[0],
+      set: { name: entry[1] },
+      number: entry[2],
+      rarity: entry[3],
+      types: entry[4],
+      nationalPokedexNumbers: entry[5],
+      images: { small: image, large: image }
+    };
+  }
+
   async function fetchCardDetails(id) {
-    try {
-      const response = await fetch(`${TCG_API_IMPORT}/cards/${encodeURIComponent(id)}`);
-      if (!response.ok) throw new Error(String(response.status));
-      const payload = await response.json();
-      return payload.data || null;
-    } catch (error) {
-      return null;
+    const apiId = normalizedDexId(id);
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      try {
+        const response = await fetch(`${TCG_API_IMPORT}/cards/${encodeURIComponent(apiId)}`);
+        if (response.ok) {
+          const payload = await response.json();
+          return payload.data || fallbackCardDetails(id);
+        }
+        if (response.status !== 429 && response.status < 500) break;
+      } catch (error) {
+        // A short retry handles temporary API/network failures during large imports.
+      }
+      await new Promise(resolve => setTimeout(resolve, 400 * (attempt + 1)));
     }
+    return fallbackCardDetails(id);
+  }
+
+  function applyCardDetails(card, detail, sourceId) {
+    card.pokemon = detail.name;
+    card.set = detail.set ? detail.set.name : card.set;
+    card.number = detail.number || card.number;
+    card.rarity = detail.rarity || "Onbekend";
+    card.imageSmall = detail.images ? detail.images.small || "" : "";
+    card.imageLarge = detail.images ? detail.images.large || "" : "";
+    card.tcgId = detail.id || sourceId;
+    card.dexSourceId = sourceId;
+    card.dexNumbers = Array.isArray(detail.nationalPokedexNumbers) ? detail.nationalPokedexNumbers : [];
+    card.types = detail.types || [];
+    card.cardmarketUrl = detail.cardmarket ? detail.cardmarket.url || "" : "";
+    card.tcgplayerUrl = detail.tcgplayer ? detail.tcgplayer.url || "" : "";
+    return card;
   }
 
   async function convertDexBackup(data) {
@@ -40,27 +116,58 @@
       const detail = await fetchCardDetails(item.id);
       const qty = totalQuantity(item);
       const fallbackSet = String(item.id).split("-")[0] || "Onbekende set";
-      converted.push({
+      const convertedCard = {
         id: newId(),
-        pokemon: detail ? detail.name : item.id,
-        set: detail && detail.set ? detail.set.name : fallbackSet,
-        number: detail ? detail.number : item.id,
-        rarity: detail && detail.rarity ? detail.rarity : "Onbekend",
+        pokemon: item.id,
+        set: fallbackSet,
+        number: item.id,
+        rarity: "Onbekend",
         condition: "Near Mint",
         quantity: qty,
-        imageSmall: detail && detail.images ? detail.images.small || "" : "",
-        imageLarge: detail && detail.images ? detail.images.large || "" : "",
+        imageSmall: "",
+        imageLarge: "",
         tcgId: item.id,
-        dexNumbers: detail && Array.isArray(detail.nationalPokedexNumbers) ? detail.nationalPokedexNumbers : [],
-        types: detail && detail.types ? detail.types : [],
+        dexSourceId: item.id,
+        dexNumbers: [],
+        types: [],
         status: "owned",
         collection: owner,
         addedAt: new Date().toISOString().slice(0, 10),
-        cardmarketUrl: detail && detail.cardmarket ? detail.cardmarket.url || "" : "",
-        tcgplayerUrl: detail && detail.tcgplayer ? detail.tcgplayer.url || "" : ""
-      });
+        cardmarketUrl: "",
+        tcgplayerUrl: ""
+      };
+      converted.push(detail ? applyCardDetails(convertedCard, detail, item.id) : convertedCard);
     }
     return converted;
+  }
+
+  function needsDexRepair(card) {
+    return card && card.tcgId && (
+      card.rarity === "Onbekend" ||
+      !card.imageSmall ||
+      card.pokemon === card.tcgId
+    );
+  }
+
+  async function repairUnknownDexCards() {
+    const unknown = cards.filter(needsDexRepair);
+    if (!unknown.length) return;
+    let repaired = 0;
+    for (let index = 0; index < unknown.length; index += 1) {
+      const card = unknown[index];
+      const sourceId = card.dexSourceId || card.tcgId;
+      setImportStatus(`Onbekende kaarten koppelen: ${index + 1}/${unknown.length}`);
+      const detail = await fetchCardDetails(sourceId);
+      if (detail) {
+        applyCardDetails(card, detail, sourceId);
+        repaired += 1;
+      }
+    }
+    if (repaired) {
+      saveCards();
+      render();
+    }
+    setImportStatus(`${repaired} onbekende kaarten gekoppeld${repaired < unknown.length ? `; ${unknown.length - repaired} niet gevonden` : ""}.`);
   }
 
   async function handleImportFile(event) {
@@ -117,4 +224,5 @@
   }
 
   installDexImporter();
+  repairUnknownDexCards();
 })();
