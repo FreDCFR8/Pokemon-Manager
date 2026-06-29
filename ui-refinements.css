@@ -132,18 +132,19 @@ input {
   color: rgba(255,255,255,.72);
   font-size: .86rem;
 }
-.binder-slots {
+.binder-slots,
+.binder-slots-20 {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 9px;
 }
 .binder-slot {
   position: relative;
   display: grid;
   align-content: start;
   min-width: 0;
-  min-height: 190px;
-  padding: 8px;
+  min-height: 160px;
+  padding: 7px;
   border: 1px solid rgba(255,255,255,.20);
   border-radius: 12px;
   background: rgba(255,255,255,.12);
@@ -153,9 +154,9 @@ input {
 }
 .binder-slot img {
   width: 100%;
-  height: 132px;
+  height: 104px;
   object-fit: contain;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 .binder-slot strong,
 .binder-slot small {
@@ -165,32 +166,32 @@ input {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.binder-slot strong { font-size: .86rem; }
-.binder-slot small { color: rgba(255,255,255,.68); font-size: .72rem; }
+.binder-slot strong { font-size: .74rem; }
+.binder-slot small { color: rgba(255,255,255,.68); font-size: .62rem; }
 .binder-number {
   position: absolute;
-  top: 7px;
-  left: 7px;
+  top: 6px;
+  left: 6px;
   z-index: 2;
-  padding: 2px 6px;
+  padding: 2px 5px;
   border-radius: 999px;
   background: rgba(23,32,42,.72);
   color: #fff;
-  font-size: .68rem;
+  font-size: .58rem;
   font-weight: 900;
 }
 .binder-missing {
   display: grid;
   place-items: center;
-  height: 132px;
-  margin-bottom: 6px;
-  padding: 10px;
+  height: 104px;
+  margin-bottom: 5px;
+  padding: 7px;
   border: 1px dashed rgba(255,255,255,.34);
   border-radius: 10px;
   background: linear-gradient(180deg, color-mix(in srgb, var(--type-color) 28%, transparent), rgba(255,255,255,.06));
   text-align: center;
   color: rgba(255,255,255,.76);
-  font-size: .75rem;
+  font-size: .65rem;
   font-weight: 800;
 }
 .empty-slot {
@@ -202,9 +203,7 @@ input {
     overflow-x: hidden;
     overscroll-behavior-x: contain;
   }
-  .nav-tab {
-    min-width: 0;
-  }
+  .nav-tab { min-width: 0; }
   .real-card-image { height: 168px !important; }
   .card-placeholder { min-height: 168px; }
   .card-detail-view { grid-template-columns: 1fr; }
@@ -219,25 +218,28 @@ input {
     max-height: calc(100svh - 18px);
   }
   .binder-view { gap: 14px; }
-  .binder-page { padding: 10px; border-radius: 16px; }
-  .binder-slots { gap: 7px; }
+  .binder-page { padding: 8px; border-radius: 16px; }
+  .binder-slots,
+  .binder-slots-20 { gap: 5px; }
   .binder-slot {
-    min-height: 148px;
-    padding: 6px;
-    border-radius: 10px;
+    min-height: 116px;
+    padding: 4px;
+    border-radius: 9px;
   }
   .binder-slot img,
-  .binder-missing {
-    height: 98px;
-  }
-  .binder-slot strong { font-size: .72rem; }
-  .binder-slot small { font-size: .62rem; }
+  .binder-missing { height: 76px; }
+  .binder-slot strong { font-size: .58rem; }
+  .binder-slot small { font-size: .50rem; }
+  .binder-number { font-size: .48rem; padding: 1px 4px; }
 }
 @media (max-width: 390px) {
   .real-card-image { height: 145px !important; }
   .card-placeholder { min-height: 145px; }
-  .binder-slot { min-height: 132px; }
+  .binder-slots,
+  .binder-slots-20 { gap: 4px; }
+  .binder-slot { min-height: 106px; }
   .binder-slot img,
-  .binder-missing { height: 86px; }
-  .binder-number { font-size: .58rem; }
+  .binder-missing { height: 68px; }
+  .binder-slot strong { font-size: .52rem; }
+  .binder-slot small { display: none; }
 }
