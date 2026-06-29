@@ -1904,24 +1904,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh9-24"
   },
   {
-    "id": "3fca2542-fde0-416c-9410-27750c1d5758",
-    "pokemon": "ba22c-31",
-    "set": "ba22c",
-    "number": "ba22c-31",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "ba22c-31",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "c8b5d7be-5c7b-401b-9d5c-99a3bddc8eda",
     "pokemon": "Vulpix",
     "set": "Surging Sparks",
@@ -10196,24 +10178,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-199"
   },
   {
-    "id": "20755469-2a61-468b-b049-3d763a24a893",
-    "pokemon": "ba22c-13",
-    "set": "ba22c",
-    "number": "ba22c-13",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "ba22c-13",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "f5b0d5b5-7109-41c8-ab04-5455729ed296",
     "pokemon": "sv105w-77",
     "set": "sv105w",
@@ -12286,24 +12250,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv7-66",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-66"
-  },
-  {
-    "id": "74f805cb-f415-432f-98ea-083475c62ed8",
-    "pokemon": "ba22c-18",
-    "set": "ba22c",
-    "number": "ba22c-18",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "ba22c-18",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "cf475370-74a0-480c-bb66-68848bd6c711",
