@@ -11362,24 +11362,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-55"
   },
   {
-    "id": "45953125-428d-4447-a5a2-d58e1e5ea811",
-    "pokemon": "mcd23-6",
-    "set": "mcd23",
-    "number": "mcd23-6",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "mcd23-6",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "6779a29f-71fd-422e-8c26-330e226c5d93",
     "pokemon": "Slowking",
     "set": "Stellar Crown",
@@ -18974,24 +18956,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv6-118",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-118"
-  },
-  {
-    "id": "3ee7168f-218b-4a23-9fbd-0cf98e5deb9a",
-    "pokemon": "mcd23-5",
-    "set": "mcd23",
-    "number": "mcd23-5",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "mcd23-5",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "3b022322-56e3-4f6e-b3ec-9f86d68e54bb",
