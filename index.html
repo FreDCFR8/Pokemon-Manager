@@ -56,55 +56,11 @@
         </div>
       </section>
 
-      <section id="collection" class="view">
-        <div class="tool-strip">
-          <div class="search-box"><span>Zoek</span><input id="collectionSearch" type="search" placeholder="Zoek in je collectie" /></div>
-          <select id="typeFilter" aria-label="Filter op type"><option value="all">Alle types</option></select>
-          <select id="rarityFilter" aria-label="Filter op zeldzaamheid"><option value="all">Alle zeldzaamheden</option></select>
-          <button id="sortToggle" class="chip-button" type="button">Naam A-Z</button>
-        </div>
-        <div id="collectionGrid" class="card-grid"></div>
-      </section>
-
-      <section id="search" class="view">
-        <div class="editor-panel search-panel">
-          <h2>Kaart zoeken</h2>
-          <div class="form-grid">
-            <label>Naam kaart / Pokémon<input id="globalCardSearch" type="search" placeholder="Pikachu, Charizard, Mew..." /></label>
-            <label>Set bevat<input id="globalSetFilter" type="search" placeholder="151, Obsidian, Evolving..." /></label>
-            <label>Type<select id="globalTypeFilter"><option value="all">Alle types</option></select></label>
-            <label>Zeldzaamheid<select id="globalRarityFilter"><option value="all">Alle zeldzaamheden</option></select></label>
-          </div>
-          <button id="globalSearchBtn" class="primary-action" type="button">Zoek kaarten</button>
-        </div>
-        <div id="globalSearchStatus" class="set-status">Zoek via de Pokémon TCG API en voeg kaarten toe aan collectie of wishlist.</div>
-        <div id="globalSearchGrid" class="set-cards-grid"></div>
-      </section>
-
-      <section id="sets" class="view">
-        <div class="tool-strip">
-          <div class="search-box"><span>Zoek</span><input id="setSearch" type="search" placeholder="Zoek set, serie of jaar" /></div>
-          <select id="setSelect" aria-label="Kies set"><option value="">Set kiezen</option></select>
-          <button id="refreshSetsBtn" class="chip-button" type="button">Ververs sets</button>
-        </div>
-        <div id="setsStatus" class="set-status">Sets worden geladen...</div>
-        <div id="setsGrid" class="sets-grid"></div>
-      </section>
-
-      <section id="wishlist" class="view">
-        <div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="wishlistSearch" type="search" placeholder="Zoek in je wishlist" /></div></div>
-        <div id="wishlistGrid" class="card-grid"></div>
-      </section>
-
-      <section id="pokedex" class="view">
-        <div class="tool-strip pokedex-tools">
-          <div class="search-box"><span>Zoek</span><input id="pokedexSearch" type="search" placeholder="Zoek Pokémon" /></div>
-          <select id="pokedexType" aria-label="Pokedex type"><option value="all">Alle types</option></select>
-          <button id="pokedexGridMode" class="chip-button active" type="button">Kaarten</button>
-          <button id="pokedexBinderMode" class="chip-button" type="button">Binder view</button>
-        </div>
-        <div id="pokedexGrid" class="pokedex-grid"></div>
-      </section>
+      <section id="collection" class="view"><div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="collectionSearch" type="search" placeholder="Zoek in je collectie" /></div><select id="typeFilter" aria-label="Filter op type"><option value="all">Alle types</option></select><select id="rarityFilter" aria-label="Filter op zeldzaamheid"><option value="all">Alle zeldzaamheden</option></select><button id="sortToggle" class="chip-button" type="button">Naam A-Z</button></div><div id="collectionGrid" class="card-grid"></div></section>
+      <section id="search" class="view"><div class="editor-panel search-panel"><h2>Kaart zoeken</h2><div class="form-grid"><label>Naam kaart / Pokémon<input id="globalCardSearch" type="search" placeholder="Pikachu, Charizard, Mew..." /></label><label>Set bevat<input id="globalSetFilter" type="search" placeholder="151, Obsidian, Evolving..." /></label><label>Type<select id="globalTypeFilter"><option value="all">Alle types</option></select></label><label>Zeldzaamheid<select id="globalRarityFilter"><option value="all">Alle zeldzaamheden</option></select></label></div><button id="globalSearchBtn" class="primary-action" type="button">Zoek kaarten</button></div><div id="globalSearchStatus" class="set-status">Zoek via de Pokémon TCG API en voeg kaarten toe aan collectie of wishlist.</div><div id="globalSearchGrid" class="set-cards-grid"></div></section>
+      <section id="sets" class="view"><div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="setSearch" type="search" placeholder="Zoek set, serie of jaar" /></div><select id="setSelect" aria-label="Kies set"><option value="">Set kiezen</option></select><button id="refreshSetsBtn" class="chip-button" type="button">Ververs sets</button></div><div id="setsStatus" class="set-status">Sets worden geladen...</div><div id="setsGrid" class="sets-grid"></div></section>
+      <section id="wishlist" class="view"><div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="wishlistSearch" type="search" placeholder="Zoek in je wishlist" /></div></div><div id="wishlistGrid" class="card-grid"></div></section>
+      <section id="pokedex" class="view"><div class="tool-strip pokedex-tools"><div class="search-box"><span>Zoek</span><input id="pokedexSearch" type="search" placeholder="Zoek Pokémon" /></div><select id="pokedexType" aria-label="Pokedex type"><option value="all">Alle types</option></select><button id="pokedexGridMode" class="chip-button active" type="button">Kaarten</button><button id="pokedexBinderMode" class="chip-button" type="button">Binder view</button></div><div id="pokedexGrid" class="pokedex-grid"></div></section>
     </main>
   </div>
 
@@ -114,5 +70,6 @@
   <script src="./app.js"></script>
   <script src="./cloud-sync.js"></script>
   <script src="./dex-import.js"></script>
+  <script src="./pokedex-link-fix.js"></script>
 </body>
 </html>
