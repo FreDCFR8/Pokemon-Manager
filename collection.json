@@ -3178,24 +3178,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-114"
   },
   {
-    "id": "976a94a2-2ab2-4fa0-855d-d414be4097a7",
-    "pokemon": "mep-80",
-    "set": "mep",
-    "number": "mep-80",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "mep-80",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "0db7164c-6068-4206-b68f-1f86f2f47ac7",
     "pokemon": "Vanillite",
     "set": "Paradox Rift",
@@ -15536,24 +15518,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv4-148",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4-148"
-  },
-  {
-    "id": "e00f485b-49f2-4bd3-bf55-31649f983212",
-    "pokemon": "sv105b-100",
-    "set": "sv105b",
-    "number": "sv105b-100",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv105b-100",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "c180e449-f672-4b78-a9ff-c4e406ce7cf0",
