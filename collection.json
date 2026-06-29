@@ -476,24 +476,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv3-180"
   },
   {
-    "id": "685cec82-aa2e-4b90-b723-f13b0a7cce45",
-    "pokemon": "mcd24-6",
-    "set": "mcd24",
-    "number": "mcd24-6",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "mcd24-6",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "3d5af36d-9a7e-464d-902a-38ee383a8361",
     "pokemon": "Hitmonchan",
     "set": "Evolving Skies",
@@ -4892,24 +4874,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-2"
   },
   {
-    "id": "18174cda-f55a-4ff3-ad9f-c7c11be75153",
-    "pokemon": "me25-178",
-    "set": "me25",
-    "number": "me25-178",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "me25-178",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "cd471eb8-60c8-45d0-a96e-8bdffb27895b",
     "pokemon": "Marnie's Purrloin",
     "set": "Destined Rivals",
@@ -4948,24 +4912,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-98",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-98"
-  },
-  {
-    "id": "91af08ab-dc45-4ae3-9e7f-94f7275c890b",
-    "pokemon": "mcd24-2",
-    "set": "mcd24",
-    "number": "mcd24-2",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "mcd24-2",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "459deffa-bca8-4d16-8cce-9e8d6ad4c036",
@@ -5146,24 +5092,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh11-61",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-61"
-  },
-  {
-    "id": "6de39694-f7ea-432a-bc6f-cfcbfc031233",
-    "pokemon": "me25-107",
-    "set": "me25",
-    "number": "me25-107",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "me25-107",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "40fe9986-3a92-4e37-a20f-d6a74f452bde",
@@ -13514,24 +13442,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-43"
   },
   {
-    "id": "1e482bc6-b2ca-44b4-848a-957def0b15a6",
-    "pokemon": "me25-153",
-    "set": "me25",
-    "number": "me25-153",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "me25-153",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "4f577015-b39b-4cf3-a291-df7318ac17e6",
     "pokemon": "Yveltal",
     "set": "Mega Evolution",
@@ -13950,24 +13860,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12-149",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-149"
-  },
-  {
-    "id": "dbd62968-ea12-43de-9a12-13c7dda5a513",
-    "pokemon": "mcd23-2",
-    "set": "mcd23",
-    "number": "mcd23-2",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "mcd23-2",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "c0ef347d-5627-4f1b-9990-dda32428450d",
@@ -16468,24 +16360,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv9-22"
   },
   {
-    "id": "7b521fa5-f4e4-4e4c-ba47-b5d174546880",
-    "pokemon": "me25-225",
-    "set": "me25",
-    "number": "me25-225",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "me25-225",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "f5edec4b-4206-4de8-9716-2edf1c32907d",
     "pokemon": "Carnivine",
     "set": "Stellar Crown",
@@ -17106,24 +16980,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-101"
   },
   {
-    "id": "97c05152-f22c-4e56-9693-1057108d96d7",
-    "pokemon": "me25-150",
-    "set": "me25",
-    "number": "me25-150",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "me25-150",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "3835fa5f-2e58-49f1-811d-c70efbf7240e",
     "pokemon": "Ditto",
     "set": "Crown Zenith",
@@ -17242,24 +17098,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-126",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-126"
-  },
-  {
-    "id": "f9a825e6-394b-42d2-922e-0d357c27caae",
-    "pokemon": "mcd24-1",
-    "set": "mcd24",
-    "number": "mcd24-1",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "mcd24-1",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "44dc32c8-2f7a-49b0-bc94-0b522e855b7a",
@@ -17700,24 +17538,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv5-47",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-47"
-  },
-  {
-    "id": "5478bd73-4622-4b6e-a5c3-c815b4f4af6e",
-    "pokemon": "me25-137",
-    "set": "me25",
-    "number": "me25-137",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "me25-137",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "44196b98-29f8-4de7-b3bd-0dfbf0c5aa49",
