@@ -13,42 +13,23 @@
 </head>
 <body>
   <div class="app-shell">
-
-    <!-- ── Bottom nav (mobile) / Sidebar (desktop) ── -->
     <aside class="sidebar" aria-label="Hoofdnavigatie">
-      <div class="brand">
-        <div class="brand-mark"></div>
-        <div><strong>Pokemon Collection</strong><span>V2</span></div>
-      </div>
+      <div class="brand"><div class="brand-mark"></div><div><strong>Pokemon Collection</strong><span>V2</span></div></div>
       <nav class="nav-tabs" aria-label="Secties">
-        <button class="nav-tab active" data-view="dashboard" type="button">
-          <span class="nav-icon">📊</span><span class="nav-label">Dashboard</span>
-        </button>
-        <button class="nav-tab" data-view="collection" type="button">
-          <span class="nav-icon">📁</span><span class="nav-label">Collectie</span>
-        </button>
-        <button class="nav-tab" data-view="sets" type="button">
-          <span class="nav-icon">🗂️</span><span class="nav-label">Sets</span>
-        </button>
-        <button class="nav-tab" data-view="wishlist" type="button">
-          <span class="nav-icon">⭐</span><span class="nav-label">Wishlist</span>
-        </button>
-        <button class="nav-tab" data-view="pokedex" type="button">
-          <span class="nav-icon">📖</span><span class="nav-label">Pokédex</span>
-        </button>
-        <button class="nav-tab" data-view="manage" type="button">
-          <span class="nav-icon">⚙️</span><span class="nav-label">Beheer</span>
-        </button>
+        <button class="nav-tab active" data-view="dashboard" type="button"><span class="nav-icon">📊</span><span class="nav-label">Dashboard</span></button>
+        <button class="nav-tab" data-view="collection" type="button"><span class="nav-icon">📁</span><span class="nav-label">Collectie</span></button>
+        <button class="nav-tab" data-view="search" type="button"><span class="nav-icon">🔎</span><span class="nav-label">Zoeken</span></button>
+        <button class="nav-tab" data-view="sets" type="button"><span class="nav-icon">🗂️</span><span class="nav-label">Sets</span></button>
+        <button class="nav-tab" data-view="wishlist" type="button"><span class="nav-icon">⭐</span><span class="nav-label">Wishlist</span></button>
+        <button class="nav-tab" data-view="pokedex" type="button"><span class="nav-icon">📖</span><span class="nav-label">Pokédex</span></button>
+        <button class="nav-tab" data-view="manage" type="button"><span class="nav-icon">⚙️</span><span class="nav-label">Beheer</span></button>
       </nav>
       <div class="storage-box"><span>Lokale opslag</span><strong>Actief</strong></div>
     </aside>
 
     <main class="workspace">
       <header class="topbar">
-        <div>
-          <p class="eyebrow" id="viewKicker">Overzicht</p>
-          <h1 id="viewTitle">Dashboard</h1>
-        </div>
+        <div><p class="eyebrow" id="viewKicker">Overzicht</p><h1 id="viewTitle">Dashboard</h1></div>
         <div class="owner-card" aria-label="Collectie kiezen">
           <span class="owner-label">Actieve collectie</span>
           <div class="collection-switch">
@@ -58,39 +39,23 @@
         </div>
         <div class="top-actions">
           <button id="exportBtn" class="icon-button" type="button" title="Collectie exporteren" aria-label="Collectie exporteren">↓</button>
-          <label class="import-label" title="Collectie importeren">↑
-            <input id="importFile" type="file" accept="application/json" />
-          </label>
+          <label class="import-label" title="Collectie importeren">↑<input id="importFile" type="file" accept="application/json" /></label>
         </div>
       </header>
 
-      <!-- DASHBOARD -->
       <section id="dashboard" class="view active-view">
         <div class="metrics-grid">
           <div class="metric"><span>Kaarten</span><strong id="metricCards">0</strong></div>
-          <div class="metric"><span>Unieke Pokemon</span><strong id="metricPokemon">0</strong></div>
-          <div class="metric"><span>Totale waarde</span><strong id="metricValue">EUR 0</strong></div>
+          <div class="metric"><span>Unieke Pokémon</span><strong id="metricPokemon">0</strong></div>
+          <div class="metric"><span>Sets</span><strong id="metricSets">0</strong></div>
           <div class="metric"><span>Wishlist</span><strong id="metricWishlist">0</strong></div>
         </div>
         <div class="dashboard-grid">
-          <section class="panel">
-            <div class="panel-heading">
-              <h2>Collectiestatus</h2><span id="completionLabel">0%</span>
-            </div>
-            <div class="progress-track"><div id="completionBar" class="progress-bar"></div></div>
-            <div id="typeBreakdown" class="type-breakdown"></div>
-          </section>
-          <section class="panel">
-            <div class="panel-heading">
-              <h2>Nieuwste aanwinsten</h2>
-              <button class="text-action" data-view-link="collection" type="button">Bekijk</button>
-            </div>
-            <div id="recentList" class="compact-list"></div>
-          </section>
+          <section class="panel"><div class="panel-heading"><h2>Collectiestatus</h2><span id="completionLabel">0%</span></div><div class="progress-track"><div id="completionBar" class="progress-bar"></div></div><div id="typeBreakdown" class="type-breakdown"></div></section>
+          <section class="panel"><div class="panel-heading"><h2>Nieuwste aanwinsten</h2><button class="text-action" data-view-link="collection" type="button">Bekijk</button></div><div id="recentList" class="compact-list"></div></section>
         </div>
       </section>
 
-      <!-- COLLECTIE -->
       <section id="collection" class="view">
         <div class="tool-strip">
           <div class="search-box"><span>Zoek</span><input id="collectionSearch" type="search" placeholder="Zoek in je collectie" /></div>
@@ -101,105 +66,59 @@
         <div id="collectionGrid" class="card-grid"></div>
       </section>
 
-      <!-- SETS -->
+      <section id="search" class="view">
+        <div class="editor-panel search-panel">
+          <h2>Kaart zoeken</h2>
+          <div class="form-grid">
+            <label>Naam kaart / Pokémon<input id="globalCardSearch" type="search" placeholder="Pikachu, Charizard, Mew..." /></label>
+            <label>Set bevat<input id="globalSetFilter" type="search" placeholder="151, Obsidian, Evolving..." /></label>
+            <label>Type<select id="globalTypeFilter"><option value="all">Alle types</option></select></label>
+            <label>Zeldzaamheid<select id="globalRarityFilter"><option value="all">Alle zeldzaamheden</option></select></label>
+          </div>
+          <button id="globalSearchBtn" class="primary-action" type="button">Zoek kaarten</button>
+        </div>
+        <div id="globalSearchStatus" class="set-status">Zoek via de Pokémon TCG API en voeg kaarten toe aan collectie of wishlist.</div>
+        <div id="globalSearchGrid" class="set-cards-grid"></div>
+      </section>
+
       <section id="sets" class="view">
         <div class="tool-strip">
           <div class="search-box"><span>Zoek</span><input id="setSearch" type="search" placeholder="Zoek set, serie of jaar" /></div>
           <select id="setSelect" aria-label="Kies set"><option value="">Set kiezen</option></select>
           <button id="refreshSetsBtn" class="chip-button" type="button">Ververs sets</button>
         </div>
-        <div class="tool-strip card-search-strip">
-          <div class="search-box"><span>Kaart zoeken</span><input id="cardSearch" type="search" placeholder="Zoek op Pokemon, volledige naam of deel van de naam" /></div>
-          <button id="cardSearchBtn" class="chip-button" type="button">Zoek kaarten</button>
-        </div>
-        <div id="cardSearchStatus" class="set-status">Zoek naar een Pokemon om alle mogelijke kaarten te tonen.</div>
-        <div id="cardSearchGrid" class="set-cards-grid"></div>
         <div id="setsStatus" class="set-status">Sets worden geladen...</div>
-        <div class="sets-layout">
-          <div id="setsGrid" class="sets-grid"></div>
-          <section class="panel set-cards-panel">
-            <div class="panel-heading">
-              <h2 id="setCardsTitle">Kies een set</h2>
-              <span id="setProgressLabel">0/0</span>
-            </div>
-            <div class="progress-track"><div id="setProgressBar" class="progress-bar"></div></div>
-            <div id="setCardsGrid" class="set-cards-grid"></div>
-          </section>
-        </div>
+        <div id="setsGrid" class="sets-grid"></div>
       </section>
 
-      <!-- WISHLIST -->
-      <section id="wishlist" class="view">
-        <div class="tool-strip">
-          <div class="search-box"><span>Zoek</span><input id="wishlistSearch" type="search" placeholder="Zoek in je wishlist" /></div>
-        </div>
-        <div id="wishlistGrid" class="card-grid"></div>
-      </section>
+      <section id="wishlist" class="view"><div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="wishlistSearch" type="search" placeholder="Zoek in je wishlist" /></div></div><div id="wishlistGrid" class="card-grid"></div></section>
 
-      <!-- POKÉDEX -->
-      <section id="pokedex" class="view">
-        <div class="tool-strip">
-          <div class="search-box"><span>Zoek</span><input id="pokedexSearch" type="search" placeholder="Zoek Pokemon" /></div>
-          <select id="pokedexType" aria-label="Pokedex type"><option value="all">Alle types</option></select>
-        </div>
-        <div id="pokedexGrid" class="pokedex-grid"></div>
-      </section>
+      <section id="pokedex" class="view"><div class="tool-strip"><div class="search-box"><span>Zoek</span><input id="pokedexSearch" type="search" placeholder="Zoek Pokémon" /></div><select id="pokedexType" aria-label="Pokedex type"><option value="all">Alle types</option></select></div><div id="pokedexGrid" class="pokedex-grid"></div></section>
 
-      <!-- BEHEER -->
       <section id="manage" class="view">
         <div class="manage-layout">
           <form id="cardForm" class="editor-panel">
-            <h2>Kaart toevoegen</h2>
+            <h2>Kaart handmatig toevoegen</h2>
             <div class="form-grid">
-              <label>Pokemon<input name="pokemon" required placeholder="Pikachu" /></label>
+              <label>Pokémon<input name="pokemon" required placeholder="Pikachu" /></label>
               <label>Set<input name="set" required placeholder="Scarlet & Violet" /></label>
               <label>Nummer<input name="number" placeholder="025/198" /></label>
-              <label>Zeldzaamheid
-                <select name="rarity">
-                  <option>Common</option><option>Uncommon</option><option>Rare</option>
-                  <option>Holo Rare</option><option>Ultra Rare</option><option>Secret Rare</option>
-                </select>
-              </label>
-              <label>Conditie
-                <select name="condition">
-                  <option>Near Mint</option><option>Excellent</option><option>Good</option><option>Played</option>
-                </select>
-              </label>
+              <label>Zeldzaamheid<select name="rarity"><option>Common</option><option>Uncommon</option><option>Rare</option><option>Holo Rare</option><option>Ultra Rare</option><option>Secret Rare</option></select></label>
+              <label>Conditie<select name="condition"><option>Near Mint</option><option>Excellent</option><option>Good</option><option>Played</option></select></label>
               <label>Aantal<input name="quantity" type="number" min="1" value="1" /></label>
-              <label>Waarde<input name="value" type="number" min="0" step="0.01" value="0" /></label>
-              <label>Status
-                <select name="status">
-                  <option value="owned">In collectie</option>
-                  <option value="wishlist">Wishlist</option>
-                </select>
-              </label>
-              <label>Collectie
-                <select name="collection">
-                  <option value="Lars">Lars</option>
-                  <option value="Lore">Lore</option>
-                </select>
-              </label>
+              <label>Status<select name="status"><option value="owned">In collectie</option><option value="wishlist">Wishlist</option></select></label>
+              <label>Collectie<select name="collection"><option value="Lars">Lars</option><option value="Lore">Lore</option></select></label>
             </div>
             <button class="primary-action" type="submit">Toevoegen</button>
           </form>
-          <section class="panel">
-            <div class="panel-heading">
-              <h2>Beheerregels</h2>
-              <button id="resetBtn" class="danger-action" type="button">Reset</button>
-            </div>
-            <div id="manageList" class="manage-list"></div>
-          </section>
+          <section class="panel"><div class="panel-heading"><h2>Beheerregels</h2><button id="resetBtn" class="danger-action" type="button">Reset</button></div><div id="manageList" class="manage-list"></div></section>
         </div>
       </section>
-
-
     </main>
   </div>
 
-  <dialog id="detailDialog">
-    <button id="closeDialog" class="close-button" type="button" aria-label="Sluiten">✕</button>
-    <div id="detailContent"></div>
-  </dialog>
+  <dialog id="detailDialog"><button id="closeDialog" class="close-button" type="button" aria-label="Sluiten">✕</button><div id="detailContent"></div></dialog>
+  <dialog id="setDialog"><button id="closeSetDialog" class="close-button" type="button" aria-label="Sluiten">✕</button><div id="setDialogContent"></div></dialog>
 
   <script src="./app.js"></script>
 </body>
