@@ -64,7 +64,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:08.190Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:08.478Z"
   },
   {
     "id": "a127b7b1-6298-4840-832e-bb0878e91983",
@@ -85,7 +85,7 @@
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh10tg-TG25",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10tg-TG25",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-29T21:37:08.381Z",
+    "dexLookupCheckedAt": "2026-06-29T21:51:08.727Z",
     "cardDataSource": "pokemontcg"
   },
   {
@@ -107,7 +107,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:08.835Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:09.245Z"
   },
   {
     "id": "4346eb9c-d808-43c2-b367-5e978df047cb",
@@ -220,7 +220,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:37:09.424Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:09.683Z"
   },
   {
     "id": "ad2793e6-300e-4a55-83b5-534ef652fbde",
