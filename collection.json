@@ -4342,24 +4342,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-150"
   },
   {
-    "id": "07c89b8c-f30f-456f-ae27-7df467f25d52",
-    "pokemon": "sv85-6",
-    "set": "sv85",
-    "number": "sv85-6",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv85-6",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "f2055cad-58b6-4e14-9227-3ee54aea5a5d",
     "pokemon": "Milotic",
     "set": "Silver Tempest",
@@ -6404,24 +6386,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh12pt5gg-GG30",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5gg-GG30"
-  },
-  {
-    "id": "dcff00b9-77d6-4652-bc49-a26cc7f55b4c",
-    "pokemon": "sv85-58",
-    "set": "sv85",
-    "number": "sv85-58",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv85-58",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "53a12776-ce19-4155-928a-d663606bce05",
