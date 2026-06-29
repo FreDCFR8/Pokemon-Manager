@@ -72,13 +72,16 @@
   }
 
   async function fetchCardDetails(id) {
+    const fallback = fallbackCardDetails(id);
+    if (fallback) return fallback;
+
     const apiId = normalizedDexId(id);
     for (let attempt = 0; attempt < 3; attempt += 1) {
       try {
         const response = await fetch(`${TCG_API_IMPORT}/cards/${encodeURIComponent(apiId)}`);
         if (response.ok) {
           const payload = await response.json();
-          return payload.data || fallbackCardDetails(id);
+          return payload.data || null;
         }
         if (response.status !== 429 && response.status < 500) break;
       } catch (error) {
@@ -86,7 +89,7 @@
       }
       await new Promise(resolve => setTimeout(resolve, 400 * (attempt + 1)));
     }
-    return fallbackCardDetails(id);
+    return null;
   }
 
   function applyCardDetails(card, detail, sourceId) {
@@ -152,21 +155,41 @@
   async function repairUnknownDexCards() {
     const unknown = cards.filter(needsDexRepair);
     if (!unknown.length) return;
+
+    let cursor = 0;
+    let processed = 0;
     let repaired = 0;
-    for (let index = 0; index < unknown.length; index += 1) {
-      const card = unknown[index];
-      const sourceId = card.dexSourceId || card.tcgId;
-      setImportStatus(`Onbekende kaarten koppelen: ${index + 1}/${unknown.length}`);
-      const detail = await fetchCardDetails(sourceId);
-      if (detail) {
-        applyCardDetails(card, detail, sourceId);
-        repaired += 1;
+    let unsaved = 0;
+
+    function saveRepairProgress() {
+      if (!unsaved) return;
+      saveCards();
+      renderCollection();
+      unsaved = 0;
+    }
+
+    async function repairWorker() {
+      while (cursor < unknown.length) {
+        const index = cursor;
+        cursor += 1;
+        const card = unknown[index];
+        const sourceId = card.dexSourceId || card.tcgId;
+        const detail = await fetchCardDetails(sourceId);
+        processed += 1;
+        if (detail) {
+          applyCardDetails(card, detail, sourceId);
+          repaired += 1;
+          unsaved += 1;
+        }
+        setImportStatus(`Onbekende kaarten koppelen: ${processed}/${unknown.length}`);
+        if (unsaved >= 8) saveRepairProgress();
       }
     }
-    if (repaired) {
-      saveCards();
-      render();
-    }
+
+    const workerCount = Math.min(4, unknown.length);
+    await Promise.all(Array.from({ length: workerCount }, () => repairWorker()));
+    saveRepairProgress();
+    if (repaired) render();
     setImportStatus(`${repaired} onbekende kaarten gekoppeld${repaired < unknown.length ? `; ${unknown.length - repaired} niet gevonden` : ""}.`);
   }
 
