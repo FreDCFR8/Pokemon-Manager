@@ -1,6 +1,5 @@
 (() => {
   const TCG_API_FIX = "https://api.pokemontcg.io/v2";
-  const ENRICH_FLAG = "pokemon-manager-dex-enriched-v2";
   const POKEMON_CARD_SUFFIXES = [
     "ex", "gx", "v", "vmax", "vstar", "star", "break", "prime", "lvx", "lv", "mega",
     "radiant", "shining", "dark", "light", "alolan", "galarian", "hisuian", "paldean"
@@ -131,14 +130,25 @@
     });
   };
 
+  function markDexLookup(card, status) {
+    card.dexLookupStatus = status;
+    card.dexLookupCheckedAt = new Date().toISOString();
+  }
+
   async function enrichOne(card) {
-    if (!card || !card.tcgId || cardDexNumbers(card).length) return false;
+    if (!card || !card.tcgId || cardDexNumbers(card).length) return "skip";
     try {
       const response = await fetch(`${TCG_API_FIX}/cards/${encodeURIComponent(card.tcgId)}`);
-      if (!response.ok) return false;
+      if (response.status === 429) return "rate-limited";
+      if (response.status >= 500) return "retry";
+      if (!response.ok) {
+        markDexLookup(card, "not-found");
+        return "checked";
+      }
+
       const payload = await response.json();
       const detail = payload.data;
-      if (!detail) return false;
+      if (!detail) return "retry";
       if (Array.isArray(detail.nationalPokedexNumbers)) card.dexNumbers = detail.nationalPokedexNumbers;
       if (detail.name && (!card.pokemon || card.pokemon === card.tcgId)) card.pokemon = detail.name;
       if (detail.images) {
@@ -146,23 +156,45 @@
         card.imageLarge = card.imageLarge || detail.images.large || "";
       }
       if (detail.types) card.types = card.types && card.types.length ? card.types : detail.types;
-      return Array.isArray(card.dexNumbers) && card.dexNumbers.length > 0;
+      markDexLookup(card, cardDexNumbers(card).length ? "matched" : "not-applicable");
+      return "checked";
     } catch (error) {
-      return false;
+      return "retry";
     }
   }
 
+  function needsDexLookup(card) {
+    return card &&
+      card.collection === state.activeOwner &&
+      card.status === "owned" &&
+      card.tcgId &&
+      !cardDexNumbers(card).length &&
+      !card.dexLookupStatus &&
+      card.rarity !== "Onbekend" &&
+      card.pokemon !== card.tcgId;
+  }
+
   async function enrichMissingDexNumbers() {
-    const missing = cards.filter(card => card.collection === state.activeOwner && card.status === "owned" && card.tcgId && !cardDexNumbers(card).length);
+    const missing = cards.filter(needsDexLookup);
     if (!missing.length) return;
 
     const status = document.querySelector("#cloudStatus") || document.querySelector("#globalSearchStatus");
-    let changed = false;
     const limit = Math.min(missing.length, 250);
+    let changed = false;
+    let checked = 0;
 
     for (let index = 0; index < limit; index += 1) {
       if (status) status.textContent = `Pokédex-koppeling bijwerken: ${index + 1}/${limit}`;
-      changed = await enrichOne(missing[index]) || changed;
+      const result = await enrichOne(missing[index]);
+      if (result === "rate-limited") {
+        if (status) status.textContent = "Pokédex-koppeling gepauzeerd; later opnieuw proberen";
+        break;
+      }
+      if (result === "checked") {
+        changed = true;
+        checked += 1;
+        if (checked % 25 === 0) saveCards();
+      }
     }
 
     if (changed) {
@@ -180,6 +212,7 @@
     const added = cards.find(card => card.tcgId === cardId && card.collection === state.activeOwner);
     if (added) {
       added.dexNumbers = source.nationalPokedexNumbers;
+      markDexLookup(added, "matched");
       saveCards();
       render();
     }
