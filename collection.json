@@ -5578,8 +5578,8 @@
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/mcd22-15",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/mcd22-15",
     "cardDataSource": "pokemontcg",
-    "dexLookupStatus": "matched",
-    "dexLookupCheckedAt": "2026-06-29T21:38:22.991Z"
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:51:55.688Z"
   },
   {
     "id": "6a9b6bc1-73fd-4512-9f3d-cc20d42d2f23",
@@ -5669,7 +5669,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:23.752Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:56.157Z"
   },
   {
     "id": "3714a530-ff66-475a-9cf5-a20e83a6b555",
@@ -5851,7 +5851,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:24.277Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:56.538Z"
   },
   {
     "id": "f01b41b1-3a79-4617-bafa-dd743559ebf6",
@@ -5964,7 +5964,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:25.831Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:57.506Z"
   },
   {
     "id": "b9888955-0d98-4f1c-a1ee-529d74a42bd3",
@@ -6146,7 +6146,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-29T21:38:27.151Z"
+    "dexLookupCheckedAt": "2026-06-29T21:51:58.052Z"
   },
   {
     "id": "c9e684ec-6d82-4893-b2ad-e5c6c2146ead",
