@@ -1,5 +1,6 @@
 (() => {
   const TCG_API_FIX = "https://api.pokemontcg.io/v2";
+  const TCGDEX_API = "https://api.tcgdex.net/v2/en";
   const POKEMON_CARD_SUFFIXES = [
     "ex", "gx", "v", "vmax", "vstar", "star", "break", "prime", "lvx", "lv", "mega",
     "radiant", "shining", "dark", "light", "alolan", "galarian", "hisuian", "paldean"
@@ -35,10 +36,7 @@
 
   function rarityRank(value) {
     const rarity = cleanName(value);
-    const ranks = [
-      "common", "uncommon", "rare", "rare holo", "holo rare", "double rare", "ultra rare",
-      "illustration rare", "special illustration rare", "secret rare", "hyper rare", "promo"
-    ];
+    const ranks = ["common", "uncommon", "rare", "rare holo", "holo rare", "double rare", "ultra rare", "illustration rare", "special illustration rare", "secret rare", "hyper rare", "promo"];
     const index = ranks.findIndex(rank => rarity.includes(rank));
     return index === -1 ? 999 : index;
   }
@@ -93,6 +91,19 @@
       pokedexStrip.appendChild(select);
       select.addEventListener("change", renderPokedex);
     }
+
+    const actions = document.querySelector(".top-actions");
+    if (actions && !document.querySelector("#repairCardsBtn")) {
+      const btn = document.createElement("button");
+      btn.id = "repairCardsBtn";
+      btn.className = "icon-button cloud-button";
+      btn.type = "button";
+      btn.title = "Onbekende kaarten herstellen";
+      btn.setAttribute("aria-label", "Onbekende kaarten herstellen");
+      btn.textContent = "🛠️";
+      btn.addEventListener("click", () => repairUnknownCards(true));
+      actions.appendChild(btn);
+    }
   }
 
   function entryMatchesCard(entry, card) {
@@ -135,73 +146,133 @@
     card.dexLookupCheckedAt = new Date().toISOString();
   }
 
-  async function enrichOne(card) {
-    if (!card || !card.tcgId || cardDexNumbers(card).length) return "skip";
-    try {
-      const response = await fetch(`${TCG_API_FIX}/cards/${encodeURIComponent(card.tcgId)}`);
-      if (response.status === 429) return "rate-limited";
-      if (response.status >= 500) return "retry";
-      if (!response.ok) {
-        markDexLookup(card, "not-found");
-        return "checked";
-      }
+  function normalizeTcgDexCard(detail) {
+    if (!detail) return null;
+    const imageBase = detail.image || "";
+    const localId = detail.localId || detail.number || "";
+    return {
+      name: detail.name || "",
+      setName: detail.set && detail.set.name || detail.set && detail.set.id || "",
+      number: localId,
+      rarity: detail.rarity || "Onbekend",
+      images: imageBase ? { small: `${imageBase}/low.png`, large: `${imageBase}/high.png` } : null,
+      nationalPokedexNumbers: Array.isArray(detail.dexId) ? detail.dexId : [],
+      types: Array.isArray(detail.types) ? detail.types : []
+    };
+  }
 
-      const payload = await response.json();
-      const detail = payload.data;
-      if (!detail) return "retry";
-      if (Array.isArray(detail.nationalPokedexNumbers)) card.dexNumbers = detail.nationalPokedexNumbers;
-      if (detail.name && (!card.pokemon || card.pokemon === card.tcgId)) card.pokemon = detail.name;
-      if (detail.images) {
-        card.imageSmall = card.imageSmall || detail.images.small || "";
-        card.imageLarge = card.imageLarge || detail.images.large || "";
-      }
-      if (detail.types) card.types = card.types && card.types.length ? card.types : detail.types;
-      markDexLookup(card, cardDexNumbers(card).length ? "matched" : "not-applicable");
+  function applyDetail(card, detail, source) {
+    if (!detail) return false;
+    const setName = detail.setName || detail.set && detail.set.name || "";
+    const number = detail.number || "";
+    const dexNums = detail.nationalPokedexNumbers || detail.dexNumbers || [];
+    const images = detail.images || null;
+
+    if (detail.name) card.pokemon = detail.name;
+    if (setName) card.set = setName;
+    if (number) card.number = number;
+    if (detail.rarity) card.rarity = detail.rarity;
+    if (images) {
+      card.imageSmall = images.small || card.imageSmall || "";
+      card.imageLarge = images.large || card.imageLarge || "";
+    }
+    if (Array.isArray(dexNums) && dexNums.length) card.dexNumbers = dexNums;
+    if (Array.isArray(detail.types) && detail.types.length) card.types = detail.types;
+    card.cardDataSource = source;
+    markDexLookup(card, cardDexNumbers(card).length ? "matched" : "details-only");
+    return true;
+  }
+
+  async function fetchPokemonTcgById(id) {
+    const response = await fetch(`${TCG_API_FIX}/cards/${encodeURIComponent(id)}`);
+    if (!response.ok) return null;
+    const payload = await response.json();
+    return payload.data || null;
+  }
+
+  async function fetchPokemonTcgByQuery(id) {
+    const response = await fetch(`${TCG_API_FIX}/cards?q=${encodeURIComponent(`id:${id}`)}&pageSize=1`);
+    if (!response.ok) return null;
+    const payload = await response.json();
+    return payload.data && payload.data[0] || null;
+  }
+
+  async function fetchTcgDexById(id) {
+    const response = await fetch(`${TCGDEX_API}/cards/${encodeURIComponent(id)}`);
+    if (!response.ok) return null;
+    const payload = await response.json();
+    return normalizeTcgDexCard(payload);
+  }
+
+  async function enrichOne(card) {
+    if (!card || !card.tcgId) return "skip";
+    const needsFullRepair = card.rarity === "Onbekend" || card.pokemon === card.tcgId || !card.imageSmall || !card.imageLarge || !card.set || !card.number;
+    const needsDexOnly = !cardDexNumbers(card).length;
+    if (!needsFullRepair && !needsDexOnly) return "skip";
+
+    const id = card.tcgId;
+    try {
+      let detail = await fetchPokemonTcgById(id);
+      if (!detail) detail = await fetchPokemonTcgByQuery(id);
+      if (detail && applyDetail(card, detail, "pokemontcg")) return "checked";
+
+      detail = await fetchTcgDexById(id);
+      if (detail && applyDetail(card, detail, "tcgdex")) return "checked";
+
+      markDexLookup(card, "not-found");
       return "checked";
     } catch (error) {
       return "retry";
     }
   }
 
-  function needsDexLookup(card) {
+  function needsRepair(card) {
     return card &&
       card.collection === state.activeOwner &&
       card.status === "owned" &&
       card.tcgId &&
-      !cardDexNumbers(card).length &&
-      !card.dexLookupStatus &&
-      card.rarity !== "Onbekend" &&
-      card.pokemon !== card.tcgId;
+      (
+        !cardDexNumbers(card).length ||
+        card.rarity === "Onbekend" ||
+        card.pokemon === card.tcgId ||
+        !card.imageSmall ||
+        !card.set ||
+        !card.number
+      );
   }
 
-  async function enrichMissingDexNumbers() {
-    const missing = cards.filter(needsDexLookup);
-    if (!missing.length) return;
+  async function repairUnknownCards(manual = false) {
+    const missing = cards.filter(needsRepair);
+    if (!missing.length) {
+      if (manual) alert("Geen onbekende kaarten gevonden om te herstellen.");
+      return;
+    }
 
     const status = document.querySelector("#cloudStatus") || document.querySelector("#globalSearchStatus");
-    const limit = Math.min(missing.length, 250);
     let changed = false;
-    let checked = 0;
+    let fixed = 0;
+    const limit = Math.min(missing.length, manual ? 500 : 120);
 
     for (let index = 0; index < limit; index += 1) {
-      if (status) status.textContent = `Pokédex-koppeling bijwerken: ${index + 1}/${limit}`;
+      if (status) status.textContent = `Kaartgegevens herstellen: ${index + 1}/${limit}`;
+      const before = JSON.stringify(missing[index]);
       const result = await enrichOne(missing[index]);
-      if (result === "rate-limited") {
-        if (status) status.textContent = "Pokédex-koppeling gepauzeerd; later opnieuw proberen";
-        break;
-      }
-      if (result === "checked") {
+      if (result === "checked" && JSON.stringify(missing[index]) !== before) {
         changed = true;
-        checked += 1;
-        if (checked % 25 === 0) saveCards();
+        fixed += 1;
       }
+      if ((index + 1) % 25 === 0 && changed) saveCards();
     }
 
     if (changed) {
       saveCards();
       render();
-      if (status) status.textContent = "Pokédex-koppeling bijgewerkt";
+      if (status) status.textContent = `Kaartgegevens hersteld: ${fixed}`;
+    } else if (status) {
+      status.textContent = "Geen extra kaartgegevens gevonden";
     }
+
+    if (manual) alert(`Herstel klaar. Aangepast: ${fixed} kaarten.`);
   }
 
   const originalAddTcgCard = addTcgCard;
@@ -220,5 +291,6 @@
 
   ensureSortControls();
   render();
-  setTimeout(enrichMissingDexNumbers, 1500);
+  setTimeout(() => repairUnknownCards(false), 1800);
+  window.PokemonRepairCards = repairUnknownCards;
 })();
