@@ -278,24 +278,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-36"
   },
   {
-    "id": "607aa47a-d676-4a45-908e-fc65ed3cbfff",
-    "pokemon": "sv35-114",
-    "set": "sv35",
-    "number": "sv35-114",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-114",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "46729fd0-a0fe-4e5f-9086-15e980ecdf85",
     "pokemon": "Makuhita",
     "set": "Fusion Strike",
@@ -3278,24 +3260,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me1-1"
   },
   {
-    "id": "4659495b-e9dd-40a0-a4b5-052613cfff70",
-    "pokemon": "sv35-104",
-    "set": "sv35",
-    "number": "sv35-104",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-104",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "f8df959c-9974-4c20-96eb-25d7da7888f3",
     "pokemon": "Abra",
     "set": "Twilight Masquerade",
@@ -3314,24 +3278,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv6-80",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-80"
-  },
-  {
-    "id": "63883fe2-974f-431b-98e3-3e8481c3e5b4",
-    "pokemon": "sv35-115",
-    "set": "sv35",
-    "number": "sv35-115",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-115",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "90b95561-97a2-44bb-807b-865de0836f7a",
@@ -7284,24 +7230,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12-34"
   },
   {
-    "id": "53bc6565-798e-415d-850c-68d5767e3ac0",
-    "pokemon": "sv105w-78",
-    "set": "sv105w",
-    "number": "sv105w-78",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv105w-78",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "56f49cde-88a6-4e77-a9ed-5252526472f3",
     "pokemon": "Quaxwell",
     "set": "Scarlet & Violet",
@@ -8456,24 +8384,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/pgo-43"
   },
   {
-    "id": "acfb839a-4127-49ff-9b89-4ba3a897ed8b",
-    "pokemon": "sv35-112",
-    "set": "sv35",
-    "number": "sv35-112",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-112",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "e105a70b-2f08-4ac1-97d6-bbf5b95d8cc4",
     "pokemon": "Ivysaur",
     "set": "Mega Evolution",
@@ -8672,24 +8582,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv1-47",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-47"
-  },
-  {
-    "id": "e4b49e62-ef85-4df3-94c2-ed5f27488ad0",
-    "pokemon": "sv35-105",
-    "set": "sv35",
-    "number": "sv35-105",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-105",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "0bf453f2-0d69-405b-b90b-20aed2173e61",
@@ -10950,24 +10842,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-20"
   },
   {
-    "id": "1fb1f080-4cd7-4a77-a48c-dee08f806d14",
-    "pokemon": "sv35-110",
-    "set": "sv35",
-    "number": "sv35-110",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-110",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "8c7e11ba-cd7d-4da1-806a-74f8fe9ba0a4",
     "pokemon": "Dachsbun ex",
     "set": "Stellar Crown",
@@ -13208,24 +13082,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv10-30"
   },
   {
-    "id": "6d62e8a8-de57-4a00-afc5-63c35728491d",
-    "pokemon": "sv35-10",
-    "set": "sv35",
-    "number": "sv35-10",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-10",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "19ddd3b0-523b-4c4c-8125-41767074699e",
     "pokemon": "Kingambit",
     "set": "Scarlet & Violet",
@@ -15166,24 +15022,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/swsh8-63",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh8-63"
-  },
-  {
-    "id": "d71f5d11-b421-48b5-8865-ad2a40996db0",
-    "pokemon": "sv35-111",
-    "set": "sv35",
-    "number": "sv35-111",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-111",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "0b56db43-3f4d-47a7-a44f-607dec293ea6",
@@ -17744,24 +17582,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh10-11"
   },
   {
-    "id": "5f596df4-c4a7-4af5-948b-bc4258d9b0e4",
-    "pokemon": "sv35-101",
-    "set": "sv35",
-    "number": "sv35-101",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-101",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
-  },
-  {
     "id": "63b63bf8-6e7c-48fd-8171-f949283d8c36",
     "pokemon": "Prinplup",
     "set": "Brilliant Stars",
@@ -18394,24 +18214,6 @@
     "addedAt": "2026-06-29",
     "cardmarketUrl": "https://prices.pokemontcg.io/cardmarket/sv2-126",
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-126"
-  },
-  {
-    "id": "21db4c81-3120-433e-bd81-616f7d14830b",
-    "pokemon": "sv35-100",
-    "set": "sv35",
-    "number": "sv35-100",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-100",
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": ""
   },
   {
     "id": "f9a825e6-394b-42d2-922e-0d357c27caae",
