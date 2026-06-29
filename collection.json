@@ -376,9 +376,9 @@
   {
     "id": "1c9fe648-f848-4297-bc6b-338f28bc63ea",
     "pokemon": "Mega Abomasnow ex",
-    "set": "me1",
-    "number": "me1-36",
-    "rarity": "Onbekend",
+    "set": "Mega Evolution",
+    "number": "36",
+    "rarity": "Double Rare",
     "condition": "Near Mint",
     "quantity": 1,
     "imageSmall": "https://images.pokemontcg.io/me1/36.png",
@@ -394,7 +394,10 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "cardDataSource": "pokemontcg",
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-29T21:33:45.764Z"
   },
   {
     "id": "8541f7f3-cba3-4e28-a884-f1b460098ffd",
@@ -413,7 +416,9 @@
     "collection": "Lars",
     "addedAt": "2026-06-29",
     "cardmarketUrl": "",
-    "tcgplayerUrl": ""
+    "tcgplayerUrl": "",
+    "dexLookupStatus": "not-found",
+    "dexLookupCheckedAt": "2026-06-29T21:33:55.390Z"
   },
   {
     "id": "f3c40c89-0833-4e9f-b909-ab131a608254",
