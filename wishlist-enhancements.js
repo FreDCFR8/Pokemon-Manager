@@ -1,5 +1,6 @@
 (() => {
   let wishlistMode = "general";
+  let lastKnownPokemonNameCount = Object.keys(pokemonNameCache || {}).length;
 
   function ensureWishlistToolbar() {
     const section = document.querySelector("#wishlist");
@@ -59,7 +60,6 @@
     renderWishlist();
   }
 
-  const originalRenderWishlist = renderWishlist;
   renderWishlist = function enhancedRenderWishlist() {
     ensureWishlistToolbar();
     const grid = document.querySelector("#wishlistGrid");
@@ -132,6 +132,15 @@
 
   const wishlistSearch = document.querySelector("#wishlistSearch");
   if (wishlistSearch) wishlistSearch.addEventListener("input", () => renderWishlist());
+
+  const refreshAfterNamesLoad = setInterval(() => {
+    const currentCount = Object.keys(pokemonNameCache || {}).length;
+    if (currentCount !== lastKnownPokemonNameCount) {
+      lastKnownPokemonNameCount = currentCount;
+      renderWishlist();
+    }
+    if (currentCount >= POKEDEX_TOTAL) clearInterval(refreshAfterNamesLoad);
+  }, 600);
 
   ensureWishlistToolbar();
   renderWishlist();
