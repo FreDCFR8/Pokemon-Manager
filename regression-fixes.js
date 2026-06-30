@@ -8,6 +8,18 @@
       .replace(/'/g, "&#039;");
   }
 
+  function dexNumbersForCard(card) {
+    return [...(Array.isArray(card.dexNumbers) ? card.dexNumbers : []), ...(Array.isArray(card.nationalPokedexNumbers) ? card.nationalPokedexNumbers : [])]
+      .map(Number)
+      .filter(Number.isFinite);
+  }
+
+  function pokedexEntryForCard(card) {
+    const dexNumbers = dexNumbersForCard(card);
+    if (dexNumbers.length) return pokedex.find(entry => dexNumbers.includes(Number(entry.id))) || null;
+    return pokedex.find(entry => entry.name.toLowerCase() === String(card.pokemon || "").toLowerCase()) || null;
+  }
+
   binderSlot = function binderSlotDetailChoiceOnly(entry) {
     const matches = cardsForPokedexEntry(entry);
     const selected = selectedPokedexCard(entry, matches);
@@ -21,6 +33,20 @@
       <strong>${escapeHtml(entry.name)}</strong>
       <small class="binder-choice-hint">${escapeHtml(availability)}</small>
     </article>`;
+  };
+
+  showDetail = function showDetailWithCompleteBinderChoice(id) {
+    const card = cards.find(item => item.id === id);
+    if (!card) return;
+    const entry = pokedexEntryForCard(card);
+    const matches = entry ? cardsForPokedexEntry(entry) : ownedCards().filter(item => item.pokemon.toLowerCase() === card.pokemon.toLowerCase());
+    const pickName = entry ? entry.name : card.pokemon;
+    const pickKey = `${state.activeOwner}::${String(pickName || "").toLowerCase()}`;
+    const image = cardImageUrl(card, "large") || (entry ? spriteUrl(entry) : spriteUrl(card.pokemon));
+    const links = priceLinks(card);
+    const choice = matches.length > 1 ? `<label class="detail-card-picker">Andere kaart kiezen<select data-detail-switch="${escapeHtml(pickKey)}" aria-label="Kies andere kaart voor ${escapeHtml(pickName)}">${matches.map(item => `<option value="${item.id}" ${item.id === card.id ? "selected" : ""}>${escapeHtml(item.pokemon)} · ${escapeHtml(item.set)} #${escapeHtml(item.number || "?")}</option>`).join("")}</select></label>` : "";
+    document.querySelector("#detailContent").innerHTML = `<div class="detail-view card-detail-view">${image ? `<img class="detail-card-image" src="${image}" alt="${escapeHtml(card.pokemon)}" />` : cardPlaceholder(card)}<div><p class="eyebrow">${card.status === "owned" ? "In collectie" : "Wishlist"} · ${escapeHtml(card.collection || "")}</p><h2>${escapeHtml(card.pokemon)}</h2><p>${escapeHtml(card.set)} · ${escapeHtml(card.number || "zonder nummer")}</p><p>${escapeHtml(card.rarity)} · ${escapeHtml(card.condition)} · x${Number(card.quantity || 1)}</p>${choice}${links ? `<p class="price-links">Prijsinfo: ${links}</p>` : `<p class="api-note">Geen prijslink beschikbaar. Prijs wordt daarom niet getoond.</p>`}<div class="detail-actions"><button class="danger-action" data-delete="${card.id}" type="button">Verwijder kaart</button></div></div></div>`;
+    document.querySelector("#detailDialog").showModal();
   };
 
   function printSettings() {
