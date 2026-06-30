@@ -1,0 +1,118 @@
+/* Larger card artwork, scoped exclusively to the existing 5 × 4 binder view. */
+#pokedexGrid.binder-view {
+  gap: 24px;
+}
+
+#pokedexGrid.binder-view .binder-page {
+  padding: 12px;
+}
+
+#pokedexGrid.binder-view .binder-page-title {
+  margin-bottom: 14px;
+  font-size: 1.02rem;
+}
+
+#pokedexGrid.binder-view .binder-slots,
+#pokedexGrid.binder-view .binder-slots-20 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+#pokedexGrid.binder-view .binder-slot {
+  min-height: 0;
+  padding: 8px;
+  border-radius: 13px;
+}
+
+#pokedexGrid.binder-view .binder-slot img,
+#pokedexGrid.binder-view .binder-missing {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 5 / 7;
+  margin: 0 0 8px;
+  object-fit: contain;
+}
+
+#pokedexGrid.binder-view .binder-missing {
+  padding: 10px;
+  font-size: .82rem;
+}
+
+#pokedexGrid.binder-view .binder-slot strong {
+  font-size: .9rem;
+  line-height: 1.22;
+}
+
+#pokedexGrid.binder-view .binder-slot small {
+  margin-top: 3px;
+  font-size: .72rem;
+  line-height: 1.2;
+}
+
+#pokedexGrid.binder-view .binder-number {
+  top: 8px;
+  left: 8px;
+  padding: 3px 7px;
+  font-size: .66rem;
+}
+
+@media (max-width: 900px) {
+  #pokedexGrid.binder-view {
+    gap: 14px;
+  }
+
+  #pokedexGrid.binder-view .binder-page {
+    padding: 7px;
+  }
+
+  #pokedexGrid.binder-view .binder-slots,
+  #pokedexGrid.binder-view .binder-slots-20 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 5px;
+  }
+
+  #pokedexGrid.binder-view .binder-slot {
+    min-height: 0;
+    padding: 4px;
+    border-radius: 9px;
+  }
+
+  #pokedexGrid.binder-view .binder-slot img,
+  #pokedexGrid.binder-view .binder-missing {
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  #pokedexGrid.binder-view .binder-slot strong {
+    font-size: .58rem;
+  }
+
+  #pokedexGrid.binder-view .binder-slot small {
+    display: block;
+    font-size: .5rem;
+  }
+
+  #pokedexGrid.binder-view .binder-number {
+    top: 5px;
+    left: 5px;
+    padding: 2px 4px;
+    font-size: .48rem;
+  }
+}
+
+@media (max-width: 390px) {
+  #pokedexGrid.binder-view .binder-slots,
+  #pokedexGrid.binder-view .binder-slots-20 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 4px;
+  }
+
+  #pokedexGrid.binder-view .binder-slot strong {
+    font-size: .54rem;
+  }
+
+  #pokedexGrid.binder-view .binder-slot small {
+    display: none;
+  }
+}
