@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-30T17:24:19.085Z",
+  "updatedAt": "2026-06-30T17:24:20.969Z",
   "pokedexPicks": {
     "Lars::bulbasaur": "54784651-d239-4c5f-88d1-f76bc1fe94bd",
     "Lars::charmander": "39943622-817d-4e3b-ac09-c5021b18978e",
@@ -15,9 +15,9 @@
     "Lars::pokemon #151": "2ace9151-5d23-4565-99e6-3ebb826b6f72",
     "Lars::pokemon #166": "6a8bd74d-d796-4352-8e8b-6afa04a76ad3",
     "Lars::pokemon #212": "dc343bdc-91d7-4009-a72e-f8441385019f",
-    "Lars::vulpix": "321a0724-f694-41ae-b316-c2106f854cf4"
+    "Lars::vulpix": "821a1723-6dbb-44c7-b254-9a2cf467f421"
   },
   "pokedexPickTimestamps": {
-    "Lars::vulpix": "2026-06-30T17:24:17.545Z"
+    "Lars::vulpix": "2026-06-30T17:24:19.453Z"
   }
 }
