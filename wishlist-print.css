@@ -7,8 +7,26 @@
   border-color: var(--ink);
   color: #fff;
 }
-.missing-wishlist-card .api-note {
+.missing-wishlist-card .api-note,
+.missing-wishlist-card .chosen-card-note {
   margin-top: 8px;
+}
+.chosen-card-note {
+  color: var(--blue);
+  font-weight: 700;
+}
+.missing-card-actions {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+.missing-card-actions button,
+.missing-card-actions select {
+  width: 100%;
+  min-width: 0;
+}
+.missing-card-select {
+  min-height: 38px;
 }
 #printArea {
   display: none;
