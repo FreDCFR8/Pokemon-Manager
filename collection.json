@@ -11018,28 +11018,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh6-106"
   },
   {
-    "id": "8d0bac94-f90c-4b22-84bd-69c2b8243138",
-    "pokemon": "sv35-194",
-    "set": "sv35",
-    "number": "sv35-194",
-    "rarity": "Onbekend",
-    "condition": "Near Mint",
-    "quantity": 1,
-    "imageSmall": "",
-    "imageLarge": "",
-    "tcgId": "sv35-194",
-    "dexSourceId": "sv35-194",
-    "dexNumbers": [],
-    "types": [],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": "",
-    "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-30T06:54:47.419Z"
-  },
-  {
     "id": "454c106a-7ab0-4783-bdfd-c86d5215da44",
     "pokemon": "Machop",
     "set": "151",
