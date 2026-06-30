@@ -26216,30 +26216,6 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/zsv10pt5-68"
   },
   {
-    "id": "b6d5d9a4-9bd5-4d4c-920f-6f8eaa7b3306",
-    "pokemon": "Oricorio ex",
-    "set": "Phantasmal Flames",
-    "number": "18",
-    "rarity": "Double Rare",
-    "condition": "Near Mint",
-    "quantity": 2,
-    "imageSmall": "https://images.pokemontcg.io/me2/18.png",
-    "imageLarge": "https://images.pokemontcg.io/me2/18_hires.png",
-    "tcgId": "me2-18",
-    "dexSourceId": "me2-18",
-    "dexNumbers": [
-      741
-    ],
-    "types": [
-      "Fire"
-    ],
-    "status": "owned",
-    "collection": "Lars",
-    "addedAt": "2026-06-29",
-    "cardmarketUrl": "",
-    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-18"
-  },
-  {
     "id": "0d592ec2-a9f0-47db-ae7c-04a6fbae9827",
     "pokemon": "Metang",
     "set": "Crown Zenith",
