@@ -3355,7 +3355,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-30T06:20:36.631Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:45.430Z"
   },
   {
     "id": "660e10cb-bfa9-469a-91ea-8829e97bfea1",
@@ -4122,7 +4122,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-119",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:36.844Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:45.835Z"
   },
   {
     "id": "91249351-21b0-4f7c-b9f9-b019e9f013b4",
@@ -4723,7 +4723,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv6-20",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:37.142Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:46.351Z"
   },
   {
     "id": "a923beec-7c93-45cd-b535-4bf0d0044a19",
@@ -5830,7 +5830,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/mcd22-15",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "matched",
-    "dexLookupCheckedAt": "2026-06-30T06:20:37.448Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:46.556Z"
   },
   {
     "id": "f60d45e1-d8d3-46ca-b9ee-adc35aae8535",
@@ -8255,7 +8255,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-13",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:38.372Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:46.761Z"
   },
   {
     "id": "65d9f467-5c05-4967-9ae2-827ad3eb722e",
@@ -11037,7 +11037,7 @@
     "cardmarketUrl": "",
     "tcgplayerUrl": "",
     "dexLookupStatus": "not-found",
-    "dexLookupCheckedAt": "2026-06-30T06:20:38.959Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:47.419Z"
   },
   {
     "id": "454c106a-7ab0-4783-bdfd-c86d5215da44",
@@ -11324,7 +11324,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8-170",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:39.998Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:47.601Z"
   },
   {
     "id": "2e6bcaa8-ae32-426d-a823-a1874c416bd8",
@@ -13603,7 +13603,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv2-277",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:40.184Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:47.990Z"
   },
   {
     "id": "25a1f2e0-a036-4255-8b98-0019da9cd5c8",
@@ -13820,7 +13820,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8pt5-42",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:40.422Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:48.197Z"
   },
   {
     "id": "20854538-348c-4c4b-9f73-2a49851ce6a9",
@@ -14827,7 +14827,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh11-211",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:41.751Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:48.502Z"
   },
   {
     "id": "0cf0c46a-be8f-4d7b-a0de-0299d736a8b6",
@@ -17421,7 +17421,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh12tg-TG24",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:42.262Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:48.708Z"
   },
   {
     "id": "1fb8a613-75b4-4f77-aaab-d65ec7d5e01a",
@@ -17900,7 +17900,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-122",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:42.571Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:48.919Z"
   },
   {
     "id": "362bbca7-2eea-4f6a-a4f3-2433007172aa",
@@ -18525,7 +18525,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv8pt5-32",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:43.083Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:49.333Z"
   },
   {
     "id": "99d95385-cc4d-4373-90e6-52b3caacc249",
@@ -19124,7 +19124,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv1-242",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:43.390Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:49.513Z"
   },
   {
     "id": "f616296d-d081-463e-9cd6-71f399c2c10f",
@@ -20493,7 +20493,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-71",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:43.800Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:49.937Z"
   },
   {
     "id": "55c788dd-466a-4dae-ba5a-2b35fb0cdb75",
@@ -21552,7 +21552,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/mcd22-11",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "matched",
-    "dexLookupCheckedAt": "2026-06-30T06:20:45.850Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:50.141Z"
   },
   {
     "id": "95c9fa41-289f-4c8c-9cf5-2b1e87df0fc3",
@@ -22175,7 +22175,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv4pt5-230",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:46.484Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:50.962Z"
   },
   {
     "id": "098df418-d947-460a-9620-0eb35c67b797",
@@ -23280,7 +23280,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv7-111",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:46.874Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:51.168Z"
   },
   {
     "id": "5bc50184-627a-435b-b422-157bb2c32984",
@@ -23303,7 +23303,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-118",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:47.382Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:51.630Z"
   },
   {
     "id": "f9897d68-0190-4441-b2f1-203158a269b5",
@@ -24288,7 +24288,7 @@
     "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sv5-81",
     "cardDataSource": "pokemontcg",
     "dexLookupStatus": "details-only",
-    "dexLookupCheckedAt": "2026-06-30T06:20:49.024Z"
+    "dexLookupCheckedAt": "2026-06-30T06:54:52.497Z"
   },
   {
     "id": "daa97744-c401-468a-89b9-f3742b9004ef",
