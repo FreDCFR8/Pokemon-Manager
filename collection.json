@@ -1,5 +1,30 @@
 [
   {
+    "id": "adc176a5-d160-44b3-a925-4cb5b6f520f8",
+    "pokemon": "Oricorio ex",
+    "set": "Phantasmal Flames",
+    "number": "18",
+    "rarity": "Double Rare",
+    "condition": "Near Mint",
+    "quantity": 1,
+    "imageSmall": "https://images.pokemontcg.io/me2/18.png",
+    "imageLarge": "https://images.pokemontcg.io/me2/18_hires.png",
+    "tcgId": "me2-18",
+    "types": [
+      "Fire"
+    ],
+    "status": "owned",
+    "collection": "Lars",
+    "addedAt": "2026-06-30",
+    "cardmarketUrl": "",
+    "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/me2-18",
+    "dexNumbers": [
+      741
+    ],
+    "dexLookupStatus": "matched",
+    "dexLookupCheckedAt": "2026-06-30T19:07:20.718Z"
+  },
+  {
     "id": "f0fbcce7-e738-471a-ab99-d078b86252e8",
     "pokemon": "Ivysaur",
     "set": "Mega Evolution",
